@@ -1,7 +1,7 @@
 from django.contrib import admin
-from prueba.models import prueba
+from prueba.models import p
 
-class pruebaAdmin(admin.ModelAdmin):
+class pAdmin(admin.ModelAdmin):
     pass
-admin.site.register(prueba, pruebaAdmin)
+admin.site.register(p, pAdmin)
 
