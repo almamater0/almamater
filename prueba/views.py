@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from prueba.models import prueba
 
 def prueba(request):
     if request.method=="GET":
