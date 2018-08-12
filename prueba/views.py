@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from prueba.models import prueba
 
-def prueba(request):
+def prue(request):
     if request.method=="GET":
         try:
-            prueba = Prueba.objects.get(username="prueba")
+            prueba = prueba.objects.values_list("texto", flat=True).get(username="prueba")
         except:
             prueba = "fallo."
     context = {'prueba': prueba }
