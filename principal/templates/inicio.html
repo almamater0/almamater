@@ -1,0 +1,24 @@
+{% extends "almamater0/base.html" %}
+{% block barra_de_arriba %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href = "{% static 'principal/inicio.css' %}" />
+    <!--script type="text/javascript" src="{{ STATIC_URL }} /static/jquery-/////.js">
+    </script> -->
+</head>
+
+
+<body>
+    <div id="texto_presentacion">
+        <p>En este cuadro vendría el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
+        Necesitamos pensar cómo vamos a presentar la página... (luego te digo)</p>
+    </div>
+
+
+
+</body>
+{%endblock%}
