@@ -1,10 +1,26 @@
-#barra{
+#barra_de_arriba{
     display: block;
-    width: 55%;
+    width: 100%;
     min-height: 15%;
     position: absolute;
     top: 0%;
     left: 20%;
-    border: 3px solid black;
-    padding: 8px;
+    padding: 12px;
+    background-color: rgb(153, 179, 255);
+    color: rgb(89, 89, 89);
+    text-align: center;
+}
+
+.celda{
+    padding: 10px 30px 10px 30px; /* top right bottom left */
+    color: black;
+    font-size: 20;
+}
+
+#areas{
+
+}
+
+.grados{
+
 }
