@@ -14,7 +14,7 @@ def info_grados(request, grado):
 
 #aqui igual, pero con una universidad
 def info_grados_universidad(request, grado, universidad):
-    template=grado+"_"+universidad+".html"
+    template="grados/"+grado+"_universidades/"+grado+"_"+universidad+".html"
     return render(request, template)
 
 def animo(request):

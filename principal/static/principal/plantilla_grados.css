@@ -4,14 +4,17 @@
     font-family: Arial;
     font-size: 35;
 }
+h2{
+    text-align: center;
+    font-size: 24;
+}
 #listado_universidades{
     position: absolute;
-    top: 33%;
+    top: 38%;
     left: 10%;
 }
 .universidad{
-    text-decoration: none;
-    color: solid black;     /*utilizar mas el relative */
+    text-decoration: none;     /*utilizar mas el relative */
     font-family:Arial;
     font-size:23;
 }
@@ -24,11 +27,28 @@ li{
 li: last child{
     margin-bottom: 0px;
 }
-#imagen_notas_de_corte{
-    width:30%;
-    height: 20%; min-height:20%;
+#notas_de_corte{
+    position: absolute;
+    top: 25%; left: 50%;
+    width: 40%; height: 55%; min-height: 55%;
 }
-.imagen_grafico{
-    width: 60%;
-    height: 40%; min-height: 40%;
+.grafico{
+    border: 2px solid black;
+    width: 70%;
+}
+
+#ranking{
+    position: absolute;
+    top: 95%; left: 10%;
+    width: 80%; min-height: 30%; height: 30%;
+}
+#ects{
+    position: absolute;
+    top: 130%; left: 10%;
+    width: 80%; min-height: 30%; height: 30%;
+}
+#egresados{
+    position: absolute;
+    top: 165%; left: 10%;
+    width: 80%; min-height: 30%; height: 30%;
 }

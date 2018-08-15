@@ -1,15 +1,110 @@
-#imagen_fondo{
-    z-index: -1;
-    position: absolute; top:0%; left:-10px;
-    width:110%;
-    min-height: 110%;
-    filter: blur(10px);
-}
-
-#texto_presentacion{
+#imagen_div{
     position: absolute;
-    top:30%; left: 25%;
-    width:50%; min-height: 60%;
-    background-color: rgb(100,100,100);
+    top:0%;
+    left:50%;
+    width: 50%;
+    height: 100%;
+    border-left: 5px solid black;
 }
+#imagen_fondo{
+    width: 100%;
+    height: 100%;
+}
+#cuadro_izquierda{
+    font-family: Bookman;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    top:0%; left:0%;
+    width: 50%; min-height:100%; height:100%;
+    border-right: 2px ridge grey;
+}
+#presentacion{
+    font-weight: bold;
+    position: absolute;
+    left: 21.5%;
+    top: 10%;
+    font-size: 42;
+}
+#contenido{
+    display: inline;
+    position: absolute;
+    left: 16%;
+    top: 40%;
+    font-size: 26;
+}
+#lista_grados{
+    display:none;
+    z-index: 4;
+    border: 5px solid rgb(120, 120, 120);
+    position: absolute;
+    top: 15%;
+    left:15%;
+    width: 70%;
+    min-height: 70%; height: 70%;
+    background-color: rgb(255,255,255);
+    box-shadow: 5px 5px 2px #888888;
+}
+ul{
+    list-style: none;
+}
+.inline_block{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22;
+    width: 31%;
+}
+li{
+    padding-bottom: 4%;
+}
+li: last child{
+    padding-bottom: 0px;
+}
+lista-grados li{
+    padding-bottom: 1%;
+}
+lista-grados li: last child{
+    padding-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+h2{
+    font-size: 30;
+    text-align: center;
+    color: rgb(0,0,0);
+    outline-style: solid;
+    outline-color: rgb(120, 120, 120);
 
+}
+#close_lista_grados{
+    position: absolute;
+    right: 1%;
+    top:1%;
+
+}
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}

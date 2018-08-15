@@ -1,32 +1,58 @@
-{% extends "almamater0/base.html" %}
-{% block barra_de_arriba %}
-{{block.super}}
-{%endblock%}
-
-{%block content%}
 {% load static %}
 <head>
     <link rel="stylesheet" type="text/css" href = "{% static 'principal/inicio.css' %}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 
 <body>
-    <img id="imagen_fondo" src="{% static 'principal/images/imagen_fondo.jpg' %}"/>
-    <div id="texto_presentacion">
-        <p>En este cuadro vendría el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te día el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te día el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te día el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te día el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te día el texto en el que explicaríamos el estado del proyecto, la función que realiza, etc.
-        Necesitamos pensar cómo vamos a presentar la página... (luego te digo)</p>
+    <div id="imagen_div">
+        <img id="imagen_fondo" src="{% static 'principal/images/graduation1.jpg' %}"/>
     </div>
-
-
-
+    <div id="cuadro_izquierda">
+        <p id="presentacion">Aclara tus dudas. <br> Decide tu futuro.
+        </p>
+        <ul id="contenido">
+            <li id="busca_tu_grado">Busca tu grado.</li>
+            <li><a href="/contacto">Contacta con estudiantes y universidades.</a></li>
+            <li><a href="/animo">Encuentra consejos para superar este curso.</a></li>
+        </ul>
+    </div> <br>
+    <div id="lista_grados">
+        <div class="inline_block" id="sociales.container">
+        <ul id="sociales">
+            <li><h2>SOCIALES</h2></li>
+            <li><a href="/grados/derecho">Derecho</a></li>
+            <li><a href="/grados/ade">Administración y dirección de empresas.</a></li>
+            <li><a href="/grados/relaciones_internacionales">Relaciones internacionales</a></li>
+        </ul> </div>
+        <div class="inline_block" id="tecnologico.container">
+        <ul id="tecnologico">
+            <li><h2>TECNOLÓGICO</h2></li>
+            <li><a href="/grados/fisica">Física</a></li>
+            <li><a href="/grados/matematicas">Matemáticas</a></li>
+            <li><a href="/grados/ingenieria_industrial">Ingeniería industrial</a></li>
+        </ul> </div>
+        <div class="inline_block" id="biosanitario.container">
+        <ul id="biosanitario">
+            <li><h2>BIOSANITARIO</h2></li>
+            <li><a href="/grados/medicina">Medicina</a></li>
+            <li><a href="/grados/biotecnologia">Biotecnología</a></li>
+            <li><a href="/grados/psicologia">Psicología</a></li>
+        </ul> </div>
+        <a class="close" id="close_lista_grados"></a>
+    </div>
 </body>
-{%endblock%}
 
-{%block script%}
-{{block.super}}
-{%endblock%}
+<script>
+$(document).ready(function(){
+    $('#busca_tu_grado').click(function(){
+        $('#lista_grados').show()
+        })
+    $('#close_lista_grados').click(function(){
+        $('#lista_grados').hide()
+        })
+});
+
+</script>
+

@@ -1,0 +1,25 @@
+#titulo{
+    position: absolute;
+    top: 16%;
+    width: 40%;
+    left: 30%;
+    font-size: 20;
+    font-family: Arial;
+}
+
+#entrada{
+    font-size: 23;
+    font-family: Arial;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+#texto{
+    font-size: 20;
+    font-family: Arial;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 70%;
+}
