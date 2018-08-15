@@ -2,16 +2,55 @@
 <head>
     <link rel="stylesheet" type="text/css" href = "{% static 'almamater0/base.css' %}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    {% csrf_token %}
 </head>
 
 <body>
         {% block barra_de_arriba %}
         <div id="barra_de_arriba">
-            <!-- <div id="logo"></div> -->
-            <a class="celda" href="/">Grados</a>
-            <a class="celda" href="/">Contacto</a>
-            <a class="celda" href="/">Ánimo</a>
+            <h1 id="almamater"><a style="color: rgb(255,255,255); text-decoration:none;" href="/">AlmaMater </a></h1>
+            <a class="celda_barra" id="grados_celda" href="/">Grados</a>
+            <a class="celda_barra" href="/">Contacto</a>
+            <a class="celda_barra" href="/">Ánimo</a>
+            <a id="falta_algo" class="celda_barra">¿Falta algo?</a>
+        </div>
+        <div id="areas" class="mantener_show">
+        <ul>
+            <li><a class="celda_area cambiar_color" id="sociales" href="/">Sociales</a></li>
+            <li><a class="celda_area cambiar_color" id="tecnologico" href="/">Tecnológico</a></li>
+            <li><a class="celda_area cambiar_color" id="biosanitario" href="/">Biosanitario</a></li>
+        </ul>
+        </div>
+        <div id="grados_sociales" class="grados mantener_show">
+        <ul>
+            <li><a class="celda_grados cambiar_color" href="/">R. Internacionales</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">A.D.E.</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">Derecho</a></li>
+        </ul>
+        </div>
+        <div id="grados_tecnologico" class="grados mantener_show">
+        <ul>
+            <li><a class="celda_grados cambiar_color" href="/">Matemáticas</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">Física</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">I. industrial</a></li>
+        </ul>
+        </div>
+        <div id="grados_biosanitario" class="grados mantener_show">
+        <ul>
+            <li><a class="celda_grados cambiar_color" href="/">Biología</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">Biotecnología</a></li>
+            <li><a class="celda_grados cambiar_color" href="/">Medicina</a></li>
+        </ul>
+        </div>
+
+        <div id="cuadro_falta">
+            <h2>¿Echas en falta algo en la página? ¿Tienes alguna sugerencia? Cuéntanos.</h2> <br>
+            <form action="/comentario" method="POST">
+                {% csrf_token %}
+                <textarea name="comentario_falta" rows="10" cols="80"></textarea> <br> <br>
+                <button id="button_cierre">Cerrar</button>
+                <button type="submit">Enviar mensaje</button>
+            </form>
         </div>
         {% endblock %}
 
@@ -22,5 +61,39 @@
 
 {% block script %}
 <script>
+    $(document).ready(function(){
+        $('#grados_celda').hover(function(){
+            $('#areas').show()},
+            function(){
+            $('#areas').hide()})
+        $('.mantener_show').hover(function(){
+            $(this).show()},
+            function(){
+            $(this).hide()})
+        $('#grados_celda').hover(function(){
+            $(this).css("background-color", "rgb(100,100,100)")},
+            function(){
+            $(this).css("background-color", "rgb(26,83,255)")})
+        $('.cambiar_color').hover(function(){
+            $(this).css("background-color", "rgb(90,90,90)")},
+            function(){
+            $(this).css("background-color", "rgb(100,100,100)")})
+        $('#sociales').hover(function(){
+            $('#grados_sociales').show()},
+            function(){
+            $('#grados_sociales').hide()})
+        $('#tecnologico').hover(function(){
+            $('#grados_tecnologico').show()},
+            function(){
+            $('#grados_tecnologico').hide()})
+        $('#biosanitario').hover(function(){
+            $('#grados_biosanitario').show()},
+            function(){
+            $('#grados_biosanitario').hide()})
+        $('#falta_algo').click(function(){
+            $('#cuadro_falta').css("display","block")})
+        $('#button_cierre').click(function(){
+            $('#cuadro_falta').css("display","none")})
+    });
 </script>
 {%endblock%}

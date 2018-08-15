@@ -1,0 +1,41 @@
+#texto_presentacion{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-family:Arial;
+    width: 70%;
+    font-size: 25;
+}
+.blogs{
+    width: 32%;
+    min-height: 25% height: 25%;
+    background-color: rgb(240,240,240);
+    padding: 10px;
+    margin: 2px solid black;
+    font-size: 18;
+    color: solid black:
+    font-family: Arial;
+}
+#estres{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+}
+#consejos_estudio{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#consejos_elegir_carrera{
+    position: absolute;
+    left: 12%;
+    top: 87%;
+}
+#organizacion_tiempo{
+    position: absolute;
+    left: 50%;
+    top: 87%;
+}
+#supp{
+    position: absolute; top: 150%;
+}

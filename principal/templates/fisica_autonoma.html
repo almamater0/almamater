@@ -1,0 +1,46 @@
+{% extends "almamater0/base.html" %}
+{% block barra_de_arriba %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href = "{% static 'principal/plantilla_universidades.css' %}"> />
+</head>
+
+<body>
+    <div id="titulo">
+        <h1>Física en la Autónoma de Madrid</h1>
+    </div>
+    <div id="indice">
+        <ul>
+            <li><a style="color:solid black" class="index" href="#asignatura">Asignatura: programa de estudios, política de asistencia y suspenso, prácticas...</a></li>
+            <li><a class="index" href="#profesorado_investigacion">Profesorado e investigación.</a></li>
+            <li><a class="index" href="#salidas_salarios">Salidas laborales y salarios.</a></li>
+            <li><a class="index" href="#erasmus">Posibilidad de viajes al extranjero (Erasmus).</a></li>
+            <li><a class="index" href="#comentarios">Comentarios de antiguos alumnos.</a></li>
+        </ul>
+    </div>
+    <img id="imagen_universidad" src="{% static 'principal/images/universidades/autonoma.jpg' %}">
+
+    <div id="texto">
+        <h2>Asignatura:</h2> <br>
+        <p id="asignatura">hhhrhtrhtrhrh</p> <br>
+        <h2>Profesorado e investigación:</h2> <br>
+        <p id="profesorado_investigacion">thrthrthrth</p> <br>
+        <h2>Salidas laborales y salarios:</h2> <br>
+        <p id="salidas_salarios">rthrthrh</p> <br>
+        <h2>Posibilidad de viajes al extranjero:</h2> <br>
+        <p id="erasmus">trhrthr</p> <br>
+        <h2>Comentarios de antiguos alumnos:</h2> <br>
+        <p id="comentarios"></p> <br>
+    </div>
+</body>
+
+{%endblock%}
+
+{%block script%}
+{{block.super}}
+{%endblock%}

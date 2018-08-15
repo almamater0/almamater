@@ -1,0 +1,30 @@
+#titulo{
+    position: absolute;
+    top: 20%; left: 10%;
+    font-family: Arial;
+    font-size: 35;
+}
+#notas_de_corte{
+    position: absolute;
+    top: 20%; left: 60%;
+    width:35%;
+    font-size: 18;
+}
+#ranking{
+    position: absolute;
+    top: 60%; left: 15%;
+    width:70%;
+    font-size: 20;
+}
+#ects{
+    position: absolute;
+    top: 85%; left: 60%;
+    width:70%;
+    font-size: 20;
+}
+#egresados{
+    position: absolute;
+    top: 110%; left: 60%;
+    width:70%;
+    font-size: 20;
+}

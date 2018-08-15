@@ -1,0 +1,15 @@
+#imagen_fondo{
+    z-index: -1;
+    position: absolute; top:0%; left:-10px;
+    width:110%;
+    min-height: 110%;
+    filter: blur(10px);
+}
+
+#texto_presentacion{
+    position: absolute;
+    top:30%; left: 25%;
+    width:50%; min-height: 60%;
+    background-color: rgb(100,100,100);
+}
+

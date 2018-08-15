@@ -1,3 +1,4 @@
 from django.db import models
 
-# Create your models here.
+class comentario(models.Model):
+    texto_comentario=models.TextField(default="Nada")

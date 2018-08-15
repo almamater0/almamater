@@ -1,0 +1,44 @@
+{% extends "almamater0/base.html" %}
+{% block barra_de_arriba %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href = "{% static 'principal/animo.css' %}" />
+</head>
+
+
+<body>
+    <div id="texto_presentacion">
+        <p>Sabemos que........................</p>
+    </div>
+    <div id="estres" class="blogs">
+        <h2>¿Te sientes estresad@?</h2>
+        <p>ffffffffffffffffffffffff</p>
+        <a href="/" style="text-decoration:none; color:solid black;">Leer más</a>
+    </div>
+    <div id="organizacion_tiempo" class="blogs">
+        <h2>¿Sientes que pierdes el tiempo?</h2>
+        <p>ffffffffffffffffffffffff
+            </p>
+        <a href="/" style="text-decoration:none; color:solid black;">Leer más</a>
+    </div>
+    <div id="consejos_estudio" class="blogs">
+        <h2>¿Te cuesta estudiar?</h2>
+        <p> fffff fffff fffff fffffffffffffff fffffffffffffffff</p>
+        <a href="/" style="text-decoration:none; color:solid black;">Leer más</a>
+    </div>
+    <div id="consejos_elegir_carrera" class="blogs">
+        <h2>¿No sabes qué quieres estudiar?</h2>
+        <p>fffffffffffffffffffffffff</p>
+        <a href="/" style="text-decoration:none; color:solid black;">Leer más</a>
+    </div>
+    <div id="supp">dd</div>
+</body>
+{%endblock%}
+
+{%block script%}
+{{block.super}}
+{%endblock%}

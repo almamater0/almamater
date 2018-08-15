@@ -1,0 +1,43 @@
+{% extends "almamater0/base.html" %}
+{% block barra_de_arriba %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href = "{% static 'principal/contacto.css' %}">
+</head>
+
+<body>
+    <div id="titulo">
+        <p>Te dejamos una lista de contactos con <a style="text-decoration: none; color: solid black;" href="#universidades">universidades</a>, <a style="text-decoration: none; color: solid black;" href="#estudiantes">estudiantes</a> y con
+        <a style="text-decoration: none; color: solid black;" href="#nosotros">nosotros</a>, por si quieres escribir una entrada...</p>
+    </div>
+    <div id="texto">
+        <h2 id="universidades">Universidades:</h2>
+        <ul>
+            <li>U</li>
+            <li>U</li>
+            <li>U</li>
+            <li>U</li>
+            <li>U</li>
+        </ul>
+        <h2 id="estudiantes">Antiguos alumnos y asociaciones:</h2>
+        <ul>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+        </ul>
+        <h2 id="nosotros">Nosotros:</h2> <ul><li>almamater.contacto@gmail.com</li></ul>
+    </div>
+</body>
+
+{%endblock%}
+
+{%block script%}
+{{block.super}}
+{%endblock%}
