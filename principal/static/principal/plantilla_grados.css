@@ -120,7 +120,7 @@ li: last child{
         margin-right: auto;
         width: 75%;
     }
-    #informacion p{
+    .grafico p{
         font-size: 20;
         padding: 12%;
     }
