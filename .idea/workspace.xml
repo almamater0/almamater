@@ -52,8 +52,8 @@
       <file leaf-file-name="plantilla_consejos_blogs.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,8 +61,8 @@
       <file leaf-file-name="contacto.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <state relative-caret-position="461">
+              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -590,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -618,10 +611,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>

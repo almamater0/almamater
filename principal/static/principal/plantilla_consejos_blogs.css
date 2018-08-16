@@ -6,6 +6,9 @@
     font-size: 20;
     font-family: Arial;
 }
+p{
+    text_align: justify;
+}
 #titulo p{
     text-align:center;
 }
@@ -70,7 +73,7 @@
     }
     #texto p{
         padding: 5%;
-        font-size: 25;
+        font-size: 28;
     }
     #footer{
         height: 5%;
