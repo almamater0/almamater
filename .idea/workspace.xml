@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/consejos.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/consejos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/contacto.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
@@ -19,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="consejos.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
+      <file leaf-file-name="fisica.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="906">
-              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            <state relative-caret-position="-498">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plantilla_grados.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plantilla_grados.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2168">
-              <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -40,17 +38,17 @@
       <file leaf-file-name="plantilla_universidades.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+            <state relative-caret-position="177">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/templates/contacto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="380">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -138,9 +136,9 @@
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/consejos.css" />
+        <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
-        <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
       </list>
     </option>
   </component>
@@ -515,13 +513,6 @@
     <entry file="file://$PROJECT_DIR$/templates/almamater0/footer.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -596,27 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2168">
-          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -624,10 +594,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/contacto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="380">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-498">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
         </state>
       </provider>
     </entry>

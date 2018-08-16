@@ -115,14 +115,14 @@ h3{
         top: 59%;
         left: 2.5%;
         width: 95%;
-        height: 52%; min-height: 52%;
+        height: 50%; min-height: 50%;
         padding: 0px;
     }
     #indice ul{
         position: absolute;
         left: 3%;
         width: 80%;
-        top: 30%;
+        top: 36%;
     }
     li{
         padding-bottom: 3%;
@@ -136,7 +136,7 @@ h3{
     }
     #texto{
         position: absolute;
-        top: 99%;
+        top: 123%;
         left: 2.5%;
         width: 95%;
         font-size: 40;

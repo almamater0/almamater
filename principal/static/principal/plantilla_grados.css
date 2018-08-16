@@ -117,6 +117,9 @@ li: last child{
         left: 2.5%;
         width: 95%;
     }
+    #informacion p{
+        font-size: 40;
+    }
     .inline-block{
         position: relative;
     }
