@@ -104,10 +104,10 @@ h3{
     }
     #indice{
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 10%;
         width: 80%;
-        height: 30%; min-height: 30%;
+        height: 35%; min-height: 30%;
         padding: 0px;
     }
     #indice ul{
@@ -128,7 +128,7 @@ h3{
     }
     #texto{
         position: absolute;
-        top: 85%;
+        top: 95%;
         left: 10%;
         width: 80%;
         font-size: 25;
