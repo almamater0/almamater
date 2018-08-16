@@ -74,19 +74,22 @@ li: last child{
         position: absolute; left: 30%; top: 10%;
         font-size: 70;
     }
-    #indice{
+    #listado_universidades{
         width:80%;
         position: absolute;
         left: 10%;
-        top: 16%;
+        top: 11%;
         height: 40%;
+    }
+    .universidad{
+        font-size: 30;
     }
     #notas_de_corte{
         width: 80%;
         position: absolute;
         left: 10%;
         top: 60%;
-        height: 40%;
+        height: 40%; max-height: 40%;
     }
     #informacion{
         width: 80%;
@@ -95,9 +98,9 @@ li: last child{
         top: 104%;
     }
     #informacion p{
-        font-size: 28;
+        font-size: 30;
     }
     .grafico h2{
-        font-size: 34;
+        font-size: 38;
     }
 }
