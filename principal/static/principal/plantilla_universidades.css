@@ -1,5 +1,6 @@
 body{
     font-family: Arial;
+    min-height: 100%;
 }
 #titulo{
     position: absolute;
@@ -136,6 +137,7 @@ h3{
     .border h2{
         font-size: 32;
         text-align: center;
+        position: relative; left: 0%;
     }
     #texto p{
         position:relative;
