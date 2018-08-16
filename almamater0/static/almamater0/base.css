@@ -210,7 +210,7 @@ lista-grados li: last child{
         position: relative; left: 20%; top: 5%;
         font-size: 28;
     }
-    h2{
+    #lista_grados h2{
         font-size: 42;
         text-align: center;
         color: rgb(0, 71, 179);

@@ -18,7 +18,6 @@ def info_grados_universidad(request, grado, universidad):
     return render(request, template)
 
 def consejos(request):
-
     return render(request, "consejos.html")
 
 def consejos_blogs(request, blog):
