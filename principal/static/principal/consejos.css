@@ -58,7 +58,7 @@ h2{
     font-size: 25;
 }
 
-@media only screen and (max-device-width: 6000px) {
+@media only screen and (max-device-width: 600px) {
     #texto_presentacion{
         position: absolute;
         left: 9%;

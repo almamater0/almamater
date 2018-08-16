@@ -41,7 +41,7 @@ h2{
     font-size: 25;
 }
 
-@media only screen and (max-device-width: 6000px) {
+@media only screen and (max-device-width: 600px) {
     #titulo{
         position: absolute;
         top: 11%;

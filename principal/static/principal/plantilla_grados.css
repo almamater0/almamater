@@ -76,7 +76,7 @@
     text-align: center;
     font-size: 25;
 }
-@media only screen and (max-device-width: 6000px) {
+@media only screen and (max-device-width: 600px) {
     #listado_universidades ul{
         position: absolute;
         left: 20%;

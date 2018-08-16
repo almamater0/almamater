@@ -151,7 +151,7 @@ lista-grados li: last child{
 }
 
 
-@media only screen and (max-device-width: 65600px) {
+@media only screen and (max-device-width: 600px) {
     #barra_de_arriba{
         height: 8%; min-height: 8%;
     }
