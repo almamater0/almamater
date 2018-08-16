@@ -115,7 +115,7 @@ h3{
         top: 59%;
         left: 2.5%;
         width: 95%;
-        height: 35%; min-height: 30%;
+        height: 52%; min-height: 52%;
         padding: 0px;
     }
     #indice ul{
@@ -161,5 +161,7 @@ h3{
     #footer{
         height: 5%;
     }
-
+    #footer p{
+        font-size: 40;
+    }
 }

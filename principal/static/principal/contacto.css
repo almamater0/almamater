@@ -51,7 +51,7 @@ h2{
     }
     #texto{
         position: absolute;
-        top: 25%;
+        top: 32%;
         left: 2.5%;
         width: 95%;
     }
@@ -76,5 +76,7 @@ h2{
         position: relative;
         top: 20px;
     }
-
+    #footer p{
+        font-size: 40;
+    }
 }

@@ -71,32 +71,32 @@ h2{
     }
     .blogs{
         width: 95%;
-        min-height: 22%; height: 22%; /* misma altura para todos, la entrada se tiene que adaptar. */
+        min-height: 45%; height: 45%; /* misma altura para todos, la entrada se tiene que adaptar. */
         font-size: 40;
     }
     #estres{
         position: absolute;
         left: 2.5%;
-        top: 31%;
+        top: 45%;
     }
     #consejos_estudio{
         position: absolute;
         left: 2.5%;
-        top: 55%;
+        top: 92%;
     }
     #consejos_elegir_carrera{
         position: absolute;
         left: 2.5%;
-        top: 79%;
+        top: 137%;
     }
     #organizacion_tiempo{
         position: absolute;
         left: 2.5%;
-        top: 103%;
+        top: 182%;
     }
     h2{
         text-align: center;
-        text-align: 45;
+        font-size: 45;
     }
     .blogs p{
         padding: 6%;
@@ -110,6 +110,9 @@ h2{
         height: 7%;
         position: absolute;
         top: 126%;
+    }
+    #footer p{
+        font-size: 40;
     }
 
 }
