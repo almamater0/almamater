@@ -146,7 +146,7 @@ lista-grados li: last child{
     display:none;
 }
 
-@media only screen and (max-width: 8000px) {
+@media only screen and (max-device-width: 600px) {
     #barra_de_arriba p{
         display:none;
     }
