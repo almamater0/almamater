@@ -157,6 +157,10 @@ lista-grados li: last child{
     width: 100%;
     min-height: 10%;
     border-top: 2px solid rgb(230,230,230);
+
+}
+#barra_de_abajo p{
+    text-align: center;
     font-size: 22;
 }
 
@@ -227,5 +231,6 @@ lista-grados li: last child{
     #cuadro_falta{
         min-height: 50%; height: 50%;
     }
+
 
 }
