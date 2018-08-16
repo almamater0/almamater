@@ -135,19 +135,18 @@ h2{
         font-size: 58;
     }
     #contenido{
-        font-size: 70;
         position: absolute;
         top: 40%; left: 12%;
         width: 75%;
     }
     #contenido a{
-        font-size: 70;
+        font-size: 40;
     }
     #contenido li a{
-        font-size: 70;
+        font-size: 40;
     }
     #contenido li{
-        font-size: 70;
+        font-size: 40;
     }
     #lista_grados{
         width: 80%;
