@@ -137,14 +137,14 @@ h2{
     #contenido{
         font-size: 36;
         position: absolute;
-        top: 50%; left: 20%;
+        top: 40%; left: 15%;
     }
     #lista_grados{
         width: 80%;
         position: absolute;
         top: 10%; left: 10%;
         height: 80%; min-height: 80%;
-        font-size: 30;
+        font-size: 35;
     }
     .inline_block{
         display: block;
@@ -152,9 +152,9 @@ h2{
         position: relative; left: 20%; top: 5%;
     }
     h2{
-    font-size: 42;
-    text-align: center;
-    color: rgb(0, 71, 179);
+        font-size: 42;
+        text-align: center;
+        color: rgb(0, 71, 179);
     }
 
 }
