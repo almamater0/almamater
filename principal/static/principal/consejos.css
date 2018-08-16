@@ -10,7 +10,7 @@
 .blogs{
     width: 32%;
     min-height: 50%; height: 50%; /* misma altura para todos, la entrada se tiene que adaptar. */
-    background-color: rgb(245,245,245);
+    background-color: rgb(255,255,255);
     font-size: 18;
     color: solid black:
     font-family: Arial;
@@ -70,28 +70,28 @@ h2{
         font-size: 28;
     }
     .blogs{
-        width: 70%;
+        width: 90%;
         min-height: 22%; height: 22%; /* misma altura para todos, la entrada se tiene que adaptar. */
-        font-size: 18;
+        font-size: 25;
     }
     #estres{
         position: absolute;
-        left: 15%;
+        left: 5%;
         top: 31%;
     }
     #consejos_estudio{
         position: absolute;
-        left: 15%;
+        left: 5%;
         top: 55%;
     }
     #consejos_elegir_carrera{
         position: absolute;
-        left: 15%;
+        left: 5%;
         top: 79%;
     }
     #organizacion_tiempo{
         position: absolute;
-        left: 15%;
+        left: 5%;
         top: 103%;
     }
     h2{

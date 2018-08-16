@@ -50,30 +50,30 @@ p{
         top: 10%;
         width: 80%;
         left: 10%;
-        font-size: 30;
+        font-size: 34;
 }
     #titulo h1{
         text-align: center;
     }
     #entrada{
-        width: 70%;
+        width: 80%;
         position: absolute;
-        left: 15%;
+        left: 10%;
         top: 18%;
         height: 10%;
     }
     #entrada p{
-        font-size: 26;
+        font-size: 32;
      }
     #texto{
         position: absolute;
         top: 32%;
-        left: 10%;
-        width: 80%;
+        left: 5%;
+        width: 90%;
     }
     #texto p{
         padding: 5%;
-        font-size: 28;
+        font-size: 30;
     }
     #footer{
         height: 7%;

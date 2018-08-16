@@ -57,8 +57,8 @@ h2{
     #texto{
         position: absolute;
         top: 25%;
-        left: 10%;
-        width: 80%;
+        left: 5%;
+        width: 90%;
     }
     ul{
         list-style: square;
