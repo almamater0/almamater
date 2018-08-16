@@ -218,7 +218,7 @@ lista-grados li: last child{
     #cuadro_falta{
         width: 90%;
         position: absolute; top: 15%; left: 5%;
-        min-height: 50%; height: 50%;
+        min-height: 70%; height: 70%;
     }
     .close {
       position: absolute;
@@ -259,10 +259,17 @@ lista-grados li: last child{
     }
     #cuadro_falta h2{
         font-size: 40;
+        width: 80%;
     }
     textarea{
         font-size: 40;
         width: 80%;
         height: 60%;
+        text-align: justify;
+    }
+    button{
+        width: 50%;
+        font-size: 40%;
+        height: 7%;
     }
 }
