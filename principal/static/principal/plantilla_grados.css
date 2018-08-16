@@ -120,6 +120,10 @@ li: last child{
         margin-right: auto;
         width: 75%;
     }
+    #informacion p{
+        font-size: 20;
+        padding: 12%;
+    }
     h2{
         font-size: 35;
     }

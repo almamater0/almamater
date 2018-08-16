@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/almamater0/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/almamater0/base.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/almamater0/base.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/contacto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/contacto.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/contacto.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/inicio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/inicio.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/inicio.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/plantilla_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/plantilla_grados.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/plantilla_grados.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/plantilla_universidades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/plantilla_universidades.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/plantilla_universidades.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/almamater0/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/almamater0/base.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -45,8 +28,8 @@
       <file leaf-file-name="plantilla_grados.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -599,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-702">
@@ -627,10 +603,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="437">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
         </state>
       </provider>
     </entry>
