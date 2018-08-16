@@ -149,6 +149,9 @@ p{
     #informacion h2{
         font-size: 45;
     }
+    #notas_de_corte h2{
+        font-size: 45;
+    }
     #footer{
         height: 5%;
     }

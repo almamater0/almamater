@@ -196,6 +196,7 @@ lista-grados li: last child{
         text-decoration: none;
         text-align: center;
         font-size: 55;
+        font-weight: bold;
     }
     #menu_movil ul{
         position: absolute;
