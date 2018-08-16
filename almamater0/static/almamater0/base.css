@@ -183,19 +183,33 @@ lista-grados li: last child{
         display: none;
         z-index: 3;
         position: absolute;
-        top: 10%; left: 30%;
-        width: 40%;
-        height: 25%; min-height: 25%;
+        top: 15%; left: 10%;
+        width: 80%;
+        height: 60%; min-height: 60%;
         background-color: rgb(255, 255, 255);
         border: 5px solid rgb(0, 71, 179);
         box-shadow: 0px 0px 2px rgb(0, 71, 179) inset;
         transition: 0.4s;
     }
     #menu_movil a{
-        color: rgb(0,0,0);
+        color: rgb(0, 71, 179);
         text-decoration: none;
-        font-size: 40;
+        font-size: 60;
         font-weight: bold;
+        outline-style: solid;
+        outline-color: rgb(0, 71, 179);
+    }
+    #menu_movil ul{
+        position: absolute;
+        left:10%;
+        width: 80%;
+        top: 10%;
+    }
+    #menu_movil li{
+        padding-bottom: 15%;
+    }
+    #menu_movil li:last child{
+        padding-bottom: 0%;
     }
     #lista_grados{
         width: 80%;
