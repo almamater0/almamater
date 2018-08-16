@@ -51,7 +51,7 @@ h2{
     border-top: 2px solid rgb(150,150,150);
     height: 10%;
     position: absolute;
-    top: 160%; left: 0%; width: 100%;
+    left: 0%; width: 100%;
 }
 #footer p{
     text-align: center;
@@ -64,8 +64,10 @@ h2{
         left: 10%;
         top: 10%;
         width: 80%;
-        font-size: 24;
         height: 18%;
+    }
+    #texto_presentacion p{
+        font-size: 28;
     }
     .blogs{
         width: 70%;
