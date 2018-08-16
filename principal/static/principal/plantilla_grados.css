@@ -80,7 +80,6 @@ li: last child{
         top: 28%;
         height: 25%; max-height: 25%;
         min-height: 25%;
-        padding-left: 10%;
     }
     .universidad{
         font-size: 30;
@@ -93,7 +92,7 @@ li: last child{
         height: 40%; max-height: 40%; min-height: 40%;
     }
     .grafico{
-        width: 100%;
+        width: 80%;
         height: 60%; min-height: 60%;
     }
     #informacion{
