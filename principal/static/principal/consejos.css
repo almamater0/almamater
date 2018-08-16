@@ -77,22 +77,22 @@ h2{
     #estres{
         position: absolute;
         left: 2.5%;
-        top: 45%;
+        top: 49%;
     }
     #consejos_estudio{
         position: absolute;
         left: 2.5%;
-        top: 92%;
+        top: 96%;
     }
     #consejos_elegir_carrera{
         position: absolute;
         left: 2.5%;
-        top: 139%;
+        top: 143%;
     }
     #organizacion_tiempo{
         position: absolute;
         left: 2.5%;
-        top: 184%;
+        top: 190%;
     }
     h2{
         text-align: center;
@@ -109,7 +109,7 @@ h2{
     #footer{
         height: 7%;
         position: absolute;
-        top: 231%;
+        top: 235%;
     }
     #footer p{
         font-size: 40;
