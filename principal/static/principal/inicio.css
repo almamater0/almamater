@@ -140,6 +140,9 @@ h2{
         top: 40%; left: 12%;
         width: 75%;
     }
+    #contenido li{
+        font-size: 36;
+    }
     #lista_grados{
         width: 80%;
         position: absolute;
