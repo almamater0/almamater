@@ -180,22 +180,29 @@ lista-grados li: last child{
     }
     #menu_movil{
         display: none;
-        z-index: 5;
+        z-index: 3;
         position: absolute;
-        top: 0.5%; left: 59%;
+        top: 10%; left: 30%;
         width: 40%;
-        height: 45%; min-height: 45%;
+        height: 25%; min-height: 25%;
         background-color: rgb(128, 179, 255);
         border: 5px solid rgb(0, 71, 179);
         box-shadow: 0px 0px 2px rgb(0, 71, 179) inset;
     }
     #close_menu_movil{
-        position: absolute; right: 1%; top: 1%;
+        position: absolute; top: 1%; right: 0px;
+        width: 60px;
+        height: 60px;
     }
     #menu_movil a{
         color: rgb(0,0,0);
         text-decoration: none;
         font-size: 30;
+    }
+    .close:before, .close:after {
+        content: ' ';
+        height: 50px;
+        width: 8px;
     }
 
 }
