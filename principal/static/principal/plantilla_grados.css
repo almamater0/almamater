@@ -77,8 +77,8 @@ li: last child{
         width:80%;
         position: absolute;
         left: 10%;
-        top: 11%;
-        height: 40%;
+        top: 20%;
+        height: 30%;
     }
     .universidad{
         font-size: 30;
@@ -87,14 +87,14 @@ li: last child{
         width: 80%;
         position: absolute;
         left: 10%;
-        top: 60%;
+        top: 54%;
         height: 40%; max-height: 40%;
     }
     #informacion{
         width: 80%;
         position: absolute;
         left: 10%;
-        top: 104%;
+        top: 98%;
     }
     #informacion p{
         font-size: 30;
@@ -102,7 +102,7 @@ li: last child{
     .grafico h2{
         font-size: 38;
     }
-    .grafico{
+    #informacion grafico{
         border: 2px solid rgb(0, 71, 179);
         width: 100%;
         min-height: 60%;

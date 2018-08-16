@@ -214,5 +214,8 @@ lista-grados li: last child{
         text-align: center;
         color: rgb(0, 71, 179);
     }
+    #cuadro_falta{
+        min-height: 50%; height: 50%;
+    }
 
 }
