@@ -71,8 +71,33 @@ li: last child{
 @media only screen and (max-device-width: 600px) {
     #titulo{
         width: 80%;
-        position: absolute; left: 10%; top: 10%;
+        position: absolute; left: 30%; top: 10%;
         font-size: 70;
     }
-
+    #indice{
+        width:80%;
+        position: absolute;
+        left: 10%;
+        top: 16%;
+        height: 40%;
+    }
+    #notas_de_corte{
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        height: 40%;
+    }
+    #informacion{
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 104%;
+    }
+    #informacion p{
+        font-size: 28;
+    }
+    .grafico h2{
+        font-size: 34;
+    }
 }

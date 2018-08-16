@@ -172,11 +172,10 @@ lista-grados li: last child{
         position: absolute; right: 1%; top:2%;
     }
     .bar1, .bar2, .bar3 {
-        width: 105px;
-        height: 15px;
+        width: 84px;
+        height: 12px;
         background-color: #333;
         margin: 6px 0;
-        transition: 0.4s;
     }
     #menu_movil{
         display: none;
@@ -188,7 +187,7 @@ lista-grados li: last child{
         background-color: rgb(255, 255, 255);
         border: 5px solid rgb(0, 71, 179);
         box-shadow: 0px 0px 2px rgb(0, 71, 179) inset;
-        translation: 2s;
+        transition: 0.4s;
     }
     #menu_movil a{
         color: rgb(0,0,0);

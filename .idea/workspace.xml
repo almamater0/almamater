@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plantilla_grados.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plantilla_grados.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state relative-caret-position="505">
+              <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -75,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+            <state relative-caret-position="-94">
+              <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -139,8 +141,8 @@
         <option value="$PROJECT_DIR$/principal/templates/inicio.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/inicio.css" />
         <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
-        <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
+        <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
       </list>
     </option>
   </component>
@@ -579,6 +581,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -594,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -608,10 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+        <state relative-caret-position="505">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
         </state>
       </provider>
     </entry>
