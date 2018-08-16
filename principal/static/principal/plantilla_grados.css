@@ -96,10 +96,11 @@ li: last child{
     .grafico{
         width: 100%;
         height: 60%; min-height: 60%;
+        font-size: 30;
     }
     #informacion{
         position: absolute;
-        top: 95%;
+        top: 97%;
         left: 10%;
         width: 80%;
     }
@@ -110,5 +111,8 @@ li: last child{
         margin-left: auto;
         margin-right: auto;
         width: 75%;
+    }
+    h2{
+        font-size: 35;
     }
 }
