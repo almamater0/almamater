@@ -30,3 +30,52 @@ li: last child{
 h2{
     padding-left: 3%;
 }
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+    position: absolute;
+    left: 0%; width: 100%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
+
+@media only screen and (max-device-width: 6000px) {
+    body{
+    font-family: Arial;
+    font-size: 17;
+    }
+
+    #titulo{
+        position: absolute;
+        top: 11%;
+        left: 15%;
+        width: 70%;
+        font-size: 28;
+    }
+    #texto{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        width: 80%;
+    }
+    ul{
+        list-style: square;
+        padding-left: 15%;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    li: last child{
+        margin-bottom: 0px;
+    }
+    h2{
+        padding-left: 3%;
+        text-align: center;
+    }
+    #footer{
+        height: 5%;
+    }
+
+}

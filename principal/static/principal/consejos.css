@@ -10,7 +10,7 @@
 .blogs{
     width: 32%;
     min-height: 50%; height: 50%; /* misma altura para todos, la entrada se tiene que adaptar. */
-    background-color: rgb(240,240,240);
+    background-color: rgb(245,245,245);
     font-size: 18;
     color: solid black:
     font-family: Arial;
@@ -50,7 +50,7 @@ h2{
 #footer{
     border-top: 2px solid rgb(150,150,150);
     height: 10%;
-    position: absolute;
+    position: absolute; top: 160%;
     left: 0%; width: 100%;
 }
 #footer p{
@@ -62,7 +62,7 @@ h2{
     #texto_presentacion{
         position: absolute;
         left: 10%;
-        top: 10%;
+        top: 12%;
         width: 80%;
         height: 18%;
     }
@@ -77,22 +77,22 @@ h2{
     #estres{
         position: absolute;
         left: 15%;
-        top: 27%;
+        top: 31%;
     }
     #consejos_estudio{
         position: absolute;
         left: 15%;
-        top: 51%;
+        top: 55%;
     }
     #consejos_elegir_carrera{
         position: absolute;
         left: 15%;
-        top: 75%;
+        top: 79%;
     }
     #organizacion_tiempo{
         position: absolute;
         left: 15%;
-        top: 99%;
+        top: 103%;
     }
     h2{
         text-align: center;
@@ -107,6 +107,8 @@ h2{
     }
     #footer{
         height: 5%;
+        position: absolute;
+        top: 126%;
     }
 
 }
