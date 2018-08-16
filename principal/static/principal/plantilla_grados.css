@@ -68,3 +68,11 @@ li: last child{
     font-size: 20;
     padding: 6%;
 }
+@media only screen and (max-device-width: 600px) {
+    #titulo{
+        width: 80%;
+        position: absolute; left: 10%; top: 10%;
+        font-size: 70;
+    }
+
+}
