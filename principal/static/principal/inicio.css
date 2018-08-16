@@ -12,7 +12,7 @@
 }
 #cuadro_izquierda{
     font-family: Bookman;
-    background-color: rgb(255,255,255);
+    background: linear-gradient(to right, rgb(255,255,255), rgb(230, 236, 255));
     position: absolute;
     top:0%; left:0%;
     width: 50%; min-height:100%; height:100%;
@@ -23,7 +23,7 @@
     position: absolute;
     left: 21.5%;
     top: 10%;
-    font-size: 42;
+    font-size: 49;
 }
 #contenido{
     display: inline;
@@ -31,7 +31,9 @@
     left: 16%;
     top: 40%;
     font-size: 26;
+    cursor: pointer;
 }
+
 #lista_grados{
     display:none;
     z-index: 4;
@@ -45,7 +47,7 @@
     box-shadow: 5px 5px 2px rgb(0, 71, 179);
 }
 ul{
-    list-style: none;
+    list-style-type: disc;
 }
 #lista_grados ul{
     list-style-type: square;
@@ -78,7 +80,6 @@ h2{
     color: rgb(0,0,0);
     outline-style: solid;
     outline-color: rgb(0, 71, 179);
-
 }
 #close_lista_grados{
     position: absolute;
@@ -119,12 +120,9 @@ h2{
 }
 
 @media only screen and (max-device-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
     #imagen_div{
         width: 100%;
-        height: 100%;
+        height: 100%; max-height: 100%;
         left: 0%; top: 0%;
     }
     #cuadro_izquierda{
@@ -133,14 +131,28 @@ h2{
         top: 10%; left: 10%;
         height: 45%; min-height: 45%;
     }
+    #presentacion{
+        font-size: 58;
+    }
+    #contenido{
+        font-size: 36;
+    }
     #lista_grados{
         width: 80%;
         position: absolute;
         top: 10%; left: 10%;
         height: 80%; min-height: 80%;
+        font-size: 30;
     }
     .inline_block{
         display: block;
     }
+    h2{
+    font-size: 30;
+    text-align: center;
+    color: rgb(0,0,0);
+    outline-style: solid;
+    outline-color: rgb(0, 71, 179);
+}
 
 }
