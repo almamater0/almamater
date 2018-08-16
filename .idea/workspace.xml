@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/principal/static/principal/consejos.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/consejos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/static/principal/inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/inicio.css" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="inicio.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            <state relative-caret-position="193">
+              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -94,12 +95,12 @@
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
         <option value="$PROJECT_DIR$/principal/templates/grados/fisica.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" />
-        <option value="$PROJECT_DIR$/principal/static/principal/consejos.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
         <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
+        <option value="$PROJECT_DIR$/principal/static/principal/consejos.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/inicio.css" />
       </list>
     </option>
@@ -500,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -570,6 +564,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -587,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="193">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
         </state>
       </provider>
     </entry>
