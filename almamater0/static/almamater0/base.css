@@ -14,6 +14,7 @@
     box-shadow: 0px 0px 2px rgb(0, 71, 179) inset;
     font-family: Courier;
     padding: 10px;
+    cursor: pointer;
 }
 
 #almamater{
@@ -145,7 +146,7 @@ lista-grados li: last child{
     display:none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     #barra_de_arriba p{
         display:none;
     }
@@ -156,9 +157,10 @@ lista-grados li: last child{
         top: 10%; left: 10%;
         height: 45%; min-height: 45%;
     }
-    .container {
-    display: inline-block;
-    cursor: pointer;
+    #container {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute; right: 1%; top:1%;
     }
 
     .bar1, .bar2, .bar3 {
@@ -185,4 +187,5 @@ lista-grados li: last child{
         -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
         transform: rotate(45deg) translate(-8px, -8px) ;
     }
+
 }
