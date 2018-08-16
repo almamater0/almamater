@@ -117,7 +117,7 @@ h3{
         top: 30%;
     }
     li{
-        padding-bottom: 6%;
+        padding-bottom: 3%;
     }
     li: last child{
         padding-bottom: 0%;
@@ -139,7 +139,7 @@ h3{
     }
     #texto p{
         position:relative;
-        padding-top: 1%; padding-bottom: 2%; padding-left:8%; padding-right: 6%;
+        padding: 0px;
         font-size: 25;
     }
     h3{
