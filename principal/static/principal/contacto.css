@@ -78,6 +78,8 @@ h2{
     }
     #footer{
         height: 5%;
+        position: relative;
+        top: 20px;
     }
 
 }
