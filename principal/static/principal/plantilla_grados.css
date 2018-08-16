@@ -80,8 +80,9 @@ li: last child{
         top: 28%;
         height: 25%; max-height: 25%;
         min-height: 25%;
+        padding-left: 10%;
     }
-    #listado_universidades universidad{
+    .universidad{
         font-size: 30;
     }
     #notas_de_corte{
@@ -89,21 +90,23 @@ li: last child{
         position: absolute;
         left: 10%;
         top: 54%;
-        height: 40%; max-height: 40%;
+        height: 40%; max-height: 40%; min-height: 40%;
+    }
+    .grafico{
+        width: 80%;
+        height: 60%; min-height: 60%;
     }
     #informacion{
         position: absolute;
+        top: 95%;
         left: 10%;
-        top: 98%;
     }
-    .grafico h2{
-        font-size: 38;
+    .inline-block{
+        position: relative;
     }
-    .grafico{
-        border: 2px solid rgb(0, 71, 179);
-        width: 80%;
-        min-height: 30%;
-        text-align: justify;
-        font-size: 30;
+    .imagen_grafico{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
     }
 }
