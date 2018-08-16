@@ -81,14 +81,15 @@ h3{
 
 @media only screen and (max-device-width: 6000px) {
     #titulo{
+        text-align: center; width: 100%;
         font-size: 30;
         top: 10%;
     }
     #imagen_universidad_div{
         position: absolute;
-        top: 17%;
+        top: 1%;
         width: 80%;
         left: 10%;
-        height: 40%;
+        height: 18%;
     }
 }
