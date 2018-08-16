@@ -216,6 +216,8 @@ lista-grados li: last child{
         color: rgb(0, 71, 179);
     }
     #cuadro_falta{
+        width: 90%;
+        position: absolute; top: 15%; left: 5%;
         min-height: 50%; height: 50%;
     }
     .close {
@@ -243,5 +245,24 @@ lista-grados li: last child{
     .close:after {
       transform: rotate(-45deg);
     }
-
+    #close_lista_grados{
+        position: absolute;
+        right: 1%;
+        top:1%;
+    }
+    #close_comentario_falta{
+        position: absolute;
+        right: 0.3%;
+        top:0.5%;
+    }
+    #close_menu_movil{
+    }
+    #cuadro_falta h2{
+        font-size: 40;
+    }
+    textarea{
+        font-size: 40;
+        width: 80%;
+        height: 60%;
+    }
 }

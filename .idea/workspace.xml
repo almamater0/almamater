@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/consejos.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/consejos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/contacto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -39,8 +34,8 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="240" column="14" lean-forward="true" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
+            <state relative-caret-position="-311">
+              <caret line="219" column="47" selection-start-line="219" selection-start-column="47" selection-end-line="219" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -589,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="240" column="14" lean-forward="true" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
+        <state relative-caret-position="-311">
+          <caret line="219" column="47" selection-start-line="219" selection-start-column="47" selection-end-line="219" selection-end-column="47" />
         </state>
       </provider>
     </entry>
