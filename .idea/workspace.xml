@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/static/almamater0/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/animo.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/consejos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/contacto.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/static/principal/inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/inicio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_animo_blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/animo.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/animo/estres.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos/estres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/almamater0/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/almamater0/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/almamater0/base.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/almamater0/base.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/inicio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/principal/inicio.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/principal/inicio.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/almamater0/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/almamater0/base.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
@@ -40,8 +22,8 @@
       <file leaf-file-name="inicio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
@@ -51,11 +33,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inicio.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inicio.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+            <state relative-caret-position="454">
+              <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/almamater0/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,20 +115,20 @@
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
-        <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
-        <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
         <option value="$PROJECT_DIR$/principal/templates/contacto.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" />
         <option value="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" />
-        <option value="$PROJECT_DIR$/principal/static/principal/inicio.css" />
         <option value="$PROJECT_DIR$/principal/templates/inicio.html" />
+        <option value="$PROJECT_DIR$/principal/static/principal/inicio.css" />
+        <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
+        <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="79" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="561" />
+    <option name="y" value="32" />
     <option name="width" value="695" />
     <option name="height" value="735" />
   </component>
@@ -258,10 +264,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="561" y="32" width="695" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1647145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33136967" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -509,26 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/almamater0/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -572,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
@@ -584,8 +570,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+        <state relative-caret-position="454">
+          <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/almamater0/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
         </state>
       </provider>
     </entry>

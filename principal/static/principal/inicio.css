@@ -122,8 +122,25 @@ h2{
     body {
         background-color: lightblue;
     }
-    #prueba{
-        display:block;
-        width: 100%; height: 40%;
+    #imagen_div{
+        width: 100%;
+        height: 100%;
+        left: 0%; top: 0%;
     }
+    #cuadro_izquierda{
+        width: 80%;
+        position: absolute;
+        top: 10%; left: 10%;
+        height: 45%; min-height: 45%;
+    }
+    #lista_grados{
+        width: 80%;
+        position: absolute;
+        top: 10%; left: 10%;
+        height: 80%; min-height: 80%;
+    }
+    .inline_block{
+        display: block;
+    }
+
 }
