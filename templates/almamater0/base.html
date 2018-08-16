@@ -11,10 +11,10 @@
         <div id="barra_de_arriba">
             <a id="almamater" style="color: rgb(0,0,0); text-decoration:none;" href="/">ALMA MATER</></a>
             <p>
-            <a class="subrayar" id="busca_tu_grado">GRADOS</a> &nbsp &nbsp
+            <a class="subrayar busca_tu_grado">GRADOS</a> &nbsp &nbsp
             <a class="subrayar" href="/contacto">CONTACTO</a> &nbsp &nbsp
             <a class="subrayar" href="/consejos">CONSEJOS</a> &nbsp &nbsp
-            <a id="falta_algo" class="subrayar">PREGÚNTANOS</a> &nbsp &nbsp
+            <a class="falta_algo subrayar">PREGÚNTANOS</a> &nbsp &nbsp
             </p>
         </div>
         <div id="cuadro_falta">
@@ -55,6 +55,14 @@
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
+        <div id="menu_movil">
+            <ul>
+                <li><a class="busca_tu_grado">GRADOS</a></li>
+                <li><a href="/contacto">CONTACTO</a></li>
+                <li><a href="/consejos">CONSEJOS</a></li>
+                <li><a class="falta_algo">PREGÚNTANOS</a></li>
+            </ul>
+        </div>
         {% endblock %}
 
 {%block content%}
@@ -65,13 +73,13 @@
 {% block script %}
 <script>
     $(document).ready(function(){
-        $('#falta_algo').click(function(){
+        $('.falta_algo').click(function(){
             $('#cuadro_falta').show()
         })
         $('#close_comentario_falta').click(function(){
             $('#cuadro_falta').hide()
         })
-        $('#busca_tu_grado').click(function(){
+        $('.busca_tu_grado').click(function(){
             $('#lista_grados').show()
             })
         $('#close_lista_grados').click(function(){
@@ -83,8 +91,11 @@
             $(this).css("text-decoration","none")}
             )
         $('#container').click(function(){
-            $(this).toggleClass("change") })
-
+            $(this).toggleClass("change")
+            })
+        $('#container').click(function(){
+            $('#menu_movil).show()
+            })
     })
 
 </script>
