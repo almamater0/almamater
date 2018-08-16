@@ -131,7 +131,7 @@ p{
         font-size: 40;
     }
     .inl-block{
-        position: relative;
+        position: relative; left: 0%;
     }
     .inl-block p{
         font-size: 40;

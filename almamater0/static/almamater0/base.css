@@ -259,7 +259,7 @@ lista-grados li: last child{
     }
     #cuadro_falta h2{
         font-size: 40;
-        width: 80%;
+        width: 100%;
     }
     textarea{
         font-size: 40;
@@ -269,7 +269,7 @@ lista-grados li: last child{
     }
     button{
         width: 50%;
-        font-size: 40%;
+        font-size: 40;
         height: 7%;
     }
 }
