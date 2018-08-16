@@ -79,6 +79,7 @@ li: last child{
         left: 15%;
         top: 28%;
         height: 25%; max-height: 25%;
+        min-height: 25%;
     }
     #listado_universidades universidad{
         font-size: 30;

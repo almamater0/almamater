@@ -81,15 +81,79 @@ h3{
 
 @media only screen and (max-device-width: 6000px) {
     #titulo{
-        text-align: center; width: 100%;
-        font-size: 30;
-        top: 10%;
+        position: absolute;
+        top: 16%;
+        left: 0%;
+        width: 60%;
+        text-align: center;
+        font-size: 35;
     }
     #imagen_universidad_div{
         position: absolute;
-        top: 1%;
-        width: 80%;
-        left: 10%;
-        height: 18%;
+        top: 35%;
+        left: 52%;
+        display: block;
+        width: 40%;
+        height: 55%;
     }
+
+    #imagen_universidad_div imagen_universidad{
+        width: 90%;
+        margin-left: auto;
+        margin-left: auto;
+        height: 100%;
+        position: absolute; left: 5%;
+    }
+
+    #indice{
+        position: absolute;
+        top: 35%;
+        left: 8%;
+        width:40%;
+        height: 55%; min-height: 55%;
+        display: block;
+        padding: 10 px;
+    }
+    #indice ul{
+        list-style: none;
+        text-align: justify;
+        position: absolute;
+        left: 5%;
+        width: 80%;
+        top: 30%;
+    }
+    li{
+        padding-bottom: 2%;
+    }
+    li: last child{
+        padding-bottom: 0%;
+    }
+    .index{
+        color: rgb(0,0,0);
+        font-size: 18;
+    }
+    #texto{
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        width: 70%;
+        font-size: 17;
+    }
+    .border h2{
+        font-size: 20;
+        position: relative; left: 8%; top: 15px;
+    }
+    #texto p{
+        position:relative;
+        padding-top: 1%; padding-bottom: 2%; padding-left:8%; padding-right: 6%;
+    }
+    h3{
+        font-size: 19;
+        font-weight: normal;
+        text-align: justify;
+        width: 80%;
+        position: absolute; left: 10%;
+    }
+
+
 }
