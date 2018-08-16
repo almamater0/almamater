@@ -72,6 +72,7 @@ li: last child{
         width: 80%;
         position: absolute; left: 10%; top: 9%;
         font-size: 70;
+        text-align: center;
     }
     #listado_universidades{
         width: 80%;
@@ -80,6 +81,7 @@ li: last child{
         top: 28%;
         height: 25%; max-height: 25%;
         min-height: 25%;
+        padding-left: 0%;
     }
     .universidad{
         font-size: 30;
@@ -103,7 +105,7 @@ li: last child{
     .inline-block{
         position: relative;
     }
-    .imagen_grafico{
+    .grafico imagen_grafico{
         margin-left: auto;
         margin-right: auto;
         width: 75%;
