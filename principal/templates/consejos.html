@@ -1,0 +1,48 @@
+{% extends "almamater0/base.html" %}
+{% block barra_de_arriba %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href = "{% static 'principal/consejos.css' %}" />
+</head>
+
+
+<body>
+    <div id="texto_presentacion">
+        <p>Sabemos que Bachillerato es difícil en muchos sentidos. La presión por tomar "la decisión más importante de tu vida", las notas de corte y la necesidad de superarlas,
+        las expectativas de la gente, estudiar... Por ello, hemos recopilado información que podrás digerir rápidamente pinchando en los blogs de abajo. Si echas algo en falta, no dudes
+        en pinchar en la pestaña "pregúntanos" de arriba y comentarnos.</p>
+    </div>
+    <div id="estres" class="blogs">
+        <h2>¿Te sientes estresad@?</h2>
+        <p>fffffff fffffffffffffffffff</p>
+        <a class="leer_mas" href="/consejos/estres" style="color:rgb(0,0,0);">Leer más</a>
+
+    </div>
+    <div id="organizacion_tiempo" class="blogs">
+        <h2>¿Sientes que pierdes el tiempo?</h2>
+        <p>fffffff fffffffffffff fffff ffffffffffffffff</p>
+        <a class="leer_mas" href="/consejos/organizacion_tiempo" style="color:rgb(0,0,0);">Leer más</a>
+
+    </div>
+    <div id="consejos_estudio" class="blogs">
+        <h2>¿Te cuesta estudiar?</h2>
+        <p> fffffffffffffffff fffff fffffffffffff fffff fffffff</p>
+        <a class="leer_mas" style="color:rgb(0,0,0);" href="/consejos/estudio">Leer más</a>
+
+    </div>
+    <div id="consejos_elegir_carrera" class="blogs">
+        <h2>¿No sabes qué quieres estudiar?</h2>
+        <p>ffffffffffffffffffff fffffff</p>
+        <a class="leer_mas" href="/consejos/elegir_carrera" style="color:rgb(0,0,0);">Leer más</a>
+    </div>
+
+</body>
+{%endblock%}
+
+{%block script%}
+{{block.super}}
+{%endblock%}

@@ -5,23 +5,28 @@ body{
 
 #titulo{
     position: absolute;
-    top: 15.5%;
+    top: 17%;
     left: 25%;
     width: 50%;
     font-size: 20;
 }
 #texto{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 20%;
     width: 60%;
+    border: 2px solid rgb(0, 71, 179);
 }
 ul{
-    list-style: none;
+    list-style: square;
+    padding-left: 10%;
 }
 li{
     margin-bottom: 10px;
 }
 li: last child{
     margin-bottom: 0px;
+}
+h2{
+    padding-left: 3%;
 }

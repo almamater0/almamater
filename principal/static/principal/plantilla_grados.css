@@ -1,8 +1,8 @@
 #titulo{
     position: absolute;
-    top: 16%; left: 9%;
+    top: 16%; left: 19%;
     font-family: Arial;
-    font-size: 35;
+    font-size: 30;
 }
 h2{
     text-align: center;
@@ -12,14 +12,19 @@ h2{
     position: absolute;
     top: 38%;
     left: 10%;
+    width: 36%;
+    height: 48.5%; min-height: 48.5%;
+    border: 2px solid rgb(0, 71, 179);
+    padding-left: 2%;
 }
 .universidad{
-    text-decoration: none;     /*utilizar mas el relative */
-    font-family:Arial;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-family: Arial;
     font-size:23;
 }
 ul{
-    list-style: none;
+    list-style-type: square;
 }
 li{
     margin-bottom: 15px;
@@ -29,26 +34,37 @@ li: last child{
 }
 #notas_de_corte{
     position: absolute;
-    top: 25%; left: 50%;
-    width: 40%; height: 55%; min-height: 55%;
+    top: 23%; left: 54%;
+    width: 36%; height: 63.5%; min-height: 63.5%;
 }
 .grafico{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 71, 179);
     width: 70%;
-}
+    height: 60%; min-height: 60%;
+    text-align: justify;
 
-#ranking{
-    position: absolute;
-    top: 95%; left: 10%;
-    width: 80%; min-height: 30%; height: 30%;
 }
-#ects{
+#informacion{
     position: absolute;
-    top: 130%; left: 10%;
-    width: 80%; min-height: 30%; height: 30%;
+    top: 95%;
+    left: 20%;
 }
-#egresados{
-    position: absolute;
-    top: 165%; left: 10%;
-    width: 80%; min-height: 30%; height: 30%;
+.inline-block{
+    display: inline-block;
+    position: relative;
+}
+.imagen_grafico{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#notas_de_corte .imagen_grafico{
+    width: 90%;
+    display: block;
+    margin-left:auto; margin-right: auto;
+}
+#informacion p{
+    font-size: 20;
+    padding: 6%;
 }

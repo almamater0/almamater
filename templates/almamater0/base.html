@@ -1,6 +1,7 @@
 {% load static %}
 <head>
     <link rel="stylesheet" type="text/css" href = "{% static 'almamater0/base.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'principal/images/opened-book.jpg' %}"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     {% csrf_token %}
 </head>
@@ -8,29 +9,46 @@
 <body>
         {% block barra_de_arriba %}
         <div id="barra_de_arriba">
-            <h1 id="almamater"><a style="color: rgb(255,255,255); text-decoration:none;" href="/">AlmaMater </a></h1>
-            <a class="celda_barra cambiar_color2" id="grados_celda">Grados</a>
-            <a class="celda_barra cambiar_color2" href="/contacto">Contacto</a>
-            <a class="celda_barra cambiar_color2" href="/animo">Ánimo</a>
-            <a id="falta_algo" class="celda_barra cambiar_color2">¿Falta algo?</a>
+            <a id="almamater" style="color: rgb(0,0,0); text-decoration:none;" href="/">ALMA MATER</></a>
+            <p>
+            <a class="subrayar" id="busca_tu_grado">GRADOS</a> &nbsp &nbsp
+            <a class="subrayar" href="/contacto">CONTACTO</a> &nbsp &nbsp
+            <a class="subrayar" href="/consejos">CONSEJOS</a> &nbsp &nbsp
+            <a id="falta_algo" class="subrayar">PREGÚNTANOS</a> &nbsp &nbsp
+            </p>
         </div>
-        <div id="areas" class="mantener_show">
-        <ul>
-            <div id="sociales_div" class="celda_area_div"><li><a class="celda_area cambiar_color" id="sociales">Sociales</a></li></div>
-            <div id="tecnologico_div" class="celda_area_div"><li><a class="celda_area cambiar_color" id="tecnologico">Tecnológico</a></li></div>
-            <div id="biosanitario_div" class="celda_area_div"><li><a class="celda_area cambiar_color" id="biosanitario">Biosanitario</a></li></div>
-        </ul>
-        </div>
-
         <div id="cuadro_falta">
-            <h2>¿Echas en falta algo en la página? ¿Tienes alguna sugerencia? Cuéntanos.</h2> <br>
+            <h2>¿Se te ha quedado alguna duda? Pregúntanos.</h2> <br>
             <form action="/comentario" method="POST">
                 {% csrf_token %}
-                <textarea name="comentario_falta" rows="10" cols="80"></textarea> <br> <br>
-                <button id="button_cierre">Cerrar</button>
+                <textarea name="comentario_falta" rows="10" cols="80" placeholder="Escribe tu dirección de correo en el cuadro de texto junto con tus dudas para que podamos responderte. Además, si tienes alguna sugerencia o echas algo en falta que debería estar en la página, ¡dínoslo! Tus ideas nos servirán para mejorar la página y ayudar a más gente."></textarea> <br> <br>
                 <button type="submit">Enviar mensaje</button>
             </form>
-            <a class="close" id="close_lista_grados"></a>
+            <a class="close" id="close_comentario_falta"></a>
+        </div>
+        <div id="lista_grados">
+        <div class="inline_block" id="sociales.container">
+        <ul id="sociales">
+            <li style="list-style-type: none"><h2>SOCIALES</h2></li>
+            <li><a href="/grados/derecho">Derecho</a></li>
+            <li><a href="/grados/ade">Administración y dirección de empresas.</a></li>
+            <li><a href="/grados/relaciones_internacionales">Relaciones internacionales</a></li>
+        </ul> </div>
+        <div class="inline_block" id="tecnologico.container">
+        <ul id="tecnologico">
+            <li style="list-style-type: none"><h2>TECNOLÓGICO</h2></li>
+            <li><a href="/grados/fisica">Física</a></li>
+            <li><a href="/grados/matematicas">Matemáticas</a></li>
+            <li><a href="/grados/ingenieria_industrial">Ingeniería industrial</a></li>
+        </ul> </div>
+        <div class="inline_block" id="biosanitario.container">
+        <ul id="biosanitario">
+            <li style="list-style-type: none"><h2>BIOSANITARIO</h2></li>
+            <li><a href="/grados/medicina">Medicina</a></li>
+            <li><a href="/grados/biotecnologia">Biotecnología</a></li>
+            <li><a href="/grados/psicologia">Psicología</a></li>
+        </ul> </div>
+        <a class="close" id="close_lista_grados"></a>
         </div>
         {% endblock %}
 
@@ -42,17 +60,25 @@
 {% block script %}
 <script>
     $(document).ready(function(){
-        $('.cambiar_color2').hover(function(){
-            $(this).css("background-color","rgb(100,100,100)")},
-            function(){
-            $(this).css("background-color", "2F2FA2")})
-        $('.cambiar_color').hover(function(){
-            $(this).css("background-color", "rgb(90,90,90)")},
-            function(){
-            $(this).css("background-color", "rgb(100,100,100)")})
         $('#falta_algo').click(function(){
             $('#cuadro_falta').show()
         })
+        $('#close_comentario_falta').click(function(){
+            $('#cuadro_falta').hide()
+        })
+        $('#busca_tu_grado').click(function(){
+            $('#lista_grados').show()
+            })
+        $('#close_lista_grados').click(function(){
+            $('#lista_grados').hide()
+            })
+        $('.subrayar').hover(function(){
+            $(this).css("text-decoration","underline")},
+            function(){
+            $(this).css("text-decoration","none")}
+            )
+
     })
+
 </script>
 {%endblock%}

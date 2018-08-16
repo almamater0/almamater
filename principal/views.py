@@ -17,12 +17,12 @@ def info_grados_universidad(request, grado, universidad):
     template="grados/"+grado+"_universidades/"+grado+"_"+universidad+".html"
     return render(request, template)
 
-def animo(request):
+def consejos(request):
 
-    return render(request, "animo.html")
+    return render(request, "consejos.html")
 
-def animo_blogs(request, blog):
-    template="animo/"+blog+".html"
+def consejos_blogs(request, blog):
+    template="consejos/"+blog+".html"
     return render(request, template)
 
 def contacto(request):
