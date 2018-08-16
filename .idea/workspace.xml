@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/contacto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="consejos.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
+            <state relative-caret-position="882">
               <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
             </state>
           </provider>
@@ -49,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacto.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plantilla_consejos_blogs.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacto.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="546">
+              <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -121,11 +130,11 @@
         <option value="$PROJECT_DIR$/principal/views.py" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
-        <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/consejos.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos.html" />
         <option value="$PROJECT_DIR$/principal/templates/contacto.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
+        <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
       </list>
     </option>
   </component>
@@ -568,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/consejos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -588,9 +590,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/consejos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
+        <state relative-caret-position="882">
           <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
         </state>
       </provider>
@@ -609,10 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/contacto.css">
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="539">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
         </state>
       </provider>
     </entry>
