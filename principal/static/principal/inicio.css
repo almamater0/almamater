@@ -45,6 +45,7 @@
     min-height: 70%; height: 70%;
     background-color: rgb(255,255,255);
     box-shadow: 5px 5px 2px rgb(0, 71, 179);
+    overflow: auto;
 }
 ul{
     list-style-type: disc;
@@ -139,14 +140,11 @@ h2{
         top: 40%; left: 12%;
         width: 75%;
     }
-    #contenido a{
-        font-size: 40;
-    }
     #contenido li a{
-        font-size: 60;
+        font-size: 36;
     }
-    #contenido li{
-        font-size: 40;
+    #contenido busca_tu_grado{
+        font-size: 36;
     }
     #lista_grados{
         width: 80%;
