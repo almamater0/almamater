@@ -41,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estres.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="estres.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/templates/consejos/estres.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plantilla_consejos_blogs.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plantilla_consejos_blogs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state>
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/consejos.css" />
-        <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
+        <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
       </list>
     </option>
   </component>
@@ -592,17 +592,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/consejos/estres.html">
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state>
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
+    <entry file="file://$PROJECT_DIR$/principal/templates/consejos/estres.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
