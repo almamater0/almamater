@@ -16,6 +16,7 @@ h2{
     height: 48.5%; min-height: 48.5%;
     border: 2px solid rgb(0, 71, 179);
     padding-left: 2%;
+    overflow: auto;
 }
 .universidad{
     color: rgb(0,0,0);
@@ -113,7 +114,7 @@ li: last child{
     }
     #informacion{
         position: absolute;
-        top: 116%;
+        top: 115%;
         left: 2.5%;
         width: 95%;
     }
@@ -136,7 +137,7 @@ li: last child{
         font-size: 40;
         padding: 12%;
     }
-    h2{
+    #informacion h2{
         font-size: 45;
     }
     #footer{

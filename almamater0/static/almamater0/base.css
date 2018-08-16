@@ -195,23 +195,22 @@ lista-grados li: last child{
         text-decoration: none;
         font-size: 40;
         font-weight: bold;
-
     }
-
     #lista_grados{
         width: 80%;
         position: absolute;
         top: 10%; left: 10%;
         height: 80%; min-height: 80%;
+        overflow: auto;
     }
     .inline_block{
         display: block;
-        width: 60%;
-        position: relative; left: 20%; top: 5%;
-        font-size: 28;
+        width: 80%;
+        position: relative; left: 10%; top: 5%;
+        font-size: 40;
     }
     #lista_grados h2{
-        font-size: 42;
+        font-size: 45;
         text-align: center;
         color: rgb(0, 71, 179);
     }
