@@ -42,23 +42,18 @@ h2{
 }
 
 @media only screen and (max-device-width: 6000px) {
-    body{
-    font-family: Arial;
-    font-size: 17;
-    }
-
     #titulo{
         position: absolute;
         top: 11%;
         left: 15%;
         width: 70%;
-        font-size: 28;
+        font-size: 40;
     }
     #texto{
         position: absolute;
         top: 25%;
-        left: 5%;
-        width: 90%;
+        left: 2.5%;
+        width: 95%;
     }
     ul{
         list-style: square;
@@ -66,7 +61,7 @@ h2{
     }
     li{
         margin-bottom: 10px;
-        font-size: 25;
+        font-size: 40;
     }
     li: last child{
         margin-bottom: 0px;
@@ -74,7 +69,7 @@ h2{
     #texto h2{
         padding-left: 3%;
         text-align: center;
-        font-size: 32;
+        font-size: 45;
     }
     #footer{
         height: 5%;

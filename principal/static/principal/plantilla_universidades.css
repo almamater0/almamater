@@ -94,7 +94,7 @@ h3{
         left: 0%;
         width: 100%;
         text-align: center;
-        font-size: 35;
+        font-size: 45;
     }
     #imagen_universidad_div{
         position: absolute;
@@ -113,8 +113,8 @@ h3{
     #indice{
         position: absolute;
         top: 59%;
-        left: 5%;
-        width: 90%;
+        left: 2.5%;
+        width: 95%;
         height: 35%; min-height: 30%;
         padding: 0px;
     }
@@ -132,14 +132,14 @@ h3{
     }
     .index{
         color: rgb(0,0,0);
-        font-size: 25;
+        font-size: 40;
     }
     #texto{
         position: absolute;
         top: 99%;
-        left: 5%;
-        width: 90%;
-        font-size: 25;
+        left: 2.5%;
+        width: 95%;
+        font-size: 40;
     }
     .border h2{
         font-size: 32;
@@ -149,10 +149,10 @@ h3{
     .border p{
         position:relative;
         padding: 12px;
-        font-size: 25;
+        font-size: 40;
     }
     h3{
-        font-size: 25;
+        font-size: 40;
         font-weight: normal;
         text-align: justify;
         width: 80%;
