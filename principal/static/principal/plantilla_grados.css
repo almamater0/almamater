@@ -42,7 +42,6 @@ li: last child{
     width: 70%;
     height: 60%; min-height: 60%;
     text-align: justify;
-
 }
 #informacion{
     position: absolute;
@@ -102,5 +101,11 @@ li: last child{
     }
     .grafico h2{
         font-size: 38;
+    }
+    .grafico{
+        border: 2px solid rgb(0, 71, 179);
+        width: 100%;
+        min-height: 60%;
+        text-align: justify;
     }
 }
