@@ -129,7 +129,7 @@ h2{
         width: 80%;
         position: absolute;
         top: 10%; left: 10%;
-        height: 45%; min-height: 45%;
+        height: 50%; min-height: 50%;
     }
     #presentacion{
         font-size: 58;
@@ -137,7 +137,7 @@ h2{
     #contenido{
         font-size: 36;
         position: absolute;
-        top: 40%; left: 12%;
+        top: 50%; left: 12%;
         width: 75%;
     }
     #contenido li{
