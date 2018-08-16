@@ -194,7 +194,7 @@ lista-grados li: last child{
     #menu_movil a{
         color: rgb(0, 71, 179);
         text-decoration: none;
-        font-size: 60;
+        font-size: 55;
         font-weight: bold;
         text-align: center;
     }
