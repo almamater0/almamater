@@ -27,3 +27,45 @@
 #texto p{
     padding: 5%;
 }
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+    position: absolute;
+    top: 160%; left: 0%; width: 100%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
+
+@media only screen and (max-device-width: 6000px) {
+    #titulo{
+        position: absolute;
+        top: 10%;
+        width: 80%;
+        left: 10%;
+        font-size: 30;
+}
+    #entrada{
+        font-size: 23;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        height: 15%;
+    }
+    #texto{
+        font-size: 20;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 80%;
+    }
+    #texto p{
+        padding: 5%;
+    }
+    #footer{
+        height: 5%;
+    }
+
+}
