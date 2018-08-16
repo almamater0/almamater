@@ -60,16 +60,16 @@ p{
         position: absolute;
         left: 10%;
         top: 18%;
-        height: 10%;
+        height: 9%;
     }
     #entrada p{
-        font-size: 32;
+        font-size: 40;
      }
     #texto{
         position: absolute;
-        top: 35%;
-        left: 5%;
-        width: 90%;
+        top: 29%;
+        left: 2.5%;
+        width: 95%;
     }
     #texto p{
         padding: 5%;
