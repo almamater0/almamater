@@ -82,7 +82,7 @@ h3{
 @media only screen and (max-device-width: 6000px) {
     #titulo{
         position: absolute;
-        top: 16%;
+        top: 12%;
         left: 0%;
         width: 100%;
         text-align: center;
@@ -104,7 +104,7 @@ h3{
     }
     #indice{
         position: absolute;
-        top: 55%;
+        top: 59%;
         left: 10%;
         width: 80%;
         height: 35%; min-height: 30%;
@@ -128,7 +128,7 @@ h3{
     }
     #texto{
         position: absolute;
-        top: 95%;
+        top: 99%;
         left: 10%;
         width: 80%;
         font-size: 25;
@@ -139,7 +139,7 @@ h3{
     }
     #texto p{
         position:relative;
-        padding: 0px;
+        padding: 10px;
         font-size: 25;
     }
     h3{
