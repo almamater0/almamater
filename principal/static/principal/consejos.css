@@ -8,7 +8,7 @@
     text-align: justify;
 }
 .blogs{
-    width: 32%;
+    width: 45%;
     min-height: 50%; height: 50%; /* misma altura para todos, la entrada se tiene que adaptar. */
     background-color: rgb(240,240,240);
     font-size: 18;
@@ -47,4 +47,12 @@ h2{
     left: 7%;
     bottom: 7%;
 
+}
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
 }
