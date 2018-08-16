@@ -9,7 +9,7 @@
 p{
     text_align: justify;
 }
-#titulo p{
+#titulo h1{
     text-align:center;
 }
 
@@ -43,7 +43,9 @@ p{
     text-align: center;
     font-size: 25;
 }
-
+p{
+    text-align: justify;
+}
 @media only screen and (max-device-width: 600px) {
     #titulo{
         position: absolute;

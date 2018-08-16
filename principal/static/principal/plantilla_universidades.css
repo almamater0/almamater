@@ -2,6 +2,9 @@ body{
     font-family: Arial;
 
 }
+p{
+    text-align: justify;
+}
 #titulo{
     position: absolute;
     top: 16%;

@@ -4,9 +4,12 @@
     font-family: Arial;
     font-size: 30;
 }
+p{
+    text-align: justify;
+}
 #informacion h2{
     text-align: center;
-    font-size: 24;
+    font-size: 30;
 }
 #listado_universidades{
     position: absolute;
@@ -47,11 +50,12 @@
 #informacion{
     position: absolute;
     top: 95%;
-    left: 20%;
+    left: 0%;
+    width: 100%;
 }
 .inl-block{
     display: inline-block;
-    position: relative;
+    position: relative; left: 15%;
 }
 .imagen_grafico{
     display: block;
@@ -64,17 +68,22 @@
     display: block;
     margin-left:auto; margin-right: auto;
 }
+#notas_de_corte h2{
+    text-align: center;
+    font-size: 30;
+}
 #informacion p{
     font-size: 20;
     padding: 6%;
 }
 #footer{
     border-top: 2px solid rgb(150,150,150);
-    height: 10%;
+    height: 80px;
 }
 #footer p{
     text-align: center;
-    font-size: 25;
+    font-size: 20;
+    padding: 0px;
 }
 @media only screen and (max-device-width: 600px) {
     #listado_universidades ul{
