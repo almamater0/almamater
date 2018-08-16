@@ -149,20 +149,7 @@ lista-grados li: last child{
 #container{
     display: none;
 }
-#barra_de_abajo{
-    position: absolute;
-    bottom: 0%;
-    left: 0%:
-    text-align: center;
-    width: 100%;
-    min-height: 10%;
-    border-top: 2px solid rgb(230,230,230);
 
-}
-#barra_de_abajo p{
-    text-align: center;
-    font-size: 22;
-}
 
 @media only screen and (max-device-width: 65600px) {
     #barra_de_arriba{

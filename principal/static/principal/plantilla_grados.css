@@ -67,6 +67,14 @@ li: last child{
     font-size: 20;
     padding: 6%;
 }
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
 @media only screen and (max-device-width: 6000px) {
     #titulo{
         width: 80%;
@@ -114,5 +122,8 @@ li: last child{
     }
     h2{
         font-size: 35;
+    }
+    #footer{
+        height: 5%;
     }
 }

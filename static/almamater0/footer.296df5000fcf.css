@@ -1,0 +1,8 @@
+#barra_de_abajo{
+    background-color: rgb(255,255,255);
+    border-top: 2px solid rgb(230,230,230);
+}
+#barra_de_abajo p{
+    text-align: center;
+    font-size: 25;
+}

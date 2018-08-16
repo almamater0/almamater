@@ -1,6 +1,6 @@
 body{
     font-family: Arial;
-    min-height: 100%;
+
 }
 #titulo{
     position: absolute;
@@ -79,7 +79,14 @@ h3{
     width: 80%;
     position: absolute; left: 10%;
 }
-
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
 @media only screen and (max-device-width: 6000px) {
     #titulo{
         position: absolute;
@@ -151,6 +158,8 @@ h3{
         width: 80%;
         position: absolute; left: 10%;
     }
-
+    #footer{
+        height: 5%;
+    }
 
 }
