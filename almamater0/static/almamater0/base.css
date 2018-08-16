@@ -191,10 +191,10 @@ lista-grados li: last child{
         box-shadow: 0px 0px 2px rgb(0, 71, 179) inset;
         transition: 0.4s;
     }
-    #menu_movil a{
+    #menu_movil li a{
         color: rgb(0, 71, 179);
         text-decoration: none;
-        font-size: 55;
+        font-size: 32;
         font-weight: bold;
         text-align: center;
     }
