@@ -82,8 +82,14 @@
             function(){
             $(this).css("text-decoration","none")}
             )
+        $('#container').click(function(){
+            $(this).toggleClass("change") })
 
     })
 
 </script>
 {%endblock%}
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
