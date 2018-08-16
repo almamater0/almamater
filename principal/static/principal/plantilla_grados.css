@@ -120,13 +120,17 @@ li: last child{
     .inline-block{
         position: relative;
     }
+    .inline-block p{
+        font-size: 23;
+        padding: 12%;
+    }
     .grafico imagen_grafico{
         margin-left: auto;
         margin-right: auto;
         width: 75%;
     }
     .grafico p{
-        font-size: 20;
+        font-size: 23;
         padding: 12%;
     }
     h2{
