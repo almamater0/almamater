@@ -8,49 +8,93 @@
 {% load static %}
 <head>    <!-- solucionar esto, en ez de fisica, poner {{grado}} y que funcione -->
     <link rel="stylesheet" type="text/css" href = "{% static 'principal/plantilla_grados.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div id="titulo">
-        <h1>FÍSICA</h1>
+        FÍSICA
     </div>
-    <div id="listado_universidades">
-        <ul>
-            <li><a class="universidad" href="/grados/fisica/complutense">Universidad Complutense</a></li>
-            <li><a class="universidad" href="/grados/fisica/autonoma">Universidad Autónoma de Madrid</a></li>
-            <li><a class="universidad" href="/grados/fisica/alcala">Universidad de Alcalá de Henares</a></li>
-            <li><a class="universidad" href="/grados/fisica/carlos_iii">Universidad Carlos III</a></li>
-            <li><a class="universidad" href="/grados/fisica/juan_carlos">Universidad Juan Carlos I</a></li>
-            <li><a class="universidad" href="/grados/fisica/francisco_vitoria">Universidad Francisco de Vitoria</a></li>
-        </ul>
+    <div id="container_imagen_universidades" class="display_unis">
+        <div id="titulo_universidades" class="display_unis">Información <br> específica <br> de <br> cada <br> universidad <br></div>
     </div>
-    <div id="notas_de_corte" class="grafico">
-        <h2>Notas de corte</h2>
+
+    <div id="lista_universidades">
+        <div class="div_universidad" id="autonoma">
+            <a href="/grados/{{grado}}/autonoma"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/autonoma">Universidad <br> Autónoma <br> de Madrid</a> </div>
+        </div>
+        <div class="div_universidad" id="complutense">
+            <a href="/grados/{{grado}}/complutense"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/complutense">Universidad <br> Complutense<br> de Madrid</a></div>
+        </div>
+        <div class="div_universidad" id="politecnica">
+            <a href="/grados/{{grado}}/politecnica"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/politecnica">Universidad <br> Politécnica <br> de Madrid</a></div>
+        </div>
+        <div class="div_universidad" id="juancarlosi">
+            <a href="/grados/{{grado}}/juan_carlosi"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/juan_carlosi">Universidad <br> Juan Carlos I</a></div>
+        </div>
+        <div class="div_universidad" id="carlosiii">
+            <a href="/grados/{{grado}}/carlosiii"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/carlosiii">Universidad <br> Carlos III</a></div>
+        </div>
+        <div class="div_universidad" id="francisco_vitoria">
+            <a href="/grados/{{grado}}/francisco_vitoria"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/francisco_vitoria">Universidad <br> Francisco <br> de Vitoria</a></div>
+        </div>
+        <div class="div_universidad" id="icade">
+            <a href="/grados/{{grado}}/icade"></a>
+            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+            <div class="texto_universidad"><a href="/grados/{{grado}}/icade">ICADE</a></div>
+        </div>
+    </div>
+
+    <div id="atras_universidades">&#x21A9;</div>
+    <div id="notas_de_corte">
+        <h2>NOTAS DE CORTE</h2>
         <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-        <!-- En notas de corte no hay texto -->
     </div>
-    <div id="informacion">
-        <div id="ranking" class="grafico inl-block">
-            <h2>Ranking</h2>
-            <p>ffffffffffffffffffffffffffffffffff
-                fffffffff</p>
-        </div> <br> <br>
-        <div id="ects" class="grafico inl-block">
-            <h2>Créditos</h2>
-            <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <p>la Comisiónto</p>
-        </div> <br><br>
-        <div id="egresados" class="grafico inl-block">
-            <h2>Graduados</h2>
-            <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <p>Whateever</p>
-        </div>
-        <div id="footer">
-            <p>Proyecto Alma Mater</p>
-        </div>
+    <div id="detail"></div>
+    <div id="mas_info"><i style="font-size:40;" class="fa">&#xf0ab;</i>&nbsp;&nbsp;Más información general</div>
+    <div class="grafico" id="ranking">
+        <h2>RANKING</h2>
+        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
     </div>
+    <div class="grafico" id="graduados">
+        <h2>GRADUADOS</h2>
+        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+    </div>
+    <div class="grafico" id="creditos">
+        <h2>CRÉDITOS</h2>
+        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
+    </div>
+
+    <div id="footer">Proyecto Alma Mater</div>
 </body>
 
+<script>
+$(document).ready(function(){
+    $('.display_unis').click(function(){
+        $('#lista_universidades').slideDown(600);
+        $('#atras_universidades').show("slide", {direction: "right"}, 600);
+        $('#cubrir').fadeIn(1000);
+    })
+    $('#atras_universidades').click(function(){
+        $('#lista_universidades').fadeOut(300);
+        $('#atras_universidades').fadeOut(300);
+        $('#cubrir').fadeOut(300);
+    })
+})
+
+</script>
 {%endblock%}
 
 {% block barra_de_abajo %}
@@ -60,3 +104,4 @@
 {%block script%}
 {{block.super}}
 {%endblock%}
+

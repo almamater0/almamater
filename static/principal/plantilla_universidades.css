@@ -2,6 +2,9 @@ body{
     font-family: Arial;
 
 }
+p{
+    text-align: justify;
+}
 #titulo{
     position: absolute;
     top: 16%;
@@ -79,15 +82,22 @@ h3{
     width: 80%;
     position: absolute; left: 10%;
 }
-
-@media only screen and (max-device-width: 6000px) {
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
+@media only screen and (max-device-width: 600px) {
     #titulo{
         position: absolute;
         top: 12%;
         left: 0%;
         width: 100%;
         text-align: center;
-        font-size: 35;
+        font-size: 45;
     }
     #imagen_universidad_div{
         position: absolute;
@@ -106,16 +116,16 @@ h3{
     #indice{
         position: absolute;
         top: 59%;
-        left: 10%;
-        width: 80%;
-        height: 35%; min-height: 30%;
+        left: 2.5%;
+        width: 95%;
+        height: 50%; min-height: 50%;
         padding: 0px;
     }
     #indice ul{
         position: absolute;
         left: 3%;
         width: 80%;
-        top: 30%;
+        top: 36%;
     }
     li{
         padding-bottom: 3%;
@@ -125,32 +135,36 @@ h3{
     }
     .index{
         color: rgb(0,0,0);
-        font-size: 25;
+        font-size: 40;
     }
     #texto{
         position: absolute;
-        top: 99%;
-        left: 10%;
-        width: 80%;
-        font-size: 25;
+        top: 123%;
+        left: 2.5%;
+        width: 95%;
+        font-size: 40;
     }
     .border h2{
         font-size: 32;
         text-align: center;
         position: relative; left: 0%;
     }
-    #texto p{
+    .border p{
         position:relative;
-        padding: 10px;
-        font-size: 25;
+        padding: 12px;
+        font-size: 40;
     }
     h3{
-        font-size: 25;
+        font-size: 40;
         font-weight: normal;
         text-align: justify;
         width: 80%;
         position: absolute; left: 10%;
     }
-
-
+    #footer{
+        height: 5%;
+    }
+    #footer p{
+        font-size: 40;
+    }
 }

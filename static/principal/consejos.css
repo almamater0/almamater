@@ -1,3 +1,6 @@
+p{
+    text-align: justify;
+}
 #texto_presentacion{
     position: absolute;
     left: 15%;
@@ -10,7 +13,7 @@
 .blogs{
     width: 32%;
     min-height: 50%; height: 50%; /* misma altura para todos, la entrada se tiene que adaptar. */
-    background-color: rgb(240,240,240);
+    background-color: rgb(255,255,255);
     font-size: 18;
     color: solid black:
     font-family: Arial;
@@ -30,7 +33,7 @@
     position: absolute;
     left: 15%;
     top: 105%;
-}
+} /*Hay que poner cada div 2 por linea mirando la altura de 50% y dejando 5% de altura. left 15 y 52% */
 #organizacion_tiempo{
     position: absolute;
     left: 53%;
@@ -46,5 +49,73 @@ h2{
     position: absolute;
     left: 7%;
     bottom: 7%;
+}
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+    position: absolute; top: 160%;
+    left: 0%; width: 100%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
+
+@media only screen and (max-device-width: 600px) {
+    #texto_presentacion{
+        position: absolute;
+        left: 10%;
+        top: 12%;
+        width: 80%;
+        height: 18%;
+    }
+    #texto_presentacion p{
+        font-size: 40;
+    }
+    .blogs{
+        width: 95%;
+        min-height: 45%; height: 45%; /* misma altura para todos, la entrada se tiene que adaptar. */
+        font-size: 40;
+    } /*se ponen en absolute left 2.5 y top dejando un espacio de 45 + 2 % y actualizando el footer bajandolo 47% tb!!*/
+    #estres{
+        position: absolute;
+        left: 2.5%;
+        top: 49%;
+    }
+    #consejos_estudio{
+        position: absolute;
+        left: 2.5%;
+        top: 96%;
+    }
+    #consejos_elegir_carrera{
+        position: absolute;
+        left: 2.5%;
+        top: 143%;
+    }
+    #organizacion_tiempo{
+        position: absolute;
+        left: 2.5%;
+        top: 190%;
+    }
+    h2{
+        text-align: center;
+        font-size: 45;
+    }
+    .blogs p{
+        padding: 6%;
+    }
+    .leer_mas{
+        position: absolute;
+        left: 7%;
+        bottom: 7%;
+    }
+    #footer{
+        height: 10%;
+        position: absolute;
+        top: 239%;
+    }
+    #footer p{
+        font-size: 40;
+    }
 
 }

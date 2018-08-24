@@ -1,73 +1,153 @@
-#titulo{
-    position: absolute;
-    top: 16%; left: 19%;
-    font-family: Arial;
-    font-size: 30;
-}
-h2{
-    text-align: center;
-    font-size: 24;
-}
-#listado_universidades{
-    position: absolute;
-    top: 38%;
-    left: 10%;
-    width: 36%;
-    height: 48.5%; min-height: 48.5%;
-    border: 2px solid rgb(0, 71, 179);
-    padding-left: 2%;
-}
-.universidad{
-    color: rgb(0,0,0);
-    text-decoration: none;
-    font-family: Arial;
-    font-size:23;
-}
-ul{
-    list-style-type: square;
-}
-li{
-    margin-bottom: 15px;
-}
-li: last child{
-    margin-bottom: 0px;
-}
-#notas_de_corte{
-    position: absolute;
-    top: 23%; left: 54%;
-    width: 36%; height: 63.5%; min-height: 63.5%;
-}
-.grafico{
-    border: 2px solid rgb(0, 71, 179);
-    width: 70%;
-    height: 60%; min-height: 60%;
+p{
     text-align: justify;
 }
-#informacion{
+#titulo{
     position: absolute;
-    top: 95%;
-    left: 20%;
+    top: 14%; left: 150px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 70;
+    font-weight: bold;
 }
-.inline-block{
+#container_imagen_universidades{
+    cursor: pointer;
+    background-color: #1FFFF5;
+    position: absolute;
+    top: 29%;
+    left: 150px;
+    width: 36%;
+    height: 61%;
+    border-radius: 10%;
+}
+#titulo_universidades{
+    cursor: pointer;
+    position: absolute; top: 20%; left: 20%;
+    color: rgb(30,30,30);
+    font-size: 40;
+    font-family: "Noto Sans", sans-serif;
+}
+#lista_universidades{
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 68%;
+    height: 100%;
+    overflow: auto;
+    background-color: #1FFFF5;
+}
+#atras_universidades{
+    display: none;
+    z-index: 10;
+    font-size: 80;
+    color: #1FFFF5;
+    position: absolute; top: 10%; left: 86%;
+    cursor: pointer;
+}
+.div_universidad{
     display: inline-block;
-    position: relative;
+    float: left;
+    width: 28%;
+    height: 45%;
+    border-radius: 20%;
+    padding: 1.5%;
+    position: relative; left: 2%;
+}
+.div_universidad a{
+    width: 100%;
+    height: 100%;
+    position: absolute; left: 0%; top: 0%;
+}
+.div_universidad .imagen_universidad{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    filter: brightness(30%);
+}
+.div_universidad .texto_universidad{
+    width: 50%;
+    position: absolute; left: 25%; top: 30%;
+    text-align: justify;
+}
+.div_universidad .texto_universidad a{
+    font-size: 22;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+#mas_info{
+    font-size: 30;
+    color: rgb(70,70,70);
+    font-family: "Noto Sans", sans-serif;
+    position: absolute; top: 84%; left: 55%;
+}
+#notas_de_corte{
+    display:block;
+    border-radius: 10%;
+    position: absolute;
+    top: 14%; left: 50%;
+    width: 39%; height: 60%;
+}
+#notas_de_corte h2{
+    font-size: 28;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    color: rgb(70,70,70);
 }
 .imagen_grafico{
+    border-radius: 10%;
+    width: 100%;
+    height: 90%;
+}
+.grafico{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+    border-radius: 10%;
+    width: 50%;
+    height: 60%;
 }
-#notas_de_corte .imagen_grafico{
-    width: 90%;
-    display: block;
-    margin-left:auto; margin-right: auto;
+.grafico h2{
+    font-size: 28;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    color: rgb(70,70,70);
 }
-#informacion p{
-    font-size: 20;
-    padding: 6%;
+#ranking{
+    position: absolute;
+    top: 110%; left: 25%;
 }
-@media only screen and (max-device-width: 6000px) {
+#graduados{
+    position: absolute;
+    top: 180%; left: 25%;
+}
+#creditos{
+    position: absolute;
+    top: 250%; left: 25%;
+}
+#detail{
+    height: 205%;
+    position: absolute; top: 110%; left: 15%;
+    width: 1%;
+    background-color: #1FFFF5;
+}
+#footer{
+    padding-top: 13px;
+    width: 100%;
+    position: absolute; left: 0%; top: 320%;
+    height: 8%;
+    font-size: 23;
+    text-align: center;
+    color: rgb(30,30,30);
+    font-family: "Vidaloka";
+    border-top: 2px solid rgb(180, 180, 180);
+}
+
+
+@media only screen and (max-device-width: 600px) {
+    #listado_universidades ul{
+        position: absolute;
+        left: 20%;
+        top: 7%;
+    }
     #titulo{
         width: 80%;
         position: absolute; left: 10%; top: 9%;
@@ -75,44 +155,64 @@ li: last child{
         text-align: center;
     }
     #listado_universidades{
-        width: 80%;
+        width: 95%;
         position: absolute;
-        left: 10%;
+        left: 2.5%;
         top: 28%;
-        height: 25%; max-height: 25%;
+        height: 32%; max-height: 32%;
         min-height: 25%;
         padding-left: 0%;
     }
     .universidad{
-        font-size: 30;
+        font-size: 40;
     }
     #notas_de_corte{
-        width: 80%;
+        width: 95%;
         position: absolute;
-        left: 10%;
-        top: 54%;
-        height: 40%; max-height: 40%; min-height: 40%;
+        left: 2.5%;
+        top: 63%;
+        height: 50%; max-height: 50%; min-height: 50%;
     }
     .grafico{
         width: 100%;
         height: 60%; min-height: 60%;
-        font-size: 30;
+        font-size: 40;
     }
     #informacion{
         position: absolute;
-        top: 97%;
-        left: 10%;
-        width: 80%;
+        top: 115%;
+        left: 2.5%;
+        width: 95%;
     }
-    .inline-block{
-        position: relative;
+    #informacion p{
+        font-size: 40;
+    }
+    .inl-block{
+        position: relative; left: 0%;
+    }
+    .inl-block p{
+        font-size: 40;
+        padding: 12%;
     }
     .grafico imagen_grafico{
         margin-left: auto;
         margin-right: auto;
         width: 75%;
     }
-    h2{
-        font-size: 35;
+    .grafico p{
+        font-size: 40;
+        padding: 12%;
+    }
+    #informacion h2{
+        font-size: 45;
+    }
+    #notas_de_corte h2{
+        font-size: 45;
+    }
+    #footer{
+        height: 5%;
+    }
+    #footer p{
+        font-size: 40;
     }
 }

@@ -1,10 +1,16 @@
 #titulo{
     position: absolute;
     top: 16%;
-    width: 40%;
-    left: 30%;
+    width: 80%;
+    left: 10%;
     font-size: 20;
     font-family: Arial;
+}
+p{
+    text_align: justify;
+}
+#titulo h1{
+    text-align:center;
 }
 
 #entrada{
@@ -26,4 +32,53 @@
 }
 #texto p{
     padding: 5%;
+}
+#footer{
+    border-top: 2px solid rgb(150,150,150);
+    height: 10%;
+    position: absolute;
+    top: 160%; left: 0%; width: 100%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25;
+}
+p{
+    text-align: justify;
+}
+@media only screen and (max-device-width: 600px) {
+    #titulo{
+        position: absolute;
+        top: 10%;
+        width: 80%;
+        left: 10%;
+        font-size: 34;
+}
+    #titulo h1{
+        text-align: center;
+    }
+    #entrada{
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 18%;
+        height: 9%;
+    }
+    #entrada p{
+        font-size: 40;
+     }
+    #texto{
+        position: absolute;
+        top: 38%;
+        left: 2.5%;
+        width: 95%;
+    }
+    #texto p{
+        padding: 5%;
+        font-size: 40;
+    }
+    #footer{
+        height: 7%;
+    }
+
 }

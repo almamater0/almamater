@@ -9,7 +9,7 @@ def inicio(request):
 #para poner la info, simplemente subrie la plantilla a internet pra que elena pueda tocar
 def info_grados(request, grado):
     template="grados/"+grado+".html"
-    return render(request, template)
+    return render(request, template, {"grado":grado})
 
 
 #aqui igual, pero con una universidad
@@ -30,7 +30,8 @@ def contacto(request):
 def gestion_comentario(request):
     if request.method=="POST":
         nuevo_comentario=request.POST.get('comentario_falta')
-        crear_comentario=comentario.objects.create(texto_comentario=nuevo_comentario)
+        direccion_correo=request.POST.get('email')
+        crear_comentario=comentario.objects.create(texto_comentario=nuevo_comentario, direccion_correo=direccion_correo)
         crear_comentario.save()
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 

@@ -1,80 +1,159 @@
 #imagen_div{
-    position: absolute;
-    top:0%;
-    left:50%;
-    width: 50%;
-    height: 100%;
-    border-left: 5px solid black;
+    width: 100%; height: 100%;
+    background-color: rgb(130,130,130);
 }
 #imagen_fondo{
+    width: 100%; height: 100%;
+    mix-blend-mode: multiply;
+    grayscale(100%);
+}
+#titulo{
+    text-align: center;
     width: 100%;
-    height: 100%;
-}
-#cuadro_izquierda{
-    font-family: Bookman;
-    background: linear-gradient(to right, rgb(255,255,255), rgb(230, 236, 255));
-    position: absolute;
-    top:0%; left:0%;
-    width: 50%; min-height:100%; height:100%;
-    border-right: 2px ridge grey;
-}
-#presentacion{
+    position: absolute; left:0%; top: 25%;
+    font-size: 5vw;
+    color: rgb(255,255,255);
+    font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
-    position: absolute;
-    left: 21.5%;
-    top: 10%;
-    font-size: 49;
+    text-shadow: 0.5px 0.5px 2px rgb(200,200,200);
 }
-#contenido{
-    display: inline;
+#boton_div{
     position: absolute;
-    left: 16%;
-    top: 40%;
-    font-size: 26;
+    top: 42%;
+    left: 40%;
+    width: 20%;
     cursor: pointer;
 }
-
-#lista_grados{
+#boton_div a.button1{
+    width: 100%;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 22;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+#boton_div a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+.area{
     display:none;
-    z-index: 4;
-    border: 5px solid rgb(0, 71, 179);
+    width: 25vw;
+    height: 25vw;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30;
+    color: rgb(30,30,30);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.area_imagen:hover{
+    blur(1px);
+}
+.texto_area{
     position: absolute;
-    top: 15%;
-    left:15%;
-    width: 70%;
-    min-height: 70%; height: 70%;
-    background-color: rgb(255,255,255);
-    box-shadow: 5px 5px 2px rgb(0, 71, 179);
+    top: 42%;
+    width: 100%;
+    text-align: center;
+}
+#area_sociales{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    background-color: #E4FF1F;
+}
+#area_tecnologico{
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    background-color: #FF971F;
+}
+#area_biosanitario{
+    position: absolute;
+    top: 20%;
+    left: 67%;
+    background-color: #23FF1F;
+}
+.grados{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 60%;
+    height: 100%;
     overflow: auto;
 }
-ul{
-    list-style-type: disc;
+#grados_sociales{
+    background-color: #E4FF1F;
 }
-#lista_grados ul{
-    list-style-type: square;
+#grados_tecnologico{
+    background-color: #FF971F;
 }
-.inline_block{
+#grados_biosanitario{
+    background-color: #23FF1F;
+}
+.atras{
+    display: none;
+    text-align: center;
+    font-size: 70;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    cursor: pointer;
+}
+#atras_sociales{
+    color: #E4FF1F;
+}
+#atras_tecnologico{
+    color: #FF971F;
+}
+#atras_biosanitario{
+    color: #23FF1F;
+}
+.imagen_grados_div{
+    width: 40%;
+    height: 40%;
     display: inline-block;
-    vertical-align: top;
-    font-size: 22;
-    width: 31%;
+    float: left;
+    border-radius: 15%;
+    padding: 2%;
+    position: relative;
+    left: 5%;
+    top: 3%;
 }
-li{
-    padding-bottom: 4%;
+.imagen_grados{
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+} /*quedaria poner el overflow con una scrollbar bonita */
+.texto_grados{
+    width: 70%;
+    position: absolute; left: 10%; top: 30%;
+    text-align: center;
 }
-li: last child{
-    padding-bottom: 0px;
+.imagen_grados_div a{
+    display: block;
+    width: 100%; height: 100%;
+    position: absolute; left: 0%; top: 0%;
 }
-lista-grados li{
-    padding-bottom: 1%;
-}
-lista-grados li: last child{
-    padding-bottom: 0px;
-}
-a{
-    color: rgb(0,0,0);
+.texto_grados a{
+    color: rgb(255,255,255);
+    font-size: 30;
+    font-family: "Noto Sans", sans-serif;
     text-decoration: none;
 }
+
 h2{
     font-size: 30;
     text-align: center;
