@@ -10,6 +10,7 @@ def inicio(request):
 def info_grados(request, grado):
     template="grados/"+grado+".html"
     return render(request, template, {"grado":grado})
+
 def lista_grados(request):
     return render(request, 'lista_grados.html')
 
