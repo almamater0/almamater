@@ -26,15 +26,16 @@ def consejos_blogs(request, blog):
     return render(request, template)
 
 def contacto(request):
+    if request.method=="POST":
+        nuevo_comentario = request.POST.get('comentario')
+        direccion_correo = request.POST.get('email')
+        nombre = request.POST.get('nombre')
+        crear_comentario = comentario.objects.create(texto_comentario=nuevo_comentario, direccion_correo=direccion_correo, nombre=nombre)
+        crear_comentario.save()
     return render(request,"contacto.html")
 
-def gestion_comentario(request):
-    if request.method=="POST":
-        nuevo_comentario=request.POST.get('comentario_falta')
-        direccion_correo=request.POST.get('email')
-        crear_comentario=comentario.objects.create(texto_comentario=nuevo_comentario, direccion_correo=direccion_correo)
-        crear_comentario.save()
-    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+
 
 def manage500(request):
     return render(request, "manageerror.html")
