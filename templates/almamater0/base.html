@@ -1,177 +1,133 @@
 {% load static %}
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
 <head>
-    <link rel="stylesheet" type="text/css" href = "{% static 'almamater0/base.css' %}">
-    <link rel="icon" type="image/png" href="{% static 'principal/images/book2.jpg' %}"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
-        <script
-        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
-        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
-        crossorigin="anonymous"></script>
-    <title>Tu Alma Mater</title>
-    {% csrf_token %}
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Education</title>
+    <link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+        <!--
+        CSS
+        ============================================= -->
+    <link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
 </head>
-
 <body>
-        {% block barra_de_arriba %}
-        <div id="barra_de_arriba">
-            <div id="nombre">
-                <img id="icono" src="{% static 'principal/images/book2.jpg' %}"/>
-                <div id="almamater">tu Alma Mater</div>
-            </div>
-            <div id="enlaces">
-                <a class="subrayar" id="busca_tu_grado">GRADOS</a>
-                <a class="subrayar">CONTACTA</a>
-                <a class="subrayar" id="preguntanos">PREGÚNTANOS</a>
-            </div>
-        </div>
-        <div id="cuadro_falta">
-            <h2>¿Se te ha quedado alguna duda? Pregúntanos.</h2> <br>
-            <form action="/comentario" method="POST">
-                {% csrf_token %}
-                <textarea name="comentario_falta" rows="10" cols="80" placeholder="Escribe la información que necesitas y la subiremos a la página en poco tiempo. Además, si quieres que contactemos contigo directamente y te mandemos la información por correo, escribe tu dirección y recibirás nuestro mensaje."></textarea> <br> <br>
-                <span style="font-weight: bold; font-family: "Noto Sans", sans-serif; color: rgb(0,0,0);">Dirección de correo (opcional): </span>
-                <br><br><input tpye="text" id="email" name="email">
-                <br><br>
-                <button type="submit" class="button1">Enviar mensaje</button>
-            </form>
-            <a class="close" id="close_comentario_falta"></a>
-        </div>
-        <div id="cubrir"></div>
-        <div id="atras_area">&#x21A9;</div>
-        <div class="area" id="area_sociales">
-            <div class="texto_area">Sociales</div>
-        </div>
-        <div class="area" id="area_tecnologico">
-            <div class="texto_area">Tecnológico</div>
-        </div>
-        <div class="area" id="area_biosanitario">
-            <div class="texto_area">Biosanitario</div>
-        </div>
-
-        <div class="grados" id="grados_sociales">
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_derecho.jpg' %}">
-                <a href="/grados/derecho"></a>
-                <div class="texto_grados"><a href="/grados/derecho">Derecho</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_relacionesinternacionales.jpg' %}">
-                <a href="/grados/relaciones_internacionales"></a>
-                <div class="texto_grados"><a href="/grados/relaciones_internacionales">Relaciones internacionales</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_ade.jpg' %}">
-                <a href="grados/ade"></a>
-                <div class="texto_grados"><a href="/grados/ade">Administración y dirección de empresas</a></div>
+    {% block header %}
+    <header id="header" id="home">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                            <li>¿Crees que la página ayudaría a tus amigos? ¡Compártela!</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="atras" id="atras_sociales">&#x21A9;</div>
-
-        <div class="grados" id="grados_tecnologico">
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_fisica.jpg' %}">
-                <a href="/grados/fisica"></a>
-                <div class="texto_grados"><a href="/grados/fisica">Física</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_matematicas.jpg' %}">
-                <a href="/grados/matematicas"></a>
-                <div class="texto_grados"><a href="/grados/matematicas">Matemáticas</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_ingenieriaindustrial.jpg' %}">
-                <a href="grados/ingenieria_industrial"></a>
-                <div class="texto_grados"><a href="/grados/ingenieria_industrial">Ingeniería industrial</a></div>
-            </div>
-        </div>
-        <div class="atras" id="atras_tecnologico">&#x21A9;</div>
-
-        <div class="grados" id="grados_biosanitario">
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_medicina.jpg' %}">
-                <a href="/grados/medicina"></a>
-                <div class="texto_grados"><a href="/grados/medicina">Medicina</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_biotecnologia.jpg' %}">
-                <a href="/grados/biotecnologia"></a>
-                <div class="texto_grados"><a href="/grados/biotecnologia">Biotecnología</a></div>
-            </div>
-            <div class="imagen_grados_div">
-                <img class="imagen_grados" src="{% static 'principal/images/imagen_psicologia.jpg' %}">
-                <a href="grados/psicologia"></a>
-                <div class="texto_grados"><a href="/grados/psicologia">Psicología</a></div>
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+              <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+              </div>
+              <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                  <li><a href="/">Inicio</a></li>
+                  <li class="menu-has-children"><a href="/grados">Buscar cursos y universidades</a>
+                    <ul>
+                      <li><a href="/grados">Sociales</a></li>
+                      <li><a href="/grados">Tecnológico</a></li>
+                      <li><a href="/grados">Biosanitario</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/consejos">Consejos</a></li>
+                  <li><a href="/estudiantes">Contacta con estudiantes</a></li>
+                  <li><a href="/contacto">Pregúntanos</a></li>
+                </ul>
+              </nav><!-- #nav-menu-container -->
             </div>
         </div>
-        <div class="atras" id="atras_biosanitario">&#x21A9;</div>
-        {%endblock%}
-
-        {%block content%}
-        {%endblock%}
-
-
-
-
+      </header>
+    <script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="{% static 'principal/js/easing.min.js' %}"></script>
+    <script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+    <script src="{% static 'principal/js/superfish.min.js' %}"></script>
+    <script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+    <script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'principal/js/mail-script.js' %}"></script>
+    <script src="{% static 'principal/js/main.js' %}"></script>
+    {% endblock %}
+    {% block content %}
+    {%endblock %}
+    {% block footer %}
+    		<!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li><a href="#">Ver grados</a></li>
+                            <li><a href="#">Ver consejos</a></li>
+                            <li><a href="#">Contacta con estudiantes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Alma Mater</h4>
+                        <ul>
+                            <li><a href="#">Contacta con nosotros</a></li>
+                            <li>almamater.contacto@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row align-items-center justify-content-between">
+                <p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <div class="col-lg-6 col-sm-12 footer-social">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% endblock %}
 </body>
-
-{% block script %}
-<script>
-    $(document).ready(function(){
-        $('.subrayar').hover(function(){
-            $(this).css("color", "rgb(0,0,0)");},
-            function(){
-            $(this).css("color", "rgb(70,70,70)");
-            })
-        $('#preguntanos').click(function(){
-            $('#cubrir').fadeIn(1000);
-            $('#cuadro_falta').delay(200).show("slide", {direction:'left'}, 600);
-        })
-        $('#close_comentario_falta').click(function(){
-            $('#cuadro_falta').fadeOut(1000);
-            $('#cubrir').fadeOut(1000);
-        })
-        $('#busca_tu_grado').click(function(){
-            $('.area').fadeIn(1000);
-            $('#cubrir').fadeIn(1000);
-            $('#atras_area').fadeIn(1000);
-            })
-        $('#area_sociales').click(function(){
-            $('.area').fadeOut(200);
-            $('#atras_area').fadeOut(200);
-            $('#grados_sociales').delay(200).show('slide', {direction:'left'}, 600);
-            $('#atras_sociales').delay(200).show('slide', {direction:'right'}, 700);
-            })
-        $('#area_tecnologico').click(function(){
-            $('.area').fadeOut(200);
-            $('#atras_area').fadeOut(200);
-            $('#grados_tecnologico').delay(200).show('slide', {direction:'left'}, 600);
-            $('#atras_tecnologico').delay(200).show('slide', {direction:'right'}, 700);
-            })
-        $('#area_biosanitario').click(function(){
-            $('.area').fadeOut(200);
-            $('#atras_area').fadeOut(200);
-            $('#grados_biosanitario').delay(200).show('slide', {direction:'left'}, 600);
-            $('#atras_biosanitario').delay(200).show('slide', {direction:'right'}, 700);
-            })
-        $('.atras').click(function(){
-            $('.grados').slideUp(500);
-            $('.atras').delay(200).slideUp(300);
-            $('.area').fadeIn(1000);
-            $('#atras_area').fadeIn(1000);
-            })
-        $('#atras_area').click(function(){
-            $('#cubrir').fadeOut(1000);
-            $(this).fadeOut(1000);
-            $('.area').fadeOut(1000);
-            })
-        $('#container').click(function(){
-            $('#menu_movil').show()
-            })
-        $('#close_menu_movil').click(function(){
-            $('#menu_movil').hide()
-            })
-    })
-
-</script>
-{%endblock%}
