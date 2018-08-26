@@ -1,107 +1,235 @@
 {% extends "almamater0/base.html" %}
-{% block barra_de_arriba %}
+{% block header %}
 {{block.super}}
 {%endblock%}
 
 {%block content%}
-
 {% load static %}
-<head>    <!-- solucionar esto, en ez de fisica, poner {{grado}} y que funcione -->
-    <link rel="stylesheet" type="text/css" href = "{% static 'principal/plantilla_grados.css' %}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Education</title>
 
-<body>
-    <div id="titulo">
-        FÍSICA
-    </div>
-    <div id="container_imagen_universidades" class="display_unis">
-        <div id="titulo_universidades" class="display_unis">Información <br> específica <br> de <br> cada <br> universidad <br></div>
-    </div>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/plantilla_grados.css' %}">
+	</head>
+	<body>
 
-    <div id="lista_universidades">
-        <div class="div_universidad" id="autonoma">
-            <a href="/grados/{{grado}}/autonoma"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/autonoma">Universidad <br> Autónoma <br> de Madrid</a> </div>
-        </div>
-        <div class="div_universidad" id="complutense">
-            <a href="/grados/{{grado}}/complutense"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/complutense">Universidad <br> Complutense<br> de Madrid</a></div>
-        </div>
-        <div class="div_universidad" id="politecnica">
-            <a href="/grados/{{grado}}/politecnica"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/politecnica">Universidad <br> Politécnica <br> de Madrid</a></div>
-        </div>
-        <div class="div_universidad" id="juancarlosi">
-            <a href="/grados/{{grado}}/juan_carlosi"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/juan_carlosi">Universidad <br> Juan Carlos I</a></div>
-        </div>
-        <div class="div_universidad" id="carlosiii">
-            <a href="/grados/{{grado}}/carlosiii"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/carlosiii">Universidad <br> Carlos III</a></div>
-        </div>
-        <div class="div_universidad" id="francisco_vitoria">
-            <a href="/grados/{{grado}}/francisco_vitoria"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/francisco_vitoria">Universidad <br> Francisco <br> de Vitoria</a></div>
-        </div>
-        <div class="div_universidad" id="icade">
-            <a href="/grados/{{grado}}/icade"></a>
-            <img class="imagen_universidad" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-            <div class="texto_universidad"><a href="/grados/{{grado}}/icade">ICADE</a></div>
-        </div>
-    </div>
 
-    <div id="atras_universidades">&#x21A9;</div>
-    <div id="notas_de_corte">
-        <h2>NOTAS DE CORTE</h2>
-        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-    </div>
-    <div id="detail"></div>
-    <div id="mas_info"><i style="font-size:40;" class="fa">&#xf0ab;</i>&nbsp;&nbsp;Más información general</div>
-    <div class="grafico" id="ranking">
-        <h2>RANKING</h2>
-        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-    </div>
-    <div class="grafico" id="graduados">
-        <h2>GRADUADOS</h2>
-        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-    </div>
-    <div class="grafico" id="creditos">
-        <h2>CRÉDITOS</h2>
-        <img class="imagen_grafico" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}">
-    </div>
+    <!-- start banner Area -->
+    <section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/fisica/imagen_fisica2.jpg')">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Física
+                    </h1> <br>
+                    <a href="#universidades" class="genric-btn primary" id="mostrar_universidades" style="font-size: 28;">Información de universidades particulares</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
 
-    <div id="footer">Proyecto Alma Mater</div>
-</body>
+        <!-- Start course-details Area -->
+    <section class="course-details-area pt-120">
+        <div class="container">
+            <div class="title text-center">
+                <h1 class="mb-10">Comparación de universidades</h1>
+            </div>
+            <div class="row">
+                <div class="section-top-border">
+						<h3 class="mb-30">Notas de corte</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20 left-align-p">
+								<p>Las notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+                <div class="section-top-border">
+						<h3 class="mb-30">Ranking</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20 left-align-p">
+								<p>Las notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+                <div class="section-top-border">
+						<h3 class="mb-30">Graduados</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20 left-align-p">
+								<p>Las notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+                <div class="section-top-border">
+						<h3 class="mb-30">Créditos</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20 left-align-p">
+								<p>Las notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+
+
+
+
+				<div class="container" id="universidades" style="padding-bottom: 30px;">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Universidades</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+                            <div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+								</div>
+							</div>
+						</div>
+                        <div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- End course-details Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+	</body>
+</html>
 
 <script>
 $(document).ready(function(){
-    $('.display_unis').click(function(){
-        $('#lista_universidades').slideDown(600);
-        $('#atras_universidades').show("slide", {direction: "right"}, 600);
-        $('#cubrir').fadeIn(1000);
-    })
-    $('#atras_universidades').click(function(){
-        $('#lista_universidades').fadeOut(300);
-        $('#atras_universidades').fadeOut(300);
-        $('#cubrir').fadeOut(300);
-    })
+	$('#mostrar_universidades').click(function(){
+		$('#universidades').fadeIn(400);
+	})
 })
-
 </script>
+
 {%endblock%}
 
-{% block barra_de_abajo %}
+{% block footer %}
 {{block.super}}
 {%endblock%}
-
-{%block script%}
-{{block.super}}
-{%endblock%}
-
