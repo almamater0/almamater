@@ -1,4 +1,15 @@
-
 .ajustar_tamaño{
     width: 100%;
+}
+#mostrar_universidades{
+    font-size: 18px;
+}
+.full{
+    width: 100%;
+    height: 100%;
+    position: absolute; top: 0%; left:0%;
+    display:block;
+}
+.just-align{
+    text-align: justify;
 }

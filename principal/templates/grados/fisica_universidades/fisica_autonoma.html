@@ -1,67 +1,137 @@
 {% extends "almamater0/base.html" %}
-{% block barra_de_arriba %}
+{% block header %}
 {{block.super}}
 {%endblock%}
 
 {%block content%}
-
 {% load static %}
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
 <head>
-    <link rel="stylesheet" type="text/css" href = "{% static 'principal/plantilla_universidades.css' %}"> />
-</head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Education</title>
 
-<body>
-    <div id="titulo">
-        <h1>Física en la Autónoma de Madrid</h1>
-    </div>
-    <div id="indice" class="border">
-        <h3>Hemos recopilado la información que nos parecía más importante. Si te quedan preguntas sin responder, no dudes en
-            preguntarnos pinchando en la pestaña de arriba.</h3> <br>
-        <ul>
-            <li><a style="color:solid black" class="index" href="#asignatura">Asignatura: programa de estudios, política de asistencia y suspenso, prácticas...</a></li>
-            <li><a class="index" href="#profesorado_investigacion">Profesorado e investigación.</a></li>
-            <li><a class="index" href="#salidas_salarios">Salidas laborales y salarios.</a></li>
-            <li><a class="index" href="#erasmus">Posibilidad de viajes al extranjero (Erasmus).</a></li>
-            <li><a class="index" href="#comentarios">Comentarios de antiguos alumnos.</a></li>
-            <li><a class="index" href="#nuevos_alumnos">¿Entras en 2018?</a></li>
-        </ul>
-    </div>
-    <div id="imagen_universidad_div" class="border">
-        <img id="imagen_universidad" src="{% static 'principal/images/universidades/autonoma.jpg' %}">
-    </div>
-    <div id="texto">
-        <div class="border">
-            <h2>Asignatura:</h2> <br>
-            <p id="asignatura">hgweee hgweee hgweee hgweee hgweeehgweee hgweee heehgweee hweee  hgweeehgweeehgweeehgweee</p>
-        </div><br>
-        <div class="border">
-            <h2>Profesorado e investigación:</h2> <br>
-            <p id="profesorado_investigacion">thrthrthrth</p>
-        </div><br>
-        <div class="border">
-            <h2>Salidas laborales y salarios:</h2> <br>
-            <p id="salidas_salarios">rthrthrh</p>
-        </div><br>
-        <div class="border">
-            <h2>Posibilidad de viajes al extranjero:</h2> <br>
-            <p id="erasmus">trhrthr</p>
-        </div> <br>
-        <div class="border">
-            <h2>Comentarios de antiguos alumnos:</h2> <br>
-            <p id="comentarios"></p>
-        </div> <br>
-        <div class="border">
-            <h2>¿Entras en 2018?</h2> <br>
-            <p id="nuevos_alumnos">Grupo de IG, Whatsapp, gente con coche, quedadas, info específica..</p>
-        </div> <br> <br>
-        <div id="footer">
-            <p>Proyecto Alma Mater</p>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/plantilla_universidades.css' %}">
+	</head>
+	<body>
+
+
+    <!-- start banner Area -->
+    <section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/fisica/imagen_fisica2.jpg')">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Física en la Autónoma
+                    </h1> <br>
+					<ul class="fa-ul text-white" style="font-size: 20px;" id="indice">
+						<li><i class="fa fa-chevron-right"></i><a href="#asignatura">La asignatura: teórico-práctico, ...</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="#profesorado_investigacion">Profesorado e investigación</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="#salidas_salarios">Salidas laborales y salarios</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="#viajes">Posibilidad de viajes al extranjero</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="#comentarios">Comentarios de antiguos alumnos</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="#entras">¿Entras en 2018?</a></li>
+					</ul>
+					</div>
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+    </section>
+    <!-- End banner Area -->
+
+        <!-- Start course-details Area -->
+    <section class="course-details-area pt-120">
+        <div class="container">
+            <div class="title text-center">
+                <h1 class="mb-10">Comparación de universidades</h1>
+            </div>
+            <div class="row">
+					<div class="section-top-border text-left">
+						<h3 class="mb-30">Right Aligned</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<p class="just-align">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<p class="just-align">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border text-left">
+						<h3 class="mb-30">Right Aligned</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<p class="just-align">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<p class="just-align">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border text-left">
+						<h3 class="mb-30">Right Aligned</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<p class="just-align">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<p class="just-align">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+            </div>
+        </div>
+    </section>
+    <!-- End course-details Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+	</body>
+</html>
 
 {%endblock%}
 
-{%block script%}
+{% block footer %}
 {{block.super}}
 {%endblock%}
