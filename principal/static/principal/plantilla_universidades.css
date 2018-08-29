@@ -3,10 +3,8 @@
     min-height: 90%;
 }
 #indice{
-    position: absolute;
-    left: 30%;
+    position: relative;
+    left: 35%;
     text-align: justify;
-}
-.just-align{
-    text-align: justify;
+    font-size: 30;
 }

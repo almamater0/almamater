@@ -22,7 +22,9 @@
 	<meta charset="UTF-8">
 	<!-- Site Title -->
 	<title>Education</title>
-
+	<link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<!--
 		CSS
@@ -36,45 +38,70 @@
 		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
 		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
 		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
-		<link rel="stylesheet" href="{% static 'principal/plantilla_universidades.css' %}">
+			<link rel="stylesheet" href="{% static 'principal/plantilla_universidades.css' %}"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27
+		bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	    <link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
+
 	</head>
 	<body>
 
 
-    <!-- start banner Area -->
-    <section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/fisica/imagen_fisica2.jpg')">
-        <div class="overlay overlay-bg"></div>
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="about-content col-lg-12">
-                    <h1 class="text-white">
-                        Física en la Autónoma
-                    </h1> <br>
-					<ul class="fa-ul text-white" style="font-size: 20px;" id="indice">
-						<li><i class="fa fa-chevron-right"></i><a href="#asignatura">La asignatura: teórico-práctico, ...</a></li>
-						<li><i class="fa fa-chevron-right"></i><a href="#profesorado_investigacion">Profesorado e investigación</a></li>
-						<li><i class="fa fa-chevron-right"></i><a href="#salidas_salarios">Salidas laborales y salarios</a></li>
-						<li><i class="fa fa-chevron-right"></i><a href="#viajes">Posibilidad de viajes al extranjero</a></li>
-						<li><i class="fa fa-chevron-right"></i><a href="#comentarios">Comentarios de antiguos alumnos</a></li>
-						<li><i class="fa fa-chevron-right"></i><a href="#entras">¿Entras en 2018?</a></li>
-					</ul>
-					</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End banner Area -->
+	<!-- start banner Area -->
+	<section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/fisica/imagen_fisica2.jpg')">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white">
+						Física en la Autónoma
+					</h1> <br>
+	   <div id="indice">
+	   <ul class="fa-ul text-white just-align">
+	      <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#universidad">Sobre la universidad</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#asignatura">La asignatura: enfoque, prácticas, temario</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#profesorado_investigacion">Profesorado e investigación</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#salidas_salarios">Salidas laborales: salarios y bolsa de trabajo</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#viajes">Posibilidad de viajes al extranjero</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#comentarios">Comentarios de antiguos alumnos</a></li>
+		  <li><i class="fa fa-arrow-right"></i>&nbsp<a href="#entras">¿Entras en 2018?</a></li>
+	   </ul>
+	   </div>
+					<p style="padding-top: 10px; color: rgb(255,255,255)"><i class="fa fa-lightbulb-o"></i>&nbspSi tienes alguna duda, <a class="a-underlined" href="/preguntanos">pregúntanos</a></p>
+	   </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
 
         <!-- Start course-details Area -->
     <section class="course-details-area pt-120">
         <div class="container">
             <div class="row">
-					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">La asignatura</h3>
+					<div class=" text-left">
+						<h3 id="universidad" class="mb-30 ajustepadding">Sobre la universidad</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<h4 class="ajustepadding">¿Privada o pública?</h4>
+								<h4 class="ajustepadding">Coste</h4>
+								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<h4 class="ajustepadding">Ubicación y transporte</h4>
+								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class=" text-left">
+						<h3 id="asignatura" class="mb-30 ajustepadding">La asignatura</h3>
 						<div class="row">
 							<div class="col-md-9">
 								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
-								<h4 class="ajustepadding">¿Teórica o práctica?</h4>
+								<h4 class="ajustepadding">¿Teórica o práctica? + Prácticas</h4>
 								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
 							</div>
 							<div class="col-md-3">
@@ -83,31 +110,7 @@
 						</div>
 					</div>
 					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">Profesorado e investigación</h3>
-						<div class="row">
-							<div class="col-md-9">
-								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
-								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
-							</div>
-							<div class="col-md-3">
-								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
-							</div>
-						</div>
-					</div>
-					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">Salidas laborales y salarios</h3>
-						<div class="row">
-							<div class="col-md-9">
-								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
-								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
-							</div>
-							<div class="col-md-3">
-								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
-							</div>
-						</div>
-					</div>
-					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">Posibilidad de viajes al extranjero</h3>
+						<h3 id="profesorado_investigacion" class="mb-30 ajustepadding">Profesorado e investigación</h3>
 						<div class="row">
 							<div class="col-md-9">
 								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
@@ -119,7 +122,7 @@
 						</div>
 					</div>
 					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">Comentarios de antiguos alumnos</h3>
+						<h3 id="salidas_salarios" class="mb-30 ajustepadding">Salidas laborales: salarios y bolsa de trabajo.</h3>
 						<div class="row">
 							<div class="col-md-9">
 								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
@@ -131,7 +134,31 @@
 						</div>
 					</div>
 					<div class="section-top-border text-left">
-						<h3 class="mb-30 ajustepadding">¿Entras en 2018</h3>
+						<h3 id="viajes" class="mb-30 ajustepadding">Posibilidad de viajes al extranjero</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border text-left">
+						<h3 id="comentarios" class="mb-30 ajustepadding">Comentarios de antiguos alumnos</h3>
+						<div class="row">
+							<div class="col-md-9">
+								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
+								<p class="just-align ajustepadding">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+							</div>
+							<div class="col-md-3">
+								<img src="{% static 'principal/images/universiades/autonoma.jpg' %}" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border text-left">
+						<h3 id="entras" class="mb-30 ajustepadding">¿Entras en 2018</h3>
 						<div class="row">
 							<div class="col-md-9">
 								<p class="just-align ajustepadding">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
