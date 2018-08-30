@@ -11,3 +11,12 @@
 .darken{
     filter: brightness(60%);
 }
+#area_sociales{
+    width: 200px;
+}
+#area_tecnologico{
+    width: 200px;
+}
+#area_biosanitario{
+    width: 200px;
+}
