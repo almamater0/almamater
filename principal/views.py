@@ -35,8 +35,12 @@ def contacto(request):
         crear_comentario.save()
     return render(request,"contacto.html")
 
+def registro(request):
+    return render(request,"registro.html")
 
+def foro(request):
 
+    return render(request, "foro.html")
 
 def manage500(request):
     return render(request, "manageerror.html")

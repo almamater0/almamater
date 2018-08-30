@@ -1,0 +1,4 @@
+.lista{
+    overflow: auto;
+    max-height: 200px;
+}

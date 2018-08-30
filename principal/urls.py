@@ -9,4 +9,6 @@ urlpatterns = [
     path('consejos', views.consejos, name="consejos"),
     path('consejos/<blog>', views.consejos_blogs, name="animo_blogs"),
     path('contacto', views.contacto, name="contacto"),
+    path('inicio-sesion', views.registro, name="registro"),
+    path('foro', views.foro, name="foro")
 ]
