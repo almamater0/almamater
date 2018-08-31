@@ -8,3 +8,7 @@
     text-align: justify;
     font-size: 30;
 }
+@media screen only and (max-device-width: 600px){
+    position: relative;
+    left: 0%;
+}
