@@ -1,4 +1,32 @@
-.lista{
-    overflow: auto;
-    max-height: 200px;
+.default-select{
+    display: inline-block;
+    float: left;
+}
+#elige-grado-sociales{
+    display: none;
+}
+#elige-grado-tecnologico{
+    display: none;
+}
+#elige-grado-biosanitario{
+    display: none;
+}
+.detalles{
+    padding: 0px;
+    color: rgb(40,40,40);
+}
+.detalles li{
+    padding-left: 30px;
+}
+.detalles .first-li{
+    padding-left: 0;
+}
+.autor{
+    padding-left: 10px;
+    color: rgb(40,40,40);
+}
+.minirespuesta{
+    padding-top: 10px;
+    text-align: justify;
+    color: rgb(20,20,20);
 }

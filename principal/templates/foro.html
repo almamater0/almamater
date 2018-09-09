@@ -54,7 +54,7 @@ rel="stylesheet"  type='text/css'>
                         <h1 class="text-white">
                             Preguntas y respuestas
                         </h1><br>
-                        <p class="genric-btn primary"><a href="#" class="">Preguntar</a></p>
+                        <p class="genric-btn primary"><a href="/foro/preguntar" class="">Preguntar</a></p>
                     </div>
                 </div>
             </div>
@@ -63,207 +63,93 @@ rel="stylesheet"  type='text/css'>
 
         <!-- Start popular-courses Area -->
         <section class="popular-courses-area section-gap courses-page">
-            <div class="container" style="background-color: rgb(100,100,100);">
+            <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-70 col-lg-8">
-                        <div class="title text-center">
-                            <nav>
-                            <ul>
-                              <li class="menu-has-children nav-menu"><a href="">Filtrar por grado</a>
-                                <ul>
-                                  <li><a href="blog-home.html">Física</a></li>
-                                  <li><a href="blog-single.html">Matemáticas</a></li>
-                                </ul>
-                              </li>
-                              <li class="menu-has-children"><a href="">Filtrar por universidad</a>
-                                <ul>
-                                  <li><a href="blog-home.html">U. Autónoma de Madrid</a></li>
-                                  <li><a href="blog-single.html">U. Complutense</a></li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </nav>
-                        </div>
+                    <div class="default-select" id="elige-area">
+                        <select>
+                            <option value="">Filtrar por área</option>
+                            <option value="sociales-">Sociales</option>
+                            <option value="tecnologico-">Tecnológico</option>
+                            <option value="biosanitario-">Biosanitario</option>
+                       </select>
+                    </div>
+                    <div class="elige-grado default-select" id="elige-grado-sociales">
+                        <select>
+                            <option value="">Filtrar por grado</option>
+                            <option value="derecho-">Derecho</option>
+                            <option value="relacionesinternacionales-">Relaciones internacionales</option>
+                            <option value="ade-">A.D.E.</option>
+                       </select>
+                    </div>
+                    <div class="elige-grado default-select" id="elige-grado-tecnologico">
+                        <select>
+                            <option value="">Filtrar por grado</option>
+                            <option value="matematicas-">Matemáticas</option>
+                            <option value="fisica-">Física</option>
+                            <option value="ingenieriaindustrial-">Ingeniería industrial</option>
+                       </select>
+                    </div>
+                    <div class="elige-grado default-select" id="elige-grado-biosanitario">
+                        <select>
+                            <option value="">Filtrar por grado</option>
+                            <option value="-medicina">Medicina</option>
+                            <option value="-biotecnologia">Biotecnología</option>
+                            <option value="-psicologia">Psicología</option>
+                       </select>
+                    </div>
+                    <div class="default-select" id="elige-universidad">
+                        <select>
+                            <option value="">Filtrar por universidad</option>
+                            <option value="-autonoma">U. Autónoma de Madrid</option>
+                            <option value="-complutense">U. Complutense</option>
+                            <option value="-carlos3">U. Carlos III</option>
+                       </select>
+                    </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p1.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Designing
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
+                    <div class="single-popular-carusel col-lg-12 col-md-12 pregunta pregunta-sociales pregunta-derecho pregunta-autonoma">
+                        <ul class="detalles nav-menu">
+                            <li class="first-li">Grado: Derecho</li>
+                            <li>Universidad: Autónoma</li>
+                            <li>Fecha: 9-9-2018</li>
+                        </ul> <br>
+                        <p class="autor">Antonio Rodríguez, estudiante de medicina en la Carlos III @antonio_rgz en Instagram</p>
+                        <a href="#"><h5>¿Es verdad el escándalo ocurrido con el profesor WWWWWW en la facultad de Derecho?</h5></a>
+                        <p class="minirespuesta">Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]</p>
                     </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p2.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn React js beginners
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
+                    <div class="single-popular-carusel col-lg-12 col-md-12 pregunta pregunta-biosanitario pregunta-biotecnologia pregunta-complutense">
+                        <ul class="detalles nav-menu">
+                            <li class="first-li">Grado: Biotecnología</li>
+                            <li>Universidad: Complutense</li>
+                            <li>Fecha: 9-9-2018</li>
+                        </ul> <br>
+                        <p class="autor">Antonio Rodríguez, estudiante de medicina en la Carlos III @antonio_rgz en Instagram</p>
+                        <a href="#"><h5>¿Es verdad el escándalo ocurrido con el profesor WWWWWW en la facultad de Derecho?</h5></a>
+                        <p class="minirespuesta">Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]</p>
                     </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p3.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Photography
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
+                    <div class="single-popular-carusel col-lg-12 col-md-12 pregunta pregunta-tecnologico pregunta-ingenieriaindustrial pregunta-autonoma">
+                        <ul class="detalles nav-menu">
+                            <li class="first-li">Grado: Ingeniería industrial</li>
+                            <li>Universidad: Autónoma</li>
+                            <li>Fecha: 9-9-2018</li>
+                        </ul> <br>
+                        <p class="autor">Antonio Rodríguez, estudiante de medicina en la Carlos III @antonio_rgz en Instagram</p>
+                        <a href="#"><h5>¿Es verdad el escándalo ocurrido con el profesor WWWWWW en la facultad de Derecho?</h5></a>
+                        <p class="minirespuesta">Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]</p>
                     </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p4.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Surveying
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
+                    <div class="single-popular-carusel col-lg-12 col-md-12 pregunta pregunta-tecnologico pregunta-fisica pregunta-autonoma">
+                        <ul class="detalles nav-menu">
+                            <li class="first-li">Grado: Física</li>
+                            <li>Universidad: Autónoma</li>
+                            <li>Fecha: 9-9-2018</li>
+                        </ul> <br>
+                        <p class="autor">Antonio Rodríguez, estudiante de medicina en la Carlos III @antonio_rgz en Instagram</p>
+                        <a href="#"><h5>¿Es verdad el escándalo ocurrido con el profesor WWWWWW en la facultad de Derecho?</h5></a>
+                        <p class="minirespuesta">Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]Stairway to Heaven" is a song by the English rock band Led Zeppelin, released in late 1971. It was composed by guitarist Jimmy Page and vocalist Robert Plant for the band's untitled fourth studio album (often called Led Zeppelin IV). It is often referred to as one of the greatest rock songs of all time.[1][2]</p>
                     </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p1.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Designing
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p2.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn React js beginners
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p3.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Photography
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-popular-carusel col-lg-3 col-md-6">
-                        <div class="thumb-wrap relative">
-                            <div class="thumb relative">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/p4.jpg" alt="">
-                            </div>
-                            <div class="meta d-flex justify-content-between">
-                                <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                                <h4>$150</h4>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <a href="course-details.html">
-                                <h4>
-                                    Learn Surveying
-                                </h4>
-                            </a>
-                            <p>
-                                When television was young, there was a hugely popular show based on the still popular fictional characte
-                            </p>
-                        </div>
-                    </div>
-                    <a href="#" class="primary-btn text-uppercase mx-auto">Load More Courses</a>
+                    <!-- <a href="#" class="primary-btn text-uppercase mx-auto">Load More Courses</a> -->
                 </div>
             </div>
         </section>
@@ -283,6 +169,24 @@ rel="stylesheet"  type='text/css'>
 	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
 	<script src="{% static 'principal/js/mail-script.js' %}"></script>
 	<script src="{% static 'principal/js/main.js' %}"></script>
+    <script>
+    $(document).ready(function(){
+        $('#elige-area').change(function () {
+            $('.elige-grado').hide();
+            $('#elige-grado' + $('#elige-area option:selected').val()).show();
+            $('.pregunta').hide();
+            $('.pregunta' + $('#elige-universidad option:selected').val() + '.pregunta' + $('#elige-area option:selected').val()).show();
+        });
+        $('.elige-grado').change(function () {
+            $('.pregunta').hide();
+            $('.pregunta' + $('option:selected', this).attr('value') + '.pregunta' + $('#elige-universidad option:selected').val()).show();
+        });
+        $('#elige-universidad').change(function() {
+            $('.pregunta').hide();
+            $('.pregunta' + $('option:selected', this).attr('value')).show();
+        })
+    })
+    </script>
     </body>
 </html>
 

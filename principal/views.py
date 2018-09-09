@@ -39,8 +39,15 @@ def registro(request):
     return render(request,"registro.html")
 
 def foro(request):
-
     return render(request, "foro.html")
+
+def foro_preguntar(request):
+    if request.method=="POST":
+        universidad = request.POST.get('universidad')
+        grado = request.POST.get("grado")
+        pregunta = request.POST.get("pregunta")
+        detalles = request.POST.get("detalles")
+    return render(request, "foro_preguntar.html")
 
 def manage500(request):
     return render(request, "manageerror.html")
