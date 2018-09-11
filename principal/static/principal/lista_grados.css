@@ -13,9 +13,14 @@
 }
 .area-width{
     width: 200px;
+    padding-left: 10px;
+}
+#area_sociales{
+    padding-left: 0px;
 }
 @media only screen and (max-device-width: 600px){
     .area-width{
-        
+        display: inline-block;
+        padding-bottom: 10px;
     }
 }
