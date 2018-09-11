@@ -21,6 +21,7 @@
 @media only screen and (max-device-width: 600px){
     .area-width{
         display: inline-block;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        font-weight: bold;
     }
 }
