@@ -20,8 +20,11 @@
 }
 @media only screen and (max-device-width: 600px){
     .area-width{
+        position: relative;
+        top: 20px;
         display: inline-block;
         margin-bottom: 20px;
         font-weight: bold;
+        margin-left: 0px;
     }
 }
