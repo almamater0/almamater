@@ -11,12 +11,11 @@
 .darken{
     filter: brightness(60%);
 }
-#area_sociales{
+.area-width{
     width: 200px;
 }
-#area_tecnologico{
-    width: 200px;
-}
-#area_biosanitario{
-    width: 200px;
+@media only screen and (max-device-width: 600px){
+    .area-width{
+        
+    }
 }

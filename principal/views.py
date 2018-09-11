@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
-from .models import comentario
+from .models import comentario, pregunta
 
 def inicio(request):
     return render(request, 'inicio.html')
@@ -45,8 +45,10 @@ def foro_preguntar(request):
     if request.method=="POST":
         universidad = request.POST.get('universidad')
         grado = request.POST.get("grado")
-        pregunta = request.POST.get("pregunta")
+        nueva_pregunta = request.POST.get("pregunta")
         detalles = request.POST.get("detalles")
+        email=request.POST.get("email")
+        crear_pregunta=pregunta.objects.create(universidad=universidad, grado=grado, pregunta=nueva_pregunta, detalles=detalles, email=email)
     return render(request, "foro_preguntar.html")
 
 def manage500(request):
