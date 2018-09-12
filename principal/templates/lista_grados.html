@@ -49,7 +49,7 @@
 						<h1 class="text-white">
 							Encuentra tu grado
 						</h1>
-						<p class="text-white link-nav"><a href="#" class="genric-btn primary area-width" id="area_sociales">SOCIALES</a><a href="#" class="genric-btn primary area-width" id="area_tecnologico">TECNOLÓGICO</a><a href="#" class="genric-btn primary area-width" id="area_biosanitario">BIOSANITARIO</a></p>
+						<p class="text-white link-nav"><a href="#anchorcustom" class="genric-btn primary area-width" id="area_sociales">SOCIALES</a><a href="#anchorcustom" class="genric-btn primary area-width" id="area_tecnologico">TECNOLÓGICO</a><a href="#anchorcustom" class="genric-btn primary area-width" id="area_biosanitario">BIOSANITARIO</a></p>
 					</div>
 				</div>
 			</div>
@@ -64,13 +64,14 @@
 					<h2 style="text-align: center;"><i class="fa fa-arrow-circle-up icon-large">&nbsp;&nbsp;</i>Elige un área</h2>
 				</div>
 				<div class="row">
+					<a id="anchorcustom"></a>
 					<div class="col-lg-7 sociales" style="display:none">
 						<a href="/grados/derecho" class="a_imagen">
 							<div class="single-imgs relative">
 								<div class="overlay overlay-bg"></div>
 								<div class="relative">
 									<img class="img-fluid darken" src="{% static 'principal/images/grados/imagen_derecho.jpg' %}">
-									<p class="texto_imagen">Derecho</p>
+									<p id="derecho" class="texto_imagen">Derecho</p>
 								</div>
 							</div>
 						</a>
@@ -103,7 +104,7 @@
 								<div class="overlay overlay-bg"></div>
 								<div class="relative">
 									<img class="img-fluid darken" src="{% static 'principal/images/grados/imagen_matematicas.jpg' %}" alt="">
-									<p class="texto_imagen">Matemáticas</p>
+									<p id="matematicas" class="texto_imagen">Matemáticas</p>
 								</div>
 							</div>
 						</a>
@@ -136,7 +137,7 @@
 								<div class="overlay overlay-bg"></div>
 								<div  class="relative">
 									<img class="img-fluid darken" src="{% static 'principal/images/grados/imagen_medicina.jpg' %}" alt="">
-									<p class="texto_imagen">Medicina</p>
+									<p id="medicina" class="texto_imagen">Medicina</p>
 								</div>
 							</div>
 						</a>

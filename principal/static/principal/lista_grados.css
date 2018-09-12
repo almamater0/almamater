@@ -18,7 +18,13 @@
 #area_sociales{
     margin-left: 0px;
 }
+#anchorcustom{
+    position: relative; top: -120px;
+}
 @media only screen and (max-device-width: 600px){
+    #anchorcustom{
+        position: relative; top: -60px;
+    }
     .area-width{
         position: relative;
         top: 20px;
