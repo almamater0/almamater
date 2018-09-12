@@ -9,5 +9,8 @@
     font-size: 30;
 }
 @media screen only and (max-device-width: 600px){
-    display: none;
+    #indice{
+        position: relative;
+        left: -300px;
+    }
 }
