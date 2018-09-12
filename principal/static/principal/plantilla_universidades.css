@@ -11,7 +11,8 @@
 }
 @media screen only and (max-device-width: 600px){
     #indice{
-        position: relative;
-        left: 0%;
+        position: absolute;
+        left: 5%;
+        width: 90%;
     }
 }
