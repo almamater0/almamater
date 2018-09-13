@@ -14,5 +14,6 @@
         position: relative;
         left: -500px;
         width: 90%;
+        text-align: left;
     }
 }
