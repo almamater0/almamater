@@ -30,3 +30,8 @@
     text-align: justify;
     color: rgb(20,20,20);
 }
+.pregunta{
+    width: 70%;
+    position: relative;
+    left: 8%;
+}
