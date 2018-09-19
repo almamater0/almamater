@@ -9,7 +9,8 @@
 @media only screen and (max-device-width: 600px){
     .myselect{
         position: relative;
-        left: 150px;
+        left: 0px;
+        max-width: 150px;
     }
 }
 
@@ -47,4 +48,9 @@ elige-grado-sociales{
     display: block;
     position: relative;
     left: 8%;
+}
+@media only screen and (max-device-width: 600px){
+    .pregunta{
+        left:0px;
+    }
 }
