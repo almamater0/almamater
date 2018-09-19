@@ -9,11 +9,12 @@
     text-align: justify;
     font-size: 30;
 }
-@media screen only and (max-device-width: 600px){
+@media only screen and (max-device-width: 600px){
     #indice{
         position: relative;
-        left: -500px;
+        left: 10%;
         width: 90%;
         text-align: left;
+        font-size: 20;
     }
 }
