@@ -10,7 +10,8 @@
     .myselect{
         position: relative;
         left: 0px;
-        max-width: 150px;
+        min-width: 200px;
+        max-width: 200px;
     }
 }
 
@@ -52,5 +53,11 @@ elige-grado-sociales{
 @media only screen and (max-device-width: 600px){
     .pregunta{
         left:0px;
+    }
+    .autor{
+        padding: 0px;
+    }
+    .detalles li{
+        padding-left: 0px;
     }
 }
