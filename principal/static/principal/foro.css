@@ -6,10 +6,15 @@
     position: relative;
     left: -80px;
 }
-.myselect option{
-    font-size: 60;
+@media screen only and (max-device-width: 600px){
+    .myselect{
+        position: relative;
+        left: 150px;
+    }
 }
-#elige-grado-sociales{
+
+
+elige-grado-sociales{
     display: none;
 }
 #elige-grado-tecnologico{
