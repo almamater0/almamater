@@ -6,7 +6,7 @@
     position: relative;
     left: -80px;
 }
-@media screen only and (max-device-width: 600px){
+@media only screen and (max-device-width: 600px){
     .myselect{
         position: relative;
         left: 150px;
