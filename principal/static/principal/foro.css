@@ -50,6 +50,12 @@ elige-grado-sociales{
     position: relative;
     left: 8%;
 }
+.movil{
+    display: none;
+}
+.desktop{
+    display: block;
+}
 @media only screen and (max-device-width: 600px){
     .pregunta{
         left:0px;
@@ -59,5 +65,11 @@ elige-grado-sociales{
     }
     .detalles li{
         padding-left: 0px;
+    }
+    .movil{
+        display: block;
+    }
+    .desktop{
+        display: none;
     }
 }
