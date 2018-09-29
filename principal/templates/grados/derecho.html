@@ -1,10 +1,234 @@
-derecho
+{% extends "almamater0/base.html" %}
+{% block header %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Education</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/plantilla_grados.css' %}">
+	</head>
+	<body>
 
 
-<html>
-<body>
-<input name="grado" placeholder="Grado(s)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Grado(s)'" class="common-input mb-20" type="text">
-<input name="universidad" placeholder="Universidad(es)" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Universidad(es)'" class="common-input mb-20" type="text">
-Te mandaremos un correo cuando alguien haya respondido: <br>
-</body>
+    <!-- start banner Area -->
+    <section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/libros.jpg')"">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white" id="titulo">
+                        Derecho
+                    </h1> <br>
+                    <a href="#universidades" class="genric-btn primary" id="mostrar_universidades" style="font-size: 28;">Información de universidades particulares</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+        <!-- Start course-details Area -->
+    <section class="course-details-area pt-60">
+        <div class="container">
+            <div class="title text-center">
+                <h1 class="mb-10">Comparación de universidades</h1>
+            </div>
+            <div class="row">
+                <div class="section-top-border">
+						<h3 class="mb-30 ajustepadding">Notas de corte</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<p class="just-align ajustepadding">
+									<h4 class="ajustepadding">Dobles grados con Derecho</h4>
+										Derecho y Estudios Internacionales en la Universidad Carlos III: 13,250 <br>
+										Derecho y Relaciones Internacionales en la Universidad Rey Juan Carlos: 13,032 <br>
+										Derecho y Administración de Empresas en la Universidad Carlos III: 12,420 <br>
+										Derecho y Economía en la Universidad Carlos III: 12,330 <br>
+										Derecho y Periodismo en la Universidad Rey Juan Carlos: 12,330 <br>
+										Derecho y Economía en la Universidad Rey Juan Carlos: 11,815 <br>
+										Derecho y Criminología en la Universidad Rey Juan Carlos: 11,792 <br>
+										Derecho y Ciencias Políticas en la Universidad Carlos III: 11,260 <br>
+										Derecho y Economía en la Universidad Rey Juan Carlos: 11,176 <br>
+										Derecho y Administración y Dirección de Empresas en la Universidad Autónoma: 10,992 <br>
+										Derecho y Administración y Dirección de Empresas en la Universidad Carlos III: 10,440 <br>
+								</p>
+                </div>
+                <div class="section-top-border">
+						<h3 class="mb-30 ajustepadding">Ranking</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20 left-align-p">
+								<p class="just-align ajustepadding">de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+                <div class="section-top-border">
+						<h3 class="mb-30 ajustepadding">Graduados</h3>
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							</div>
+							<div class="col-md-5 mt-sm-20">
+								<p class="just-align ajustepadding">Las notas de corteee.notas de corteee.notwgonewubwv wnuwb e efe fq fqefqefq feqefeq fe q fef efq feqfeq fqef qe f efefe fqfqe fqefq efqeas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							</div>
+						</div>
+                </div>
+
+				<div class="container" id="universidades" style="padding-bottom: 30px;">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Universidades</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+                            <div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+									<a class="full" href="/grados/fisica/autonoma"></a>
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+									<a class="full" href="/grados/fisica/autonoma"></a>
+								</div>
+							</div>
+						</div>
+                        <div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+									<a class="full" href="/grados/fisica/autonoma"></a>
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+									<a class="full" href="/grados/fisica/autonoma"></a>
+								</div>
+							</div>
+						</div>
+						<div class="single-popular-carusel col-lg-3 col-md-6">
+                            <div class="details">
+								<a href="/grados/fisica/autonoma">
+									<h4>
+										Universidad Autónoma de Madrid
+									</h4>
+								</a>
+							</div>
+							<div class="thumb-wrap relative">
+								<div class="thumb relative">
+									<div class="overlay overlay-bg"></div>
+									<img class="img-fluid" src="{% static 'principal/images/universidades/autonoma.jpg' %}" alt="">
+									<a class="full" href="/grados/fisica/autonoma"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- End course-details Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+	</body>
 </html>
+
+<script>
+$(document).ready(function(){
+	$('#mostrar_universidades').click(function(){
+		$('#universidades').fadeIn(400);
+	})
+})
+</script>
+
+{%endblock%}
+
+{% block footer %}
+{{block.super}}
+{%endblock%}
