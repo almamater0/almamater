@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/foro.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/foro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/derecho.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/derecho.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fisica.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fisica.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="225" selection-end-column="12" />
+            <state relative-caret-position="322">
+              <caret line="218" column="114" selection-start-line="218" selection-start-column="114" selection-end-line="218" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -30,17 +28,8 @@
       <file leaf-file-name="fisica_autonoma.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="261">
               <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="derecho.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -106,10 +95,10 @@
         <option value="$PROJECT_DIR$/principal/views.py" />
         <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
         <option value="$PROJECT_DIR$/principal/templates/inicio.html" />
-        <option value="$PROJECT_DIR$/principal/templates/grados/fisica.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/inicio.css" />
         <option value="$PROJECT_DIR$/principal/templates/grados/derecho.html" />
+        <option value="$PROJECT_DIR$/principal/templates/grados/fisica.html" />
       </list>
     </option>
   </component>
@@ -545,24 +534,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
+    <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="225" selection-end-column="12" />
+        <state relative-caret-position="223">
+          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="261">
           <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho.html">
+    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+        <state relative-caret-position="322">
+          <caret line="218" column="114" selection-start-line="218" selection-start-column="114" selection-end-line="218" selection-end-column="114" />
         </state>
       </provider>
     </entry>
