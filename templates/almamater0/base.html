@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
     <link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
     <link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'almamater0/base.css' %}">
 </head>
 <body>
     {% block header %}
@@ -55,7 +56,8 @@
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
               <div id="logo">
-                <a href="/"><img src="" title="tu Alma Mater" /></a>
+                <img id="logoalmamater" src="{% static 'principal/images/logoalmamater45.png' %}" title="tu Alma Mater" />
+                  <div id="nombre">Alma Mater</div>
               </div>
               <nav id="nav-menu-container">
                 <ul class="nav-menu">
