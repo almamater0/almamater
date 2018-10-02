@@ -1,8 +1,6 @@
 #nombre{
-    font-size: 30px;
-    font-family: 'Vidaloka';
     color: rgb(255,255,255);
     font-weight: bold;
     float: right;
-    position: relative; top: 14px; left: 10px;
+    position: relative; left: 10px;
 }
