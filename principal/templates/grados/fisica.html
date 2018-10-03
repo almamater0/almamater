@@ -65,13 +65,51 @@
             </div>
             <div class="row">
                 <div class="section-top-border">
-						<h3 class="mb-30 ajustepadding">Notas de corte</h3>
+						<h3 class="mb-30 ajustepadding" style="position: relative; left: 90px;">Notas de corte: física</h3>
 						<div class="row">
-							<div class="col-md-7">
-								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño">
+							<div class="col-lg-7" id="divlistanotasdecorte">
+								<ul style="position: relative; left: 120px;">
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte"></li>
+								</ul>
 							</div>
-							<div class="col-md-5 mt-sm-20 left-align-p">
-								<p class="just-align ajustepadding">Las notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.notas de corteee.........................</p>
+							<div class="col-lg-5" id="graficonotasdecorte">
+								<img src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño graficoimagen">
+							</div>
+						</div>
+						<h3 class="mb-30 ajustepadding" style="position: relative; left: 90px;">Notas de corte: dobles grados</h3>
+						<div class="row">
+							<div class="col-lg-7" id="divlistadoblesgrados">
+								<ul style="position: relative; left: 120px;">
+									<li id="finanzas" class="linotadecortedoble linotadecorte">Física con Finanzas</li>
+										<ul class="tabladoblegrado" id="fisica-finanzas">
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+										</ul>
+									<li id="economia" class="linotadecortedoble linotadecorte">Física con Economía</li>
+										<ul class="tabladoblegrado" id="fisica-economia">
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+											<li class="linotadecorte">&nbsp &nbsp Física en la Complutense ---> 13,566</li>
+										</ul>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte">Física en la Complutense ---> 13,566</li>
+									<li class="linotadecorte"></li>
+								</ul>
+							</div>
+							<div class="col-lg-5" id="graficodoblesgrados">
+								<img id="grafico-fisica-finanzas" src="{% static 'principal/images/fisica/notas_de_corte_fisica.png' %}" alt="" class="img-fluid ajustar_tamaño graficonotadecortedoble">
+								<img id="grafico-fisica-economia" src="{% static 'principal/images/logoalmamater.jpg' %}" alt="" class="img-fluid ajustar_tamaño graficonotadecortedoble">
 							</div>
 						</div>
                 </div>
@@ -243,14 +281,26 @@
 	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
 	<script src="{% static 'principal/js/mail-script.js' %}"></script>
 	<script src="{% static 'principal/js/main.js' %}"></script>
+	<script>
+		$(document).ready(function(){
+			$('.linotadecortedoble').click(function(){
+				$('.tabladoblegrado').hide();
+				tabla="#fisica-" + $(this).attr('id');
+				$(tabla).show();
+				$('.graficonotadecortedoble').hide();
+				grafico="#grafico-fisica-" + $(this).attr('id');
+				$(grafico).show();
+			})
+})
+	</script>
 	</body>
 </html>
 
 <script>
-$(document).ready(function(){
-	$('#mostrar_universidades').click(function(){
-		$('#universidades').fadeIn(400);
-	})
+	$(document).ready(function(){
+		$('#mostrar_universidades').click(function(){
+			$('#universidades').fadeIn(400);
+		})
 })
 </script>
 

@@ -1,8 +1,28 @@
-.ajustar_tamaño{
-    width: 100%;
+#listanotasdecorte{
+    position: relative;
+    left: 100px;
+    font-size: 18px;
+    color: rgb(20,20,20);
+}
+#divlistadoblesgrados{
+    display: block;
+}
+.tabladoblegrado{
+    display: none;
+}
+.graficonotadecortedoble{
+       display: none;
 }
 #mostrar_universidades{
     font-size: 18px;
+}
+.linotadecorte{
+    color:rgb(0,0,0);
+    font-size: 18px;
+}
+.linotadecortedoble{
+    color: rgb(30,30,30) !important;
+    cursor: pointer;
 }
 .full{
     width: 100%;
