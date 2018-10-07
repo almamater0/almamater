@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/principal/templates/consejos/productividad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/GraduateWhite.png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/logoalmamater.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/logoalmamater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/logoalmamater40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/logoalmamater45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/rsz_1rsz_logoalmamater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/images/rsz_logoalmamater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/consejos/estres.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos/estres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/almamater0/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/almamater0/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/static/principal/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/consejos.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/consejos/estres.html" beforeDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -29,38 +23,46 @@
       <file leaf-file-name="consejos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/templates/consejos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="390">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estres.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/principal/templates/consejos/estres.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/principal/static/principal/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="79" column="366" selection-start-line="79" selection-start-column="366" selection-end-line="79" selection-end-column="366" />
+            <state relative-caret-position="424">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productividad.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/templates/consejos/productividad.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="73" column="62" lean-forward="true" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#9;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#12;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#14;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#15;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#13;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#14;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#15;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#16;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#17;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#18;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#19;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#20;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#21;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -91,7 +93,6 @@
       <find>cuadro</find>
       <find>bright</find>
       <find>logo</find>
-      <find>h1</find>
       <find>ajustep</find>
       <find>row</find>
       <find>container</find>
@@ -101,6 +102,7 @@
       <find>p</find>
       <find>font-fam</find>
       <find>p{</find>
+      <find>h1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,7 +138,6 @@
         <option value="$PROJECT_DIR$/principal/urls.py" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/footer.css" />
         <option value="$PROJECT_DIR$/templates/almamater0/footer.html" />
-        <option value="$PROJECT_DIR$/principal/templates/consejos.html" />
         <option value="$PROJECT_DIR$/principal/templates/contacto.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/contacto.css" />
@@ -151,15 +152,16 @@
         <option value="$PROJECT_DIR$/principal/templates/grados/fisica.html" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
         <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
-        <option value="$PROJECT_DIR$/principal/static/principal/css/main.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
+        <option value="$PROJECT_DIR$/principal/templates/consejos.html" />
+        <option value="$PROJECT_DIR$/principal/static/principal/css/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
-    <option name="y" value="120" />
+    <option name="x" value="445" />
+    <option name="y" value="-22" />
     <option name="width" value="702" />
     <option name="height" value="726" />
   </component>
@@ -306,7 +308,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19399707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23426062" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -353,13 +355,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/programacion/inted/inted/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/almamater0/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -617,20 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/consejos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="37" column="27738" selection-start-line="37" selection-start-column="27738" selection-end-line="37" selection-end-column="27738" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -638,34 +619,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/consejos/estres.html">
+    <entry file="file://$PROJECT_DIR$/principal/templates/consejos/productividad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="79" column="366" selection-start-line="79" selection-start-column="366" selection-end-line="79" selection-end-column="366" />
+        <state relative-caret-position="542">
+          <caret line="73" column="62" lean-forward="true" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#9;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#12;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#13;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#14;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#15;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#16;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#17;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#18;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#19;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#20;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#21;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/magnific-popup.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/consejos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
