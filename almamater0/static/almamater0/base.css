@@ -1,4 +1,4 @@
-#nombre{
+#nombre h4{
     color: rgb(255,255,255);
     font-weight: bold;
     float: right;
@@ -6,6 +6,6 @@
 }
 @media (max-width: 600px){
     #nombre{
-        font-size: 30px;
+        font-size: 300px;
     }
 }

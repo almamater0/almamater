@@ -23,6 +23,7 @@
 .linotadecortedoble{
     color: rgb(30,30,30) !important;
     cursor: pointer;
+    text-decoration: underline;
 }
 .full{
     width: 100%;
