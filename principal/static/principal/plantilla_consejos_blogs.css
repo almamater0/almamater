@@ -1,84 +1,9 @@
-#titulo{
-    position: absolute;
-    top: 16%;
-    width: 80%;
-    left: 10%;
-    font-size: 20;
-    font-family: Arial;
+.minirespuesta p{
+    font-size: 17px;
 }
-p{
-    text_align: justify;
+#autorexplicacion{
+    font-size: 17px;
 }
-#titulo h1{
-    text-align:center;
-}
-
-#entrada{
-    font-size: 23;
-    font-family: Arial;
-    width: 60%;
-    position: absolute;
-    left: 20%;
-    top: 30%;
-}
-#texto{
-    font-size: 20;
-    font-family: Arial;
-    position: absolute;
-    top: 60%;
-    left: 15%;
-    width: 70%;
-    border: 2px solid rgb(0, 71, 179);
-}
-#texto p{
-    padding: 5%;
-}
-#footer{
-    border-top: 2px solid rgb(150,150,150);
-    height: 10%;
-    position: absolute;
-    top: 160%; left: 0%; width: 100%;
-}
-#footer p{
-    text-align: center;
-    font-size: 25;
-}
-p{
-    text-align: justify;
-}
-@media only screen and (max-device-width: 600px) {
-    #titulo{
-        position: absolute;
-        top: 10%;
-        width: 80%;
-        left: 10%;
-        font-size: 34;
-}
-    #titulo h1{
-        text-align: center;
-    }
-    #entrada{
-        width: 80%;
-        position: absolute;
-        left: 10%;
-        top: 18%;
-        height: 9%;
-    }
-    #entrada p{
-        font-size: 40;
-     }
-    #texto{
-        position: absolute;
-        top: 38%;
-        left: 2.5%;
-        width: 95%;
-    }
-    #texto p{
-        padding: 0;
-        font-size: 40;
-    }
-    #footer{
-        height: 7%;
-    }
-
+#autor{
+    font-size: 17px;
 }
