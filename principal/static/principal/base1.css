@@ -7,9 +7,6 @@
     position: relative;
     left: 10px;
 }
-#logoalmamatermovil{
-    display: none;
-}
 #nombreh5{
     display: none;
     color: rgb(255,255,255);
@@ -17,12 +14,6 @@
 }
 
 @media (max-width: 600px){
-    #logoalmamater{
-        display: none;
-    }
-    #logoalmamatermovil{
-        display: block;
-    }
     #nombreh4{
         display: none;
     }
