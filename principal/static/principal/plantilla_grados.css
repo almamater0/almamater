@@ -20,12 +20,15 @@
     display: none;
 }
 .graficonotadecortedoble{
-       display: none;
+   display: none;
 }
 #mostrar_universidades{
     font-size: 28px;
 }
 @media (max-width: 600px){
+    #graficonotasdecorte{
+        display: none;
+    }
     #mostrar_universidades{
         font-size: 18px !important;
     }
