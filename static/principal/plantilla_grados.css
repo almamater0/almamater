@@ -14,7 +14,15 @@
        display: none;
 }
 #mostrar_universidades{
-    font-size: 18px;
+    font-size: 28px;
+}
+@media (max-width: 600px){
+    #mostrar_universidades{
+        font-size: 18px !important;
+    }
+    #listanotasdecorte{
+        left: 0px;
+    }
 }
 .linotadecorte{
     color:rgb(0,0,0);
