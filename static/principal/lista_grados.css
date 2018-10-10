@@ -5,9 +5,32 @@
     top: 40%;
     font-size: 40;
     color: rgb(255,255,255);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 .darken{
     filter: brightness(60%);
+}
+.area-width{
+    width: 200px;
+    margin-left: 10px;
+}
+#area_sociales{
+    margin-left: 0px;
+}
+#anchorcustom{
+    position: relative; top: -120px;
+}
+@media only screen and (max-device-width: 600px){
+    #anchorcustom{
+        position: relative; top: -105px;
+    }
+    .area-width{
+        position: relative;
+        top: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        margin-left: 0px;
+    }
 }

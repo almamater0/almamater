@@ -1,8 +1,8 @@
 #nombre h4{
-    color: rgb(255,255,255);
-    font-weight: bold;
-    float: right;
-    position: relative; left: 10px;
+    color:rgb(255,255,255);
+    font-size: 30px;
+    position: relative;
+    top: 7px;
 }
 @media (max-width: 600px){
     #nombre{

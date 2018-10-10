@@ -1,218 +1,36 @@
-p{
-    text-align: justify;
+#listanotasdecorte{
+    position: relative;
+    left: 100px;
+    font-size: 18px;
+    color: rgb(20,20,20);
 }
-#titulo{
-    position: absolute;
-    top: 14%; left: 150px;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 70;
-    font-weight: bold;
-}
-#container_imagen_universidades{
-    cursor: pointer;
-    background-color: #1FFFF5;
-    position: absolute;
-    top: 29%;
-    left: 150px;
-    width: 36%;
-    height: 61%;
-    border-radius: 10%;
-}
-#titulo_universidades{
-    cursor: pointer;
-    position: absolute; top: 20%; left: 20%;
-    color: rgb(30,30,30);
-    font-size: 40;
-    font-family: "Noto Sans", sans-serif;
-}
-#lista_universidades{
-    z-index: 10;
-    display: none;
-    position: absolute;
-    top: 0%;
-    left: 15%;
-    width: 68%;
-    height: 100%;
-    overflow: auto;
-    background-color: #1FFFF5;
-}
-#atras_universidades{
-    display: none;
-    z-index: 10;
-    font-size: 80;
-    color: #1FFFF5;
-    position: absolute; top: 10%; left: 86%;
-    cursor: pointer;
-}
-.div_universidad{
-    display: inline-block;
-    float: left;
-    width: 28%;
-    height: 45%;
-    border-radius: 20%;
-    padding: 1.5%;
-    position: relative; left: 2%;
-}
-.div_universidad a{
-    width: 100%;
-    height: 100%;
-    position: absolute; left: 0%; top: 0%;
-}
-.div_universidad .imagen_universidad{
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
-    filter: brightness(30%);
-}
-.div_universidad .texto_universidad{
-    width: 50%;
-    position: absolute; left: 25%; top: 30%;
-    text-align: justify;
-}
-.div_universidad .texto_universidad a{
-    font-size: 22;
-    font-family: "Noto Sans", sans-serif;
-    color: rgb(255,255,255);
-    text-decoration: none;
-}
-#mas_info{
-    font-size: 30;
-    color: rgb(70,70,70);
-    font-family: "Noto Sans", sans-serif;
-    position: absolute; top: 84%; left: 55%;
-}
-#notas_de_corte{
-    display:block;
-    border-radius: 10%;
-    position: absolute;
-    top: 14%; left: 50%;
-    width: 39%; height: 60%;
-}
-#notas_de_corte h2{
-    font-size: 28;
-    font-family: "Noto Sans", sans-serif;
-    text-align: center;
-    color: rgb(70,70,70);
-}
-.imagen_grafico{
-    border-radius: 10%;
-    width: 100%;
-    height: 90%;
-}
-.grafico{
+#divlistadoblesgrados{
     display: block;
-    border-radius: 10%;
-    width: 50%;
-    height: 60%;
 }
-.grafico h2{
-    font-size: 28;
-    font-family: "Noto Sans", sans-serif;
-    text-align: center;
-    color: rgb(70,70,70);
+.tabladoblegrado{
+    display: none;
 }
-#ranking{
-    position: absolute;
-    top: 110%; left: 25%;
+.graficonotadecortedoble{
+       display: none;
 }
-#graduados{
-    position: absolute;
-    top: 180%; left: 25%;
+#mostrar_universidades{
+    font-size: 18px;
 }
-#creditos{
-    position: absolute;
-    top: 250%; left: 25%;
+.linotadecorte{
+    color:rgb(0,0,0);
+    font-size: 18px;
 }
-#detail{
-    height: 205%;
-    position: absolute; top: 110%; left: 15%;
-    width: 1%;
-    background-color: #1FFFF5;
+.linotadecortedoble{
+    color: rgb(30,30,30) !important;
+    cursor: pointer;
+    text-decoration: underline;
 }
-#footer{
-    padding-top: 13px;
+.full{
     width: 100%;
-    position: absolute; left: 0%; top: 320%;
-    height: 8%;
-    font-size: 23;
-    text-align: center;
-    color: rgb(30,30,30);
-    font-family: "Vidaloka";
-    border-top: 2px solid rgb(180, 180, 180);
+    height: 100%;
+    position: absolute; top: 0%; left:0%;
+    display:block;
 }
-
-
-@media only screen and (max-device-width: 600px) {
-    #listado_universidades ul{
-        position: absolute;
-        left: 20%;
-        top: 7%;
-    }
-    #titulo{
-        width: 80%;
-        position: absolute; left: 10%; top: 9%;
-        font-size: 70;
-        text-align: center;
-    }
-    #listado_universidades{
-        width: 95%;
-        position: absolute;
-        left: 2.5%;
-        top: 28%;
-        height: 32%; max-height: 32%;
-        min-height: 25%;
-        padding-left: 0%;
-    }
-    .universidad{
-        font-size: 40;
-    }
-    #notas_de_corte{
-        width: 95%;
-        position: absolute;
-        left: 2.5%;
-        top: 63%;
-        height: 50%; max-height: 50%; min-height: 50%;
-    }
-    .grafico{
-        width: 100%;
-        height: 60%; min-height: 60%;
-        font-size: 40;
-    }
-    #informacion{
-        position: absolute;
-        top: 115%;
-        left: 2.5%;
-        width: 95%;
-    }
-    #informacion p{
-        font-size: 40;
-    }
-    .inl-block{
-        position: relative; left: 0%;
-    }
-    .inl-block p{
-        font-size: 40;
-        padding: 12%;
-    }
-    .grafico imagen_grafico{
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-    }
-    .grafico p{
-        font-size: 40;
-        padding: 12%;
-    }
-    #informacion h2{
-        font-size: 45;
-    }
-    #notas_de_corte h2{
-        font-size: 45;
-    }
-    #footer{
-        height: 5%;
-    }
-    #footer p{
-        font-size: 40;
-    }
+.just-align{
+    text-align: justify;
 }

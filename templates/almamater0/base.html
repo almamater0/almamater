@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
     <link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
     <link rel="stylesheet" href="{% static 'almamater0/base.css' %}">
+    <link rel="stylesheet" href="{% static 'principal/base1.css' %}">
 </head>
 <body>
     {% block header %}
@@ -57,7 +58,7 @@
             <div class="row align-items-center justify-content-between d-flex">
               <div id="logo">
                 <img id="logoalmamater" src="{% static 'principal/images/logo.png' %}" title="tu Alma Mater" />
-                  <div id="nombre"><h4 style="color:rgb(255,255,255); font-size: 30px; position: relative; top: 7px;">Alma Mater</h4></div>
+                  <div id="nombre"><h4 id="nombreh">Alma Mater</h4></div>
               </div>
               <nav id="nav-menu-container">
                 <ul class="nav-menu">
@@ -112,11 +113,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="footer-bottom row align-items-center justify-content-between">
-                <p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
     </footer>

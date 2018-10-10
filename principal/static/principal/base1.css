@@ -1,11 +1,15 @@
-#nombre h4{
+#nombreh{
     color:rgb(255,255,255);
     font-size: 30px;
+
+}
+#nombre{
+    float: right;
     position: relative;
-    top: 7px;
+    left: 10px;
 }
 @media (max-width: 600px){
-    #nombre{
+    #nombreh{
         font-size: 300px;
     }
 }

@@ -1,0 +1,75 @@
+.myselect{
+    display: inline-block;
+    float: left;
+    min-width: 150px;
+    margin-left: 30px;
+    position: relative;
+    left: -80px;
+}
+@media only screen and (max-device-width: 600px){
+    .myselect{
+        position: relative;
+        left: 0px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+}
+
+
+elige-grado-sociales{
+    display: none;
+}
+#elige-grado-tecnologico{
+    display: none;
+}
+#elige-grado-biosanitario{
+    display: none;
+}
+.detalles{
+    padding: 0px;
+    color: rgb(40,40,40);
+}
+.detalles li{
+    padding-left: 30px;
+}
+.detalles .first-li{
+    padding-left: 5px;
+}
+.autor{
+    padding-left: 15px;
+    color: rgb(40,40,40);
+}
+.minirespuesta{
+    padding-top: 10px;
+    text-align: justify;
+    color: rgb(20,20,20);
+    display: block;
+}
+.pregunta{
+    display: block;
+    position: relative;
+    left: 8%;
+}
+.movil{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+@media only screen and (max-device-width: 600px){
+    .pregunta{
+        left:0px;
+    }
+    .autor{
+        padding: 0px;
+    }
+    .detalles li{
+        padding-left: 0px;
+    }
+    .movil{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
