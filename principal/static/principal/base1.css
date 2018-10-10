@@ -9,15 +9,12 @@
     position: relative;
     left: 10px;
 }
-#nombremovil{
+#nombrelogomovil{
     display: none;
     float: right;
     color: rgb(255,255,255);
     font-size: 20px;
     font-weight: bold;
-}
-#logoalmamatermovil{
-    display: none;
 }
 @media (max-width: 600px){
     #nombredesktop{
@@ -26,7 +23,7 @@
     #nombremovil{
         display: inline;
     }
-    #logoalmamatermovil{
+    #nombrelogomovil{
         display: block;
     }
     #logoalmamater{
