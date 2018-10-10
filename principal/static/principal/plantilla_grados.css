@@ -1,8 +1,11 @@
 #graficonotasdecorte{
     max-width: 100vw;
 }
-#graficoimangen{
-    max-width: 100%;
+#graficonotasdecorte img{
+    width: 100%;
+}
+#graficoimagen{
+    width: 100%;
 }
 #listanotasdecorte{
     position: relative;

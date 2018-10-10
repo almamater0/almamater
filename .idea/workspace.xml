@@ -4,7 +4,6 @@
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/templates/grados/derecho.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/derecho.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="derecho.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+            <state relative-caret-position="51">
+              <caret line="75" column="94" lean-forward="true" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -644,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="75" column="94" lean-forward="true" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -656,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_grados.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
