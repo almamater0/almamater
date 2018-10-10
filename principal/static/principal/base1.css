@@ -8,8 +8,29 @@
     position: relative;
     left: 10px;
 }
+#nombrehmovil{
+    display: none;
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#nombremovil{
+    display: none;
+    float: right;
+    position: relative;
+    left: 10px;
+}
+
 @media (max-width: 600px){
     #nombreh{
-        font-size: 200px;
+        display: none;
+    }
+    #nombre{
+        display: none;
+    }
+    #nombremovil{
+        display: block;
+    }
+    #nombrehmovil{
+        display: block;
     }
 }
