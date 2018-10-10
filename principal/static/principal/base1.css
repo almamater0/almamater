@@ -1,15 +1,19 @@
-#nombreh{
+#nombreh4{
     color:rgb(255,255,255);
     font-size: 30px;
 }
-#nombre{
+.nombre{
     float: right;
     position: relative;
     left: 10px;
 }
-
 #logoalmamatermovil{
     display: none;
+}
+#nombreh5{
+    display: none;
+    color: rgb(255,255,255);
+    font-size: 20px;
 }
 
 @media (max-width: 600px){
@@ -19,7 +23,10 @@
     #logoalmamatermovil{
         display: block;
     }
-    #nombreh{
+    #nombreh4{
         display: none;
+    }
+    #nombreh5{
+        display: block;
     }
 }
