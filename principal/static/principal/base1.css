@@ -10,14 +10,22 @@
 #nombreh5{
     display: none;
     color: rgb(255,255,255);
-    font-size: 20px;
+    font-size: 30px;
 }
-
+#logoalmamatermovil{
+    display: none;
+}
 @media (max-width: 600px){
     #nombreh4{
         display: none;
     }
     #nombreh5{
         display: block;
+    }
+    #logoalmamatermovil{
+        display: block;
+    }
+    #logoalmamater{
+        display: none;
     }
 }
