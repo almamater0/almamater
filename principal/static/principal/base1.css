@@ -1,7 +1,6 @@
 #nombreh{
     color:rgb(255,255,255);
     font-size: 30px;
-
 }
 #nombre{
     float: right;
@@ -21,6 +20,6 @@
         display: block;
     }
     #nombreh{
-        font-size: 2000px;
+        display: none;
     }
 }
