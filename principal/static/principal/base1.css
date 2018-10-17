@@ -16,6 +16,9 @@
     font-size: 20px;
     font-weight: bold;
 }
+#logoalmamater{
+    max-width: 40px; max-height: 40px; width: 40px; height: 40px;
+}
 @media (max-width: 600px){
     #nombredesktop{
         display: none;
@@ -27,7 +30,7 @@
         display: block;
     }
     #logoalmamater{
-        display: block;
+        display: none;
     }
     #logoalmamatermovil{
         max-width: 40px; max-height: 40px; width: 40px; height: 40px;
