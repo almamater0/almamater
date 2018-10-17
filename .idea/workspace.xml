@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/principal/static/principal/base1.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/base1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/derecho_universidades/derecho_autonoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/derecho_universidades/derecho_autonoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/almamater0/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/almamater0/base.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/principal/static/principal/base1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -680,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/principal/static/principal/base1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
         </state>
       </provider>
     </entry>
