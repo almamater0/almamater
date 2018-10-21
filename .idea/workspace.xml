@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/consejos/mindfulness.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos/mindfulness.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/templates/consejos/productividad.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos/productividad.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="productividad.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal/templates/consejos/productividad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="94">
+              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -102,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cuadro</find>
       <find>bright</find>
       <find>logo</find>
       <find>ajustep</find>
@@ -131,6 +128,8 @@
       <find>fis</find>
       <find>fís</find>
       <find>posi</find>
+      <find>single-po</find>
+      <find>single-popular-carusel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -588,24 +587,10 @@
     <entry file="file://$PROJECT_DIR$/principal/static/principal/lista_grados.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="5" column="7132" selection-start-line="5" selection-start-column="7126" selection-end-line="5" selection-end-column="7132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/css/linearicons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="366" column="19" selection-start-line="366" selection-start-column="19" selection-end-line="366" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="22997" lean-forward="true" selection-start-line="41" selection-start-column="22997" selection-end-line="41" selection-end-column="22997" />
         </state>
       </provider>
     </entry>
@@ -701,6 +686,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="5" column="43636" selection-start-line="5" selection-start-column="43632" selection-end-line="5" selection-end-column="43636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="39064" selection-start-line="41" selection-start-column="39042" selection-end-line="41" selection-end-column="39064" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal/static/principal/plantilla_consejos_blogs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -710,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/consejos/productividad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="94">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
