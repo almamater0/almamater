@@ -11,5 +11,6 @@ urlpatterns = [
     path('contacto', views.contacto, name="contacto"),
     path('inicio-sesion', views.registro, name="registro"),
     path('foro', views.foro, name="foro"),
-    path('foro/preguntar', views.foro_preguntar, name='foro_preguntar')
+    path('foro/preguntar', views.foro_preguntar, name='foro_preguntar'),
+    path('trabajando_en_ello', views.trabajando_en_ello, name="falta")
 ]

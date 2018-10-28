@@ -1,0 +1,143 @@
+{% extends "almamater0/base.html" %}
+{% block header %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Education</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+        <!--
+        CSS
+        ============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+        <link rel="stylesheet" href="{% static 'principal/plantilla_consejos_blogs.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+			<link rel="stylesheet" href="{% static 'principal/foro.css' %}"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27
+		bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	    <link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+
+        <!-- start banner Area -->
+        <section class="banner-area relative about-banner" id="home" style="background-image: url('/static/images/app.jpg')">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        <h1 class="text-white ajustetitulos">
+                            Aplicaciones útiles para estudiantes
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->
+
+        <!-- Start popular-courses Area -->
+        <section class="popular-courses-area section-gap courses-page">
+            <div class="container">
+                <div class="row">
+                    <div style="display: block;" class="col-lg-12 col-md-12 pregunta pregunta-sociales pregunta-derecho pregunta-autonoma">
+                        <h4 id="autor">Autor:</h4>
+						<p id="autorexplicacion">Elena Isasi</p>
+                        <p>A finales de Bachillerato hay muchas cosas que nos importan más que la página que estamos intentando estudiar —aunque esas otras preocupaciones sean las páginas siguientes ☺. Por eso hemos recopilado algunas de las aplicaciones que creemos pueden serle más útiles a un estudiante, tanto para hacer más fácil el trabajo en sí como el centrarse en él. Si tenéis más ideas interesantes, no dudéis en decírnoslas.</p>
+                        <p>
+                        <span class="negrita">1. Be Focused</span><br>
+                        Be Focused divide tareas concretas en periodos discretos para favorecer la productividad, separándolas por pequeñas pausas o descansos. Se mejora así la motivación y la eficiencia. La aplicación permite personalizar la creación de tareas individuales y la configuración de descanso. Además, la propia aplicación recopila información para hacer un seguimiento diario, semanal o personalizado. <br>
+                        Se puede controlar la duración de los intervalos de trabajo, los descansos breves y los largos; y la frecuencia con que estos se repiten, así como el máximo o meta de intervalos por día de trabajo. <br>
+                        Se puede además combinar con alguna otra de las aplicaciones que recomendamos, porque permite pegar una lista de tareas desde otras aplicaciones. Ofrece informes con gráfica de sectores para estimar mejor el tiempo dedicado a una tarea, y varios tonos de alarma.
+                        <br><br>
+                        <span class="negrita">2. Calcbot</span><br>
+                        Una calculadora científica sencilla de utilizar, con mucha mayor funcionalidad que la que pueda llevar incorporada tu teléfono.
+                        <br><br>
+                        <span class="negrita">3. CamScanner</span><br>
+                        Un escáner para tus apuntes, notas, dibujos, esquemas, trabajos… La imagen es de alta calidad y la app permite hacer anotaciones, para luego enviarla en formato pdf, o imprimirla desde el móvil. Facilita compartirla con un grupo de personas que pueden opinar sobre ella, y tiene la opción Optical Character Recognition (aunque la información esté en formato imagen, reconoce las palabras escritas y permite editar la información presentadaEs gratuita para Android, iPhone, iPad y para Windows Phone 8.
+                        <br><br>
+                        <span class="negrita">4. Evernote</span><br>
+                        Una aplicación para la toma y el archivado de notas donde se pueden agregar listados de ejercicios y deberes, realizar los apuntes de una clase, grabar una conferencia o tomar fotografías de la pantalla, pizarra u otro material visual que se muestre en clase. Es gratuita y se sincroniza con la versión para ordenador permitiendo comunicación entre todos tus dispositivos.
+                        <br><br>
+                        <span class="negrita">5. Forest</span><br>
+                        Fue creada para facilitar la deshabituación al teléfono móvil, convirtiendo vencer la tentación en crear de bosque virtual. Eligiendo el periodo de tiempo en el que tienes que estar concentrado, tu árbol se planta y, si sales de la aplicación, morirá. (La app permite bloquear el teléfono para que no te distraigas viendo cómo crece). <br>
+                        A lo largo del día, vas creando tu propio bosque, que al final puede estar lleno de grandes árboles verdes o de muchos palos muertos Ahora la app deja también que veas el bosque que creas al final del mes o en lo que va del año. <br>
+                        Según dejas crecer tus árboles, la app te va monedas virtuales para comprar otras especies que plantar; pero si lo prefieres, la app cuenta con un espacio en el que los usuarios pueden comprar un árbol real que será plantado en un bosque real. <br>
+                        Puedes indicarle qué páginas te distraen para que cuando trates de entrar ingresar a esos sitios, la app te recuerde que puedes matar a tu árbol si lo haces.
+                        <br><br>
+                        <span class="negrita">6. InClass</span><br>
+                        InClass sirve para crear listas de tareas y un horario de estudio; así como organizarte las clases, los plazos y sus fechas límite. Cuenta con recordatorios con notificaciones que te recuerdan ensayos y exámenes. También mejora el proceso de tomar notas: puedes grabar la clase, sacar fotografías, e ir anotando los dictados. (Aunque algunas de estas funciones son más apropiadas para una clase de universidad que de instituto). Los apuntes finales se organizan y controlan por materia, ciclo y profesor.
+                        <br><br>
+                        <span class="negrita">7. iFormula Pro</span><br>
+                        Esta aplicación permite tener todos los teoremas, ecuaciones y estadísticas que necesitas en un mismo lugar. Como una biblioteca de ecuaciones y fórmulas, evita tener que llevar los materiales de consulta a todas partes. Facilita también el trabajo con gráficas y/o diagramas.
+                        <br><br>
+                        <span class="negrita">8. iStudiez</span><br>
+                        Esta aplicación permite mantener en un solo lugar todo lo que necesitas para gestionar tu tiempo: posee calendarios integrados y la posibilidad de crear listas de tareas semanales y diarias. Hay una versión gratuita limitada y una completa por 2’39€ sin restricciones de uso
+                        <br><br>
+                        <span class="negrita">9. Rescue Time</span><br>
+                        Una aplicación que facilita el no tentarte con todas las “maravillosas” posibilidades que ofrece internet. Puedes colocar alarmas y saber exactamente el tiempo que tardas en completar una actividad o el que dedicas a ciertas tareas, y bloquear temporalmente el acceso a las webs que decidas y por el tiempo que prefieras. También destaca tus logros durante el día, para mantener tu motivación.
+                        <br><br>
+                        <span class="negrita">10. Trello</span><br>
+                        Trello funciona mediante tableros (listas de listas con tarjetas) actualizados en tiempo real, que pueden usarse en equipo o en solitario, para reflejar ideas, tareas, trabajos académicos, fotografía y/o vídeo… Pueden agregarse tantas personas como sea necesario. Se pueden añadir comentarios; cargar archivos desde el ordenador, Google Drive, Dropbox, Box y OneDrive; y agregar checklists, etiquetas, fechas de vencimiento y otros elementos.<br>
+                        Para los que deseen más opciones, existen Power-Ups, como el calendario, el vencimiento de la tarjeta y las votaciones, que se pueden activar o no, para no sobrecargar de funcionalidades inútiles a quien no va a usarlas.
+                        <br><br>
+                        <span class="negrita">11. Unstuck</span><br>
+                        Unstuck es un life coach virtual que te ayuda a desatrancarte en momentos donde te sientes superado por los problemas y no ves por dónde empezar. Tras identificar el problema;, te hará una serie de preguntas para determinar tu actitud frente a él y las posibles soluciones que le puedes dar basadas en metas a corto, medio y largo plazo. Te da consejos, te ayuda a priorizar unas tareas sobre otras y a concentrarte en objetivos concretos.
+                        <br><br>
+                        <span class="negrita">12. Wunderlist</span><br>
+                        Sirve para generar listas de tareas y compartirlas con compañeros de trabajo, amigos y familiares. Crear una nueva tarea con fecha y hora de caducidad es muy simple, y se pueden organizar las tareas mediante etiquetas para clasificar por tema o asignatura las tareas. Además, permite acceder a tu información desde cualquiera de tus dispositivos. Cuando se acaba un plazo, sea para una tarea de trabajo o de ocio, la aplicación te manda un aviso para que no lo olvides.
+
+                        </p>
+				    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End popular-courses Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+    </body>
+</html>
+
+{% endblock %}
+
+{% block footer %}
+{{ block.super }}
+{% endblock %}

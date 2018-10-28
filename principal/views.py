@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
-from .models import comentario, pregunta
+from .models import comentario, pregunta, falta
 
 def inicio(request):
     return render(request, 'inicio.html')
@@ -34,6 +34,15 @@ def contacto(request):
         crear_comentario = comentario.objects.create(texto_comentario=nuevo_comentario, direccion_correo=direccion_correo, nombre=nombre)
         crear_comentario.save()
     return render(request,"contacto.html")
+
+def trabajando_en_ello(request):
+    if request.method=="POST":
+        texto_falta = request.POST.get('falta')
+        nuevo_falta = falta.objects.create(texto_falta=texto_falta)
+        nuevo_falta.save()
+        return HttpResponseRedirect("/")
+    return render(request,"trabajando_en_ello.html")
+
 
 def registro(request):
     return render(request,"registro.html")

@@ -16,13 +16,15 @@
     <meta charset="UTF-8">
     <!-- Site Title -->
     <title>tu Alma Mater</title>
+    <link rel="icon" type="image/png" href="/static/principal/images/logonegro.png">
         <meta property="og:url"           content="https://almamater0.herokuapp.com" />
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="Tu Alma Mater" />
         <meta property="og:description"   content="Consigue información sobre universidades y grados" />
-        <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+        <meta property="og:image"         content="https://www.almamater0.herokuapp.com/principal/static/principal/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
         <!--
         CSS
         ============================================= -->
@@ -39,8 +41,11 @@
     <link rel="stylesheet" href="{% static 'principal/base1.css' %}">
 </head>
 <body>
+    <button type="button">
+        aaaaa
+    </button>
     {% block header %}
-    <header id="header" id="home">
+    <header id="header">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -62,8 +67,8 @@
                 <div class="nombre"><a id="nombredesktop">Alma Mater</a></div>
               </div>
 
-              <nav id="nav-menu-container">
-                <ul class="nav-menu">
+              <nav id="nav-menu-container"> <!-- por esto sale -->
+                <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y">
                   <li><a href="/">Inicio</a></li>
                   <li><a href="/grados">Buscar grados y universidades</a></li>
                   <li><a href="/consejos">Consejos</a></li>
@@ -112,6 +117,17 @@
                         <ul>
                             <li><a href="/contacto">Contacta con nosotros</a></li>
                             <li>almamater.contacto@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Partners</h4>
+                        <ul>
+                            <li><img style="width: 40px; height: 40px" src="{% static 'principal/images/tiempo.jpg' %}"> Universidad ...</li>
+                            <li><img style="width: 40px; height: 40px" src="{% static 'principal/images/tiempo.jpg' %}"> Universidad ...</li>
+                            <li><img style="width: 40px; height: 40px" src="{% static 'principal/images/tiempo.jpg' %}"> Universidad ...</li>
+                            <li><img style="width: 40px; height: 40px" src="{% static 'principal/images/tiempo.jpg' %}"> Universidad ...</li>
                         </ul>
                     </div>
                 </div>

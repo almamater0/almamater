@@ -11,3 +11,6 @@ class pregunta(models.Model):
     pregunta=models.TextField(default="No ha introducido un comentario")
     detalles=models.TextField(default="No ha introducido detalles")
     email=models.CharField(default="No ha introducido email", max_length=100)
+
+class falta(models.Model):
+    texto_falta=models.TextField(default="No ha introducido nada que falte")
