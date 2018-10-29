@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/principal/templates/consejos/relajacion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/lista_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/lista_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_grados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/plantilla_universidades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/consejos.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/consejos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/consejos/mindfulness.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/derecho.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/derecho.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/derecho_universidades/derecho_autonoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/derecho_universidades/derecho_autonoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/templates/lista_grados.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/lista_grados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/almamater0/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/almamater0/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/static/principal/foro.css" beforeDir="false" afterPath="$PROJECT_DIR$/principal/static/principal/foro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/foro.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/foro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/foro_preguntar.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/foro_preguntar.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/inted/Procfile.windows" beforeDir="false" afterPath="$USER_HOME$/programacion/inted/Procfile.windows" afterDir="false" />
@@ -32,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/almamater0/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
+            <state relative-caret-position="17">
               <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,6 +30,50 @@
                 <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foro.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/templates/foro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foro.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/principal/static/principal/foro.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lista_grados.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/templates/lista_grados.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="135" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inicio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -96,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/almamater0/base.css" />
-        <option value="$PROJECT_DIR$/almamater0/settings.py" />
         <option value="$PROJECT_DIR$/principal/templates/infobiologia.html" />
         <option value="$PROJECT_DIR$/principal/templates/fisica.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/grados/biologia.css" />
@@ -121,7 +150,6 @@
         <option value="$PROJECT_DIR$/principal/templates/consejos/estres.html" />
         <option value="$PROJECT_DIR$/almamater0/static/almamater0/base.css" />
         <option value="$PROJECT_DIR$/principal/static/principal/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/principal/templates/foro.html" />
         <option value="$PROJECT_DIR$/principal/templates/grados/fisica.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/base1.css" />
         <option value="$PROJECT_DIR$/principal/templates/consejos/productividad.html" />
@@ -147,6 +175,9 @@
         <option value="$PROJECT_DIR$/principal/static/principal/css/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/templates/almamater0/base.html" />
         <option value="$PROJECT_DIR$/principal/static/principal/js/main.js" />
+        <option value="$PROJECT_DIR$/principal/templates/foro_preguntar.html" />
+        <option value="$PROJECT_DIR$/principal/templates/foro.html" />
+        <option value="$PROJECT_DIR$/principal/static/principal/foro.css" />
       </list>
     </option>
   </component>
@@ -337,23 +368,23 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27818447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -363,25 +394,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../learn/index.html" />
-    <entry file="file://$PROJECT_DIR$/principal/static/principal/inicio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/almamater0/static/almamater0/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/foro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="169" column="80" selection-start-line="169" selection-start-column="80" selection-end-line="169" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -466,9 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,12 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="62" column="105" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,38 +502,10 @@
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="268" column="61" selection-start-line="268" selection-start-column="61" selection-end-line="268" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/templates/grados/derecho_universidades/derecho_autonoma.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="387" column="78" selection-start-line="387" selection-start-column="78" selection-end-line="387" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal/templates/lista_grados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +682,42 @@
     <entry file="file://$PROJECT_DIR$/principal/static/principal/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/grados/fisica_universidades/fisica_autonoma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/inicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/lista_grados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="135" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/foro_preguntar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="44" column="109" selection-start-line="44" selection-start-column="109" selection-end-line="44" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/almamater0/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
+        <state relative-caret-position="17">
           <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -716,6 +725,23 @@
             <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/templates/foro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal/static/principal/foro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
