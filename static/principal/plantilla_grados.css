@@ -1,3 +1,13 @@
+
+#graficonotasdecorte{
+    max-width: 100vw;
+}
+#graficonotasdecorte img{
+    width: 100%;
+}
+#graficoimagen{
+    width: 100%;
+}
 #listanotasdecorte{
     position: relative;
     left: 100px;
@@ -11,17 +21,23 @@
     display: none;
 }
 .graficonotadecortedoble{
-       display: none;
+   display: none;
 }
 #mostrar_universidades{
     font-size: 28px;
 }
 @media (max-width: 600px){
+    #graficonotasdecorte{
+        display: none;
+    }
     #mostrar_universidades{
         font-size: 18px !important;
     }
     #listanotasdecorte{
         left: 0px;
+    }
+    #graficodoblesgrados{
+        display: none;
     }
 }
 .linotadecorte{
@@ -41,4 +57,11 @@
 }
 .just-align{
     text-align: justify;
+}
+@media (min-width: 601px){
+    .fotolistauni{
+        width: 200px !important;
+        height: 120px !important;
+
+    }
 }

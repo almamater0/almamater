@@ -7,3 +7,16 @@
 #autor{
     font-size: 17px;
 }
+.negrita{
+    font-weight: bold;
+}
+p{
+    margin-right: 25%;
+    color: rgb(20,20,20);
+}
+@media (max-width: 600px){
+    p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

@@ -21,7 +21,7 @@
 #anchorcustom{
     position: relative; top: -120px;
 }
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-width: 600px){
     #anchorcustom{
         position: relative; top: -105px;
     }
@@ -32,5 +32,19 @@
         margin-bottom: 20px;
         font-weight: bold;
         margin-left: 0px;
+    }
+}
+@media (min-width: 601px){
+    .fotocol4{
+        height: 300px;
+        width: 360px;
+    }
+    .fotocol5{
+        height: 300px;
+        width: 457px;
+    }
+    .fotocol7{
+        height: 300px;
+        width: 653px;
     }
 }
