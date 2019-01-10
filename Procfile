@@ -1,2 +1,2 @@
-web: gunicorn --log-file=- onbytes.wsgi:application
+web: gunicorn hello:app
 worker: python manage.py runworker -v2
