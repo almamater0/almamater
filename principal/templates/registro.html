@@ -5,6 +5,7 @@
 
 {%block content%}
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
@@ -22,9 +23,7 @@
 	<meta charset="UTF-8">
 	<!-- Site Title -->
 	<title>Education</title>
-	<link
-href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
-rel="stylesheet"  type='text/css'>
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<!--
 		CSS
@@ -38,51 +37,83 @@ rel="stylesheet"  type='text/css'>
 		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
 		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
 		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
-	</head>
-	<body>
-		<!-- start banner Area -->
-		<section class="banner-area relative" id="home" style="background-image: url('/static/principal/images/diploma.jpg');">
-			<div class="overlay overlay-bg"></div>
-			<div class="container">
-				<div class="row fullscreen d-flex align-items-center justify-content-between">
-					<div class="banner-content col-lg-9 col-md-12">
-						<h1>
-							Pregunta a estudiantes de forma directa
-						</h1>
-						<br>
-					</div>
+</head>
+
+<body>
+
+	<!-- start banner Area -->
+	<section class="banner-area relative about-banner" id="home" style="background-image: url('static/principal/images/welcome.jpg');">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<p class="text-white link-nav">¿Ya tienes una cuenta? <a href="\login"><span style="text-decoration=underline">Inicia sesión</span></a></p>
+					<h1 class="text-white">
+						Regístrate, ¡es rápido!
+					</h1>
 				</div>
 			</div>
-		</section>
-		<!-- End banner Area -->
 
-        <!-- foro -->
-        <section>
-            <div
+		</div>
+	</section>
+	<!-- End banner Area -->
 
-        </section>
+	<!-- Start contact-page Area -->
+	<section class="contact-page-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<form class="form-area contact-form text-right" action="registro" method="post">
+					{% csrf_token %}
+						<div class="row">
+							<div class="col-lg-6 form-group">
+								<input name="username" placeholder="Nombre de usuario" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre de usuario'" class="common-input mb-20 form-control" type="text">
+								<input name="email" placeholder="Dirección de correo" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de correo'" class="common-input mb-20 form-control" type="email">
+								<input id="contraseña" name="contraseña" placeholder="Contraseña" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contraseña'" class="common-input mb-20 form-control" type="password">
+								<input id="checkcontraseña" name="checkcontraseña" placeholder="Confirmar contraseña" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirmar contraseña'" class="common-input mb-20 form-control" type="password">
+								<span id="message"></span>
+								<input id="credenciales" name="credenciales" placeholder="¿Qué estudias y dónde?" onfocus="this.placeholder = ''" onblur="this.placeholder = '¿Qué estudias y dónde?'" class="common-input mb-20 form-control" type="text">
+							<div class="col-lg-12">
+								<div class="alert-msg" style="text-align: left;"></div>
+								<button type="submit" class="genric-btn primary" style="float: right;">Regístrate</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End contact-page Area -->
 
 
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+	<script>
+	$(document).ready(function(){
+	$('#contraseña, #checkcontraseña').on('keyup', function () {
+  		if ($('#contraseña').val() == $('#checkcontraseña').val()) {
+			$('#message').html('OK').css('color', 'green');
+  		}else
+			$('#message').html('No coinciden las contraseñas').css('color', 'red');
+	});
 
-        <!-- end foro -->
-
-		<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-		<script src="{% static 'principal/js/easing.min.js' %}"></script>
-		<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
-		<script src="{% static 'principal/js/superfish.min.js' %}"></script>
-		<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
-		<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
-		<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
-		<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
-		<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
-		<script src="{% static 'principal/js/mail-script.js' %}"></script>
-		<script src="{% static 'principal/js/main.js' %}"></script>
-	</body>
+	</script>
+</body>
 </html>
-{% endblock %}
+
+{%endblock %}
 
 {% block footer %}
 {{ block.super }}

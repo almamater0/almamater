@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class comentario(models.Model):
     texto_comentario=models.TextField(default="Nada")

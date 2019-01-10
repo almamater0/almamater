@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/almamater0.iml" filepath="$PROJECT_DIR$/.idea/almamater0.iml" />
-      <module fileurl="file://$USER_HOME$/programacion/education/.idea/education.iml" filepath="$USER_HOME$/programacion/education/.idea/education.iml" />
-      <module fileurl="file://$USER_HOME$/programacion/inted/.idea/inted.iml" filepath="$USER_HOME$/programacion/inted/.idea/inted.iml" />
       <module fileurl="file://$PROJECT_DIR$/../learn/.idea/learn.iml" filepath="$PROJECT_DIR$/../learn/.idea/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sp/mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../sp/mysite/.idea/mysite.iml" />
+      <module fileurl="file://$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/.idea/spirit.iml" filepath="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/.idea/spirit.iml" />
     </modules>
   </component>
 </project>

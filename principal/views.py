@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 from .models import comentario, pregunta, falta
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login
 
 def inicio(request):
     return render(request, 'inicio.html')
@@ -43,10 +45,6 @@ def trabajando_en_ello(request):
         return HttpResponseRedirect("/")
     return render(request,"trabajando_en_ello.html")
 
-
-def registro(request):
-    return render(request,"registro.html")
-
 def foro(request):
     return render(request, "foro.html")
 
@@ -59,6 +57,19 @@ def foro_preguntar(request):
         email=request.POST.get("email")
         crear_pregunta=pregunta.objects.create(universidad=universidad, grado=grado, pregunta=nueva_pregunta, detalles=detalles, email=email)
     return render(request, "foro_preguntar.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def manage500(request):
     return render(request, "manageerror.html")
