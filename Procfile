@@ -1,2 +1,2 @@
-web: gunicorn almamater0.wsgi --log-file -
+web: gunicorn --log-file=- onbytes.wsgi:application
 worker: python manage.py runworker -v2
