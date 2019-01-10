@@ -11,10 +11,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'f&$m36vh_t(l_)aeg)y5dhed2=db)02wtrl_(p7^@85-+wr^22'
+secret_KEY=os.environ.get('secret_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "localhost:8000", "0.0.0.0", "almamater0.herokuapp.com"]
 
@@ -99,8 +99,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'almamater0.wsgi.application'
 
-DATABASE_URL='postgres://quxyteosyveldg:2e64257288a1e29c8dfde0a5a8225a596ca39d52fa714591cb4effe8f04ed50e@ec2-54-247-98-162.eu-west-1.compute.amazonaws.com:5432/da2rcv7d0eof0a'
-
+DATABASE_URL = os.environ.get('DATABASE_URL')
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 DATABASES = {'default': dj_database_url.config(default=DATABASE_URL)}
 

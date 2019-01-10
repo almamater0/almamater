@@ -1,0 +1,1 @@
+-e hg+https://evangrim@code.google.com/r/evangrim-django-crowdsourcing/@b824d8f377b5bc2706d9755650e3f35061f3e309#egg=django_crowdsourcing-dev
