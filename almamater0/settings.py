@@ -100,7 +100,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'almamater0.wsgi.application'
 
 DATABASE_URL = 'postgres://quxyteosyveldg:2e64257288a1e29c8dfde0a5a8225a596ca39d52fa714591cb4effe8f04ed50e@ec2-54-247-98-162.eu-west-1.compute.amazonaws.com:5432/da2rcv7d0eof0a'
-conn = psycopg2.connect(dbname='DATABASE_URL', sslmode='allow', host='/tmp/')
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 DATABASES = {'default': dj_database_url.config(default=DATABASE_URL)}
 
 #DATABASES = {
