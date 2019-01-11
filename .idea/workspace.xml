@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/almamater0/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
     </list>
@@ -36,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="102" column="72" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="72" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="e#47#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,12 +105,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/principal/templates/login.html" />
         <option value="$PROJECT_DIR$/principal/templates/registro.html" />
         <option value="$PROJECT_DIR$/../sp/mysite/mysite/settings/base.py" />
         <option value="$PROJECT_DIR$/principal/models.py" />
@@ -148,10 +160,11 @@
         <option value="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/comment/templates/spirit/comment/_render_list.html" />
         <option value="$PROJECT_DIR$/principal/templates/inicio.html" />
         <option value="$PROJECT_DIR$/almamater0/settings.py" />
+        <option value="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/setup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="697" />
@@ -302,13 +315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/topic/templates/spirit/topic/publish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="76" lean-forward="true" selection-start-line="18" selection-end-line="30" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/core/templates/spirit/_formset.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -619,6 +625,16 @@
           <caret line="102" column="72" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="72" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
