@@ -4,7 +4,7 @@ import dj_database_url
 
 import sys
 sys.path.append('/spirit')
-from spirit import core
+from spirit import spirit.core
 
 
 
