@@ -4,11 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
 gunicorn = "*"
 "psycopg2" = "*"
 dj-database-url = "*"
 whitenoise = "*"
+spirit = {git = "https://github.com/almamater0/paraforo.git"}
+Django = "*"
 
 [dev-packages]
 
