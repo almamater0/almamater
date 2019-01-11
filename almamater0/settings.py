@@ -4,8 +4,7 @@ import dj_database_url
 
 import sys
 sys.path.append('/spirit')
-
-
+import spirit
 
 
 
@@ -81,7 +80,7 @@ MIDDLEWARE = [
     'spirit.user.middleware.LastIPMiddleware',
     'spirit.user.middleware.LastSeenMiddleware',
     'spirit.user.middleware.ActiveUserMiddleware',
-    'spirit.core.middleware.PrivateForumMiddleware',
+    'core.middleware.PrivateForumMiddleware',
     'djconfig.middleware.DjConfigMiddleware',
 ]
 
