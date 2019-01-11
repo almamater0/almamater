@@ -2,9 +2,9 @@ import os
 import psycopg2
 import dj_database_url
 
-import sys
-sys.path.append('/spirit')
-import spirit
+#import sys
+#sys.path.append('/spirit')
+#import spirit
 
 
 
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'principal',
     'almamater0',
 
-    'core',
+    'spirit.core',
     'spirit.admin',
     'spirit.search',
 
@@ -80,7 +80,7 @@ MIDDLEWARE = [
     'spirit.user.middleware.LastIPMiddleware',
     'spirit.user.middleware.LastSeenMiddleware',
     'spirit.user.middleware.ActiveUserMiddleware',
-    'core.middleware.PrivateForumMiddleware',
+    'spirit.core.middleware.PrivateForumMiddleware',
     'djconfig.middleware.DjConfigMiddleware',
 ]
 
