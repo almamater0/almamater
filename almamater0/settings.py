@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'principal',
     'almamater0',
 
-    'spirit.core',
     'spirit.admin',
     'spirit.search',
 
