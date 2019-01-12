@@ -8,7 +8,6 @@ gunicorn = "*"
 "psycopg2" = "*"
 dj-database-url = "*"
 whitenoise = "*"
-spirit = {git = "https://github.com/almamater0/paraforo.git"}
 Django = "*"
 
 [dev-packages]

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8fc6b5817d285f649f21e8ea3ca9c65728d39d7f638f4bbaf9c7219fa5ce0c65"
+            "sha256": "4a482c983db1cf36e93adca62afb0e35ab3692b8fc6f1c04c1de1691bf806594"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -82,9 +82,6 @@
                 "sha256:d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"
             ],
             "version": "==2018.9"
-        },
-        "spirit": {
-            "git": "https://github.com/almamater0/paraforo.git"
         },
         "whitenoise": {
             "hashes": [
