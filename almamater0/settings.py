@@ -4,8 +4,7 @@ import dj_database_url
 
 import sys
 sys.path.append('spirit')
-import core
-
+from spirit import *
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -36,7 +35,7 @@ INSTALLED_APPS = [
     'principal',
     'almamater0',
 
-    'core',
+    'spirit.core',
     'spirit.admin',
     'spirit.search',
 
