@@ -3057,8 +3057,7 @@
       <change beforePath="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/user/utils/email.py" beforeDir="false" />
       <change beforePath="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/user/utils/tokens.py" beforeDir="false" />
       <change beforePath="$USER_HOME$/.virtualenvs/almamater0-gu9Of1Sh/Lib/site-packages/spirit/user/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/almamater0/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/almamater0/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
     </list>
@@ -3074,7 +3073,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-124">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -3096,7 +3095,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile.windows">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -3623,7 +3622,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile.windows">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -3636,7 +3635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-124">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
