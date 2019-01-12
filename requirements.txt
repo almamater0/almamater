@@ -1,1 +1,0 @@
-git+https://github.com/almamater0/paraforo.git#egg=spirit
