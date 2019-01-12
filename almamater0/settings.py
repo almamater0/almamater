@@ -2,9 +2,9 @@ import os
 import psycopg2
 import dj_database_url
 
-#import sys
-#sys.path.append('/spirit')
-#import spirit
+import sys
+sys.path.append('spirit')
+import core
 
 
 
@@ -80,7 +80,7 @@ MIDDLEWARE = [
     'spirit.user.middleware.LastIPMiddleware',
     'spirit.user.middleware.LastSeenMiddleware',
     'spirit.user.middleware.ActiveUserMiddleware',
-    'spirit.core.middleware.PrivateForumMiddleware',
+    'core.middleware.PrivateForumMiddleware', ##
     'djconfig.middleware.DjConfigMiddleware',
 ]
 
