@@ -3,8 +3,7 @@ import psycopg2
 import dj_database_url
 
 import sys
-sys.path.append('spirit')
-from spirit import *
+sys.path.append('/spirit/')
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
