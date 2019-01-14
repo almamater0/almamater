@@ -2,4 +2,4 @@
 
 from __future__ import unicode_literals
 
-default_app_config = 'spirit.core.apps.SpiritCoreConfig'
+default_app_config = 'core.apps.SpiritCoreConfig'
