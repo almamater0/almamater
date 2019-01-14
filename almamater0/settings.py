@@ -2,6 +2,8 @@ import os
 import psycopg2
 import dj_database_url
 
+#import sys
+#sys.path.append('spirit')
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -32,7 +34,7 @@ INSTALLED_APPS = [
     'principal',
     'almamater0',
 
-    'almamater0.spirit.core',
+    'core',
     'spirit.admin',
     'spirit.search',
 
