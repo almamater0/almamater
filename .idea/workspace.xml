@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c4eeae-2140-435b-8fe5-166fc25e905c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/almamater0/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirit/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/spirit/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almamater0/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/almamater0/settings.py" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/programacion/education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" beforeDir="false" afterPath="$USER_HOME$/programacion/education/usuario/templates/inicio.html" afterDir="false" />
     </list>
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -28,11 +27,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/almamater0/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -63,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banner-area</find>
       <find>relative</find>
       <find>.relative</find>
       <find>overlay</find>
@@ -93,6 +112,7 @@
       <find>logout_</find>
       <find>ssl</find>
       <find>spirit.core</find>
+      <find>sp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,9 +169,9 @@
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/spirit/requirements.txt" />
         <option value="$PROJECT_DIR$/spirit/__init__.py" />
-        <option value="$PROJECT_DIR$/almamater0/settings.py" />
         <option value="$PROJECT_DIR$/spirit/middleware.py" />
         <option value="$PROJECT_DIR$/almamater0/urls.py" />
+        <option value="$PROJECT_DIR$/almamater0/settings.py" />
       </list>
     </option>
   </component>
@@ -358,9 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/principal/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -376,13 +393,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principal/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
@@ -461,22 +471,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
+    <entry file="file://$PROJECT_DIR$/almamater0/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/almamater0/urls.py">
+    <entry file="file://$PROJECT_DIR$/principal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/almamater0/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
