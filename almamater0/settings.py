@@ -2,6 +2,7 @@ import os
 import psycopg2
 import dj_database_url
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -17,7 +18,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "localhost:8000", "0.0.0.0", "almamater0.herokuapp.com"]
 
-
+import sys
+sys.path.append('/spirit')
 # Application definition
 
 INSTALLED_APPS = [
@@ -30,7 +32,7 @@ INSTALLED_APPS = [
     'principal',
     'almamater0',
 
-    'core',
+    'spirit.core',
     'spirit.admin',
     'spirit.search',
 
@@ -74,7 +76,7 @@ MIDDLEWARE = [
     'spirit.user.middleware.LastIPMiddleware',
     'spirit.user.middleware.LastSeenMiddleware',
     'spirit.user.middleware.ActiveUserMiddleware',
-    'core.middleware.PrivateForumMiddleware', ##
+    'spirit.core.middleware.PrivateForumMiddleware', ##
     'djconfig.middleware.DjConfigMiddleware',
 ]
 
@@ -282,8 +284,8 @@ CACHES = {
 }
 
 AUTHENTICATION_BACKENDS = [
-    'spirit.user.auth.backends.UsernameAuthBackend',
-    'spirit.user.auth.backends.EmailAuthBackend',
+    'user.auth.backends.UsernameAuthBackend',
+    'user.auth.backends.EmailAuthBackend',
 ]
 
 LOGGING = {
