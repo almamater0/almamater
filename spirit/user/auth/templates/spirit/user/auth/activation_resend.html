@@ -5,16 +5,30 @@
 {% block title %}{% trans "Resend activation email" %}{% endblock %}
 
 {% block content %}
-
-  <h1 class="headline">{% trans "Resend activation email" %}</h1>
+<section class="banner-area relative about-banner" id="home" style="background-image: url('/static/principal/images/preguntas.jpg')">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content2 col-lg-12">
+                <h1 class="text-white">
+                    ¡Bienvenid@!
+                </h1><br>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+<div class="container" style="margin: 50px; position: relative; left: 15%;">
+  <h1 class="headline">{% trans "Volver a mandar el correo de activación" %}</h1>
 
   <div class="login">
     <form action="." method="post">
       {% csrf_token %}
       {% include "spirit/_form.html" %}
 
-      <input class="button" type="submit" name="post" value="{% trans "Resend email" %}" />
+      <button class="genric-btn primary" type="submit" name="post">Enviar</button>
     </form>
   </div>
-
+</div>
+</section>
 {% endblock %}

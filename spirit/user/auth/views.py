@@ -57,7 +57,6 @@ custom_password_reset_done = _CustomPasswordResetDoneView.as_view()
 def custom_login(request, **kwargs):
     # Currently, Django 1.5 login view does not redirect somewhere if the user is logged in
     if request.user.is_authenticated:
-        #return redirect(request.GET.get('next', request.user.st.get_absolute_url()))
         return redirect('/forum')
     if request.method == "POST" and request.is_limited():
         return redirect('/forum')
