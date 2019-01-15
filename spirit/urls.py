@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 from django.conf.urls import include, url
-from spirit import *
+
 import spirit.topic.views
 import spirit.admin.urls
 import spirit.user.urls

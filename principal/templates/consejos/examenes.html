@@ -1,0 +1,137 @@
+{% extends "almamater0/base.html" %}
+{% block header %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Education</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+        <!--
+        CSS
+        ============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+        <link rel="stylesheet" href="{% static 'principal/plantilla_consejos_blogs.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+			<link rel="stylesheet" href="{% static 'principal/foro.css' %}"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27
+		bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	    <link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+
+        <!-- start banner Area -->
+        <section class="banner-area relative about-banner" id="home">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        <h1 class="text-white ajustetitulos">
+                            Cómo aprovechar el tiempo y ser más productivo
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->
+
+        <!-- Start popular-courses Area -->
+        <section class="popular-courses-area section-gap courses-page">
+            <div class="container">
+                <div class="row">
+                    <div style="display: block;" class="col-lg-12 col-md-12 pregunta pregunta-sociales pregunta-derecho pregunta-autonoma">
+                        <h4 id="autor">Autor:</h4>
+						<p id="autorexplicacion">Elena Isasi</p>
+                        <p>
+                        “No tengo hábitos que me ayuden a estudiar”.
+                        <br><br>
+
+                        Muchas personas se identifican con frases como esta. Y, desde luego, todos lo hacemos con los picos de estrés durante los exámenes.
+                        <br><br>
+
+                        Es. Normal.
+                        <br><br>
+
+                        Sin embargo, hay hábitos fáciles de adoptar con los que podemos paliar estas emociones, no necesariamente relacionados con nuestra forma de estudiar, sino con nuestra rutina diaria en general.
+                         <br><br>
+                        <span class="negrita">1. Madrugar</span></span><br>
+
+                        No es necesario levantarse al amanecer, pero el empezar temprano el día nos ayuda a ser más productivos, especialmente si establecemos una rutina y lo hacemos siempre a la misma hora. Es un momento con menos distracciones, y nos ayuda a dar orden a nuestros horarios.
+                        <br><br>
+
+                        <span class="negrita">2. Beber mucha agua</span><br>
+
+                        Nuestro cerebro está compuesto por un 85% de agua y es necesario mantenerlo hidratado. Por ello, beber continuamente es algo importante, y que frecuentemente olvidamos si estamos ocupados. Un buen truco para no olvidarlo es llevar tu propia botella de agua contigo todo el día. Si prefieres las bebidas con sabores, una opción es añadirle saborizantes como fruta o hierbas aromáticas (menta, hierbabuena…).
+                        <br><br>
+
+
+                        <span class="negrita">3. No te saltes el desayuno</span><br>
+
+                        Ni por falta de tiempo ni por pereza. Un desayuno sano y nutritivo te permitirá estudiar por las mañanas y atender correctamente en clase. Ideas: fruta fresca y zumos naturales para aportar vitaminas, pan y cereales integrales (comprueba la etiqueta) y proteínas magras como huevo o pavo
+                        <br><br>
+
+                        <span class="negrita">4. Merienda</span><br>
+
+                        2 veces al día: una por la mañana y otra por la tarde. Mantendrán tus niveles de energía, evitando bajones y picos de azúcar en sangre. Ideas: yogures, zumos, fruta fresca o deshidratada.
+                        <br><br>
+
+                        <span class="negrita">5. Mantente activo</span><br>
+
+                        Ya, ya sé que no da tiempo a correr medias maratones entre el tema uno y el dos. Sin embargo, si en algún descanso del estudio aprovechas para dar un paseo o jugar a algún deporte, lo agradecerás. Estos hábitos disminuyen el estrés y ayudan a volver al estudio con mejor disposición y concentración. Mejor, de todas maneras, evitar esfuerzos excesivos: “machacarse” podría tener el efecto contrario.
+
+                        </p>
+
+				    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End popular-courses Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+    </body>
+</html>
+
+{% endblock %}
+
+{% block footer %}
+{{ block.super }}
+{% endblock %}

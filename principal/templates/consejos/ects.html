@@ -1,0 +1,124 @@
+{% extends "almamater0/base.html" %}
+{% block header %}
+{{block.super}}
+{%endblock%}
+
+{%block content%}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Education</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+        <!--
+        CSS
+        ============================================= -->
+		<link rel="stylesheet" href="{% static 'principal/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/jquery-ui.css' %}">
+        <link rel="stylesheet" href="{% static 'principal/plantilla_consejos_blogs.css' %}">
+		<link rel="stylesheet" href="{% static 'principal/css/main.css' %}">
+			<link rel="stylesheet" href="{% static 'principal/foro.css' %}"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27
+		bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	    <link
+href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+
+        <!-- start banner Area -->
+        <section class="banner-area relative about-banner" id="home">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        <h1 class="text-white ajustetitulos">
+                            ¿Qué son los ECTS?
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->
+
+        <!-- Start popular-courses Area -->
+        <section class="popular-courses-area section-gap courses-page">
+            <div class="container">
+                <div class="row">
+                    <div style="display: block;" class="col-lg-12 col-md-12 pregunta pregunta-sociales pregunta-derecho pregunta-autonoma">
+                        <h4 id="autor">Autor:</h4>
+						<p id="autorexplicacion">Elena Isasi</p>
+                        <p>
+                        Es curioso cómo preguntar por ellos nos da vergüenza, aunque la mayoría no saben lo que significan. Este artículo trata de explicar qué son exactamente los ECTS.
+                        <br><br>
+                        El Sistema Europeo de Transferencia y Acumulación de Créditos (ECTS por sus siglas en inglés —European Credit Transfer and Accumulation System) es un sistema utilizado por las universidades establecer un criterio común, que permita convalidar asignaturas entre diferentes países, y facilite la movilidad estudiantil.
+                        <br><br>
+
+                        Miden el trabajo del estudiante en las asignaturas que componen un grado reconocido por el EEES (Espacio Europeo de Educación Superior). En España se han aplicado desde la aceptación del llamado “plan o proceso de Bolonia”.
+                        <br><br>
+
+
+                        <span class="negrita"> NO SOLO</span> miden las horas de CLASE (horario lectivo del profesor).
+                        <br><br>
+
+                        <span class="negrita">VALORAN</span> las horas dedicadas al ESTUDIO por el alumno
+                        <br><br>
+
+                        <span class="negrita">EQUIVALENCIA</span>: entre 25 y 30 horas por crédito.
+                        <br><br>
+
+                        <span class="negrita">INCLUYEN</span> el tiempo dedicado a las horas lectivas, horas de estudio, tutorías, seminarios, trabajos, prácticas o proyectos, así como las de preparación y realización de exámenes y evaluaciones.
+                        <br><br>
+
+                        Los títulos de Grado tienen una carga lectiva de 240 créditos ECTS, 60 créditos por curso académico, y duran 4 años (salvo los Grados de Medicina, Odontología, Farmacia, Veterinaria y Fundamentos de Arquitectura, que son más largos).
+
+                        </p>
+
+				    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End popular-courses Area -->
+
+	<script src="{% static 'principal/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{% static 'principal/js/vendor/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{% static 'principal/js/easing.min.js' %}"></script>
+	<script src="{% static 'principal/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'principal/js/superfish.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'principal/js/jquery.tabs.min.js' %}" ></script>
+	<script src="{% static 'principal/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'principal/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'principal/js/mail-script.js' %}"></script>
+	<script src="{% static 'principal/js/main.js' %}"></script>
+    </body>
+</html>
+
+{% endblock %}
+
+{% block footer %}
+{{ block.super }}
+{% endblock %}
